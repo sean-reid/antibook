@@ -175,7 +175,11 @@ def ingest_book(book_id: int, catalog: dict, force: bool = False) -> bool:
     raw_path = RAW_DIR / f"{book_id}.txt"
 
     if not force and str(book_id) in catalog.get("books", {}):
-        return False
+        # Still re-download if the stripped file is missing (e.g. fresh CI checkout)
+        existing_meta = catalog["books"][str(book_id)]
+        stripped_path = ROOT / existing_meta.get("stripped_path", "")
+        if stripped_path.exists():
+            return False
 
     meta = fetch_metadata_rdf(book_id)
     if not meta:

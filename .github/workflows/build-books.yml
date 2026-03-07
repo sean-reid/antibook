@@ -68,6 +68,14 @@ jobs:
           key: dist-books-${{ github.run_id }}
           restore-keys: dist-books-
 
+      # ── Restore raw/stripped book text (avoids re-downloading on every run) ─
+      - name: Restore raw book cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: gutenberg-raw-${{ github.run_id }}
+          restore-keys: gutenberg-raw-
+
       # ── Step 1: Ingest ────────────────────────────────────────────────────
       - name: Ingest Gutenberg books
         run: |
