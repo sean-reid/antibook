@@ -26,7 +26,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: write
 
     steps:
       - name: Checkout
@@ -157,14 +156,4 @@ jobs:
           path: dist/
           retention-days: 7
 
-      # ── Trigger deploy ────────────────────────────────────────────────────
-      - name: Trigger deploy workflow
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo:  context.repo.repo,
-              workflow_id: 'deploy.yml',
-              ref: 'main',
-            });
+      # Deploy is triggered automatically via workflow_run on deploy.yml

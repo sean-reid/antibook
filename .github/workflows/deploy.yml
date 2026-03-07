@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 # Trigger: completion of build-books workflow, or any push to main
 # (covers frontend-only changes — CSS, JS, HTML).
 on:
+  workflow_run:
+    workflows: ["Build Books"]
+    types: [completed]
   workflow_dispatch:
   push:
     branches: [main]
@@ -37,6 +40,11 @@ jobs:
         with:
           name: dist-books
           path: dist/
+          # When triggered by workflow_run, pull the artifact from that run.
+          # For push/workflow_dispatch triggers, this is empty and falls back
+          # to same-run lookup (which will correctly fail-safe below).
+          run-id: ${{ github.event.workflow_run.id || '' }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
         # If no artifact exists (first deploy or frontend-only push), continue
         continue-on-error: true
 
