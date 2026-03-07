@@ -2,7 +2,7 @@
   "_meta": {
     "version": "1.0",
     "description": "Cached Project Gutenberg metadata. Populated by pipeline/ingest.py.",
-    "last_updated": "2026-03-07T05:17:16.977078+00:00",
+    "last_updated": "2026-03-07T05:32:13.416363+00:00",
     "total_titles": 108
   },
   "books": {
