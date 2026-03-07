@@ -432,14 +432,40 @@ async function loadOrigChunks() {
 function setupScrollSync(paneA, paneB) {
   let locked = 0;
 
+  // Find the first word span visible near the top of a pane using hit-testing.
+  // Returns the span element, or null if none found.
+  function findTopWord(pane) {
+    const { left, top, width } = pane.getBoundingClientRect();
+    const cx = left + width / 2;
+    for (let dy = 2; dy < 400; dy += 6) {
+      const el = document.elementFromPoint(cx, top + dy);
+      const w = el?.closest?.(".w[data-wi]");
+      if (w && pane.contains(w)) return w;
+    }
+    return null;
+  }
+
   function syncFrom(from, to) {
-    const max = from.scrollHeight - from.clientHeight;
-    if (max <= 0) return;
-    const target = Math.round((from.scrollTop / max) * (to.scrollHeight - to.clientHeight));
-    if (Math.abs(to.scrollTop - target) < 2) return; // already close — skip to avoid micro-drift
+    // Use the topmost visible word as the anchor so alignment is pixel-perfect
+    // regardless of line-wrapping differences between the two panes.
+    const anchor = findTopWord(from);
+    if (!anchor) return;
+
+    const wi = anchor.dataset.wi;
+    const fromTop = from.getBoundingClientRect().top;
+    const anchorOffset = anchor.getBoundingClientRect().top - fromTop;
+
+    const counterpart = to.querySelector(`.w[data-wi="${wi}"]`);
+    if (!counterpart) return;
+
+    const toTop = to.getBoundingClientRect().top;
+    const counterpartOffset = counterpart.getBoundingClientRect().top - toTop;
+    const newScrollTop = to.scrollTop + (counterpartOffset - anchorOffset);
+
+    if (Math.abs(to.scrollTop - newScrollTop) < 2) return;
     locked++;
-    to.scrollTop = target;
-    // Double rAF: outlives the async scroll event the browser fires for the programmatic scrollTop
+    to.scrollTop = newScrollTop;
+    // Double rAF: outlives the scroll event the browser fires for the programmatic set
     requestAnimationFrame(() => requestAnimationFrame(() => { locked--; }));
   }
 
