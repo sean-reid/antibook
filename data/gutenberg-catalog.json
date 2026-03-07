@@ -1,0 +1,1893 @@
+{
+  "_meta": {
+    "last_updated": "2026-03-07T06:04:31.476335+00:00",
+    "total_titles": 108
+  },
+  "books": {
+    "84": {
+      "id": 84,
+      "title": "Frankenstein; or, the modern prometheus",
+      "author": "Shelley, Mary Wollstonecraft",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Horror tales",
+        "Gothic fiction",
+        "Scientists -- Fiction",
+        "Monsters -- Fiction",
+        "Frankenstein, Victor (Fictitious character) -- Fiction",
+        "Frankenstein's monster (Fictitious character) -- Fiction",
+        "PR"
+      ],
+      "word_count": 75042,
+      "raw_path": "data/raw/84.txt",
+      "ingested_at": "2026-03-07T06:00:01.164327+00:00",
+      "stripped_path": "data/raw/84_stripped.txt"
+    },
+    "33170": {
+      "id": 33170,
+      "title": "The Itching Palm: A Study of the Habit of Tipping in America",
+      "author": "Scott, William R. (William Rufus)",
+      "language": "en",
+      "subjects": [
+        "Tipping",
+        "HD"
+      ],
+      "word_count": 28992,
+      "raw_path": "data/raw/33170.txt",
+      "ingested_at": "2026-03-07T06:00:01.962228+00:00",
+      "stripped_path": "data/raw/33170_stripped.txt"
+    },
+    "45304": {
+      "id": 45304,
+      "title": "The City of God, Volume I",
+      "author": "Augustine, of Hippo, Saint",
+      "language": "en",
+      "subjects": [
+        "Apologetics -- Early works to 1800",
+        "Kingdom of God -- Early works to 1800",
+        "BR"
+      ],
+      "word_count": 231170,
+      "raw_path": "data/raw/45304.txt",
+      "ingested_at": "2026-03-07T06:00:02.718442+00:00",
+      "stripped_path": "data/raw/45304_stripped.txt"
+    },
+    "1342": {
+      "id": 1342,
+      "title": "Pride and Prejudice",
+      "author": "Austen, Jane",
+      "language": "en",
+      "subjects": [
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "Love stories",
+        "Sisters -- Fiction",
+        "Domestic fiction",
+        "Courtship -- Fiction",
+        "Social classes -- Fiction",
+        "PR"
+      ],
+      "word_count": 127359,
+      "raw_path": "data/raw/1342.txt",
+      "ingested_at": "2026-03-07T06:00:03.480010+00:00",
+      "stripped_path": "data/raw/1342_stripped.txt"
+    },
+    "2701": {
+      "id": 2701,
+      "title": "Moby Dick; Or, The Whale",
+      "author": "Melville, Herman",
+      "language": "en",
+      "subjects": [
+        "Whaling -- Fiction",
+        "Sea stories",
+        "Psychological fiction",
+        "Ship captains -- Fiction",
+        "Adventure stories",
+        "Mentally ill -- Fiction",
+        "Ahab, Captain (Fictitious character) -- Fiction",
+        "Whales -- Fiction",
+        "Whaling ships -- Fiction",
+        "PS"
+      ],
+      "word_count": 212796,
+      "raw_path": "data/raw/2701.txt",
+      "ingested_at": "2026-03-07T06:00:04.334395+00:00",
+      "stripped_path": "data/raw/2701_stripped.txt"
+    },
+    "768": {
+      "id": 768,
+      "title": "Wuthering Heights",
+      "author": "Brontë, Emily",
+      "language": "en",
+      "subjects": [
+        "Revenge -- Fiction",
+        "Psychological fiction",
+        "Rejection (Psychology) -- Fiction",
+        "Love stories",
+        "Domestic fiction",
+        "Yorkshire (England) -- Fiction",
+        "Foundlings -- Fiction",
+        "Rural families -- Fiction",
+        "Heathcliff (Fictitious character : Brontë) -- Fiction",
+        "Triangles (Interpersonal relations) -- Fiction",
+        "PR"
+      ],
+      "word_count": 115945,
+      "raw_path": "data/raw/768.txt",
+      "ingested_at": "2026-03-07T06:00:05.127165+00:00",
+      "stripped_path": "data/raw/768_stripped.txt"
+    },
+    "1513": {
+      "id": 1513,
+      "title": "Romeo and Juliet",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "Vendetta -- Drama",
+        "Youth -- Drama",
+        "Verona (Italy) -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Conflict of generations -- Drama",
+        "Tragedies (Drama)",
+        "PR"
+      ],
+      "word_count": 25958,
+      "raw_path": "data/raw/1513.txt",
+      "ingested_at": "2026-03-07T06:00:05.934030+00:00",
+      "stripped_path": "data/raw/1513_stripped.txt"
+    },
+    "11": {
+      "id": 11,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Carroll, Lewis",
+      "language": "en",
+      "subjects": [
+        "Fantasy fiction",
+        "Children's stories",
+        "Imaginary places -- Juvenile fiction",
+        "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+        "PR",
+        "PZ"
+      ],
+      "word_count": 26525,
+      "raw_path": "data/raw/11.txt",
+      "ingested_at": "2026-03-07T06:00:06.670939+00:00",
+      "stripped_path": "data/raw/11_stripped.txt"
+    },
+    "64317": {
+      "id": 64317,
+      "title": "The Great Gatsby",
+      "author": "Fitzgerald, F. Scott (Francis Scott)",
+      "language": "en",
+      "subjects": [
+        "Psychological fiction",
+        "First loves -- Fiction",
+        "Married women -- Fiction",
+        "Rich people -- Fiction",
+        "Long Island (N.Y.) -- Fiction",
+        "PS"
+      ],
+      "word_count": 48208,
+      "raw_path": "data/raw/64317.txt",
+      "ingested_at": "2026-03-07T06:00:07.483020+00:00",
+      "stripped_path": "data/raw/64317_stripped.txt"
+    },
+    "43": {
+      "id": 43,
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+      "author": "Stevenson, Robert Louis",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Horror tales",
+        "London (England) -- Fiction",
+        "Physicians -- Fiction",
+        "Psychological fiction",
+        "Self-experimentation in medicine -- Fiction",
+        "Multiple personality -- Fiction",
+        "PR"
+      ],
+      "word_count": 25629,
+      "raw_path": "data/raw/43.txt",
+      "ingested_at": "2026-03-07T06:00:08.294148+00:00",
+      "stripped_path": "data/raw/43_stripped.txt"
+    },
+    "174": {
+      "id": 174,
+      "title": "The Picture of Dorian Gray",
+      "author": "Wilde, Oscar",
+      "language": "en",
+      "subjects": [
+        "Didactic fiction",
+        "Supernatural -- Fiction",
+        "Conduct of life -- Fiction",
+        "Portraits -- Fiction",
+        "Great Britain -- History -- Victoria, 1837-1901 -- Fiction",
+        "London (England) -- History -- 1800-1950 -- Fiction",
+        "Appearance (Philosophy) -- Fiction",
+        "Paranormal fiction",
+        "PR"
+      ],
+      "word_count": 78979,
+      "raw_path": "data/raw/174.txt",
+      "ingested_at": "2026-03-07T06:00:09.048631+00:00",
+      "stripped_path": "data/raw/174_stripped.txt"
+    },
+    "2641": {
+      "id": 2641,
+      "title": "A Room with a View",
+      "author": "Forster, E. M. (Edward Morgan)",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "British -- Italy -- Fiction",
+        "Florence (Italy) -- Fiction",
+        "PR"
+      ],
+      "word_count": 66599,
+      "raw_path": "data/raw/2641.txt",
+      "ingested_at": "2026-03-07T06:00:09.999200+00:00",
+      "stripped_path": "data/raw/2641_stripped.txt"
+    },
+    "2542": {
+      "id": 2542,
+      "title": "A Doll's House : a play",
+      "author": "Ibsen, Henrik",
+      "language": "en",
+      "subjects": [
+        "Marriage -- Drama",
+        "Man-woman relationships -- Drama",
+        "Norwegian drama -- Translations into English",
+        "Wives -- Drama",
+        "PT"
+      ],
+      "word_count": 26479,
+      "raw_path": "data/raw/2542.txt",
+      "ingested_at": "2026-03-07T06:00:10.750400+00:00",
+      "stripped_path": "data/raw/2542_stripped.txt"
+    },
+    "100": {
+      "id": 100,
+      "title": "The Complete Works of William Shakespeare",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "English drama -- Early modern and Elizabethan, 1500-1600",
+        "PR"
+      ],
+      "word_count": 963460,
+      "raw_path": "data/raw/100.txt",
+      "ingested_at": "2026-03-07T06:00:11.541998+00:00",
+      "stripped_path": "data/raw/100_stripped.txt"
+    },
+    "1260": {
+      "id": 1260,
+      "title": "Jane Eyre: An Autobiography",
+      "author": "Brontë, Charlotte",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "Love stories",
+        "Governesses -- Fiction",
+        "Fathers and daughters -- Fiction",
+        "Mentally ill women -- Fiction",
+        "Charity-schools -- Fiction",
+        "Married people -- Fiction",
+        "Country homes -- Fiction",
+        "Bildungsromans",
+        "PR"
+      ],
+      "word_count": 185390,
+      "raw_path": "data/raw/1260.txt",
+      "ingested_at": "2026-03-07T06:00:12.318788+00:00",
+      "stripped_path": "data/raw/1260_stripped.txt"
+    },
+    "145": {
+      "id": 145,
+      "title": "Middlemarch",
+      "author": "Eliot, George",
+      "language": "en",
+      "subjects": [
+        "Didactic fiction",
+        "City and town life -- Fiction",
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "Love stories",
+        "Domestic fiction",
+        "Married people -- Fiction",
+        "Bildungsromans",
+        "PR"
+      ],
+      "word_count": 316381,
+      "raw_path": "data/raw/145.txt",
+      "ingested_at": "2026-03-07T06:00:13.062324+00:00",
+      "stripped_path": "data/raw/145_stripped.txt"
+    },
+    "67979": {
+      "id": 67979,
+      "title": "The Blue Castle: a novel",
+      "author": "Montgomery, L. M. (Lucy Maud)",
+      "language": "en",
+      "subjects": [
+        "Self-actualization (Psychology) -- Fiction",
+        "Single women -- Fiction",
+        "Canada -- History -- 1914-1945 -- Fiction",
+        "Romance fiction",
+        "Love -- Fiction",
+        "Young adult fiction",
+        "Choice (Psychology) -- Fiction",
+        "PZ",
+        "PS"
+      ],
+      "word_count": 68274,
+      "raw_path": "data/raw/67979.txt",
+      "ingested_at": "2026-03-07T06:00:13.795803+00:00",
+      "stripped_path": "data/raw/67979_stripped.txt"
+    },
+    "37106": {
+      "id": 37106,
+      "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "author": "Alcott, Louisa May",
+      "language": "en",
+      "subjects": [
+        "Autobiographical fiction",
+        "Young women -- Fiction",
+        "Sisters -- Fiction",
+        "Domestic fiction",
+        "Family life -- New England -- Fiction",
+        "New England -- Fiction",
+        "Bildungsromans",
+        "Mothers and daughters -- Fiction",
+        "March family (Fictitious characters) -- Fiction",
+        "PZ",
+        "PS"
+      ],
+      "word_count": 192557,
+      "raw_path": "data/raw/37106.txt",
+      "ingested_at": "2026-03-07T06:00:14.555924+00:00",
+      "stripped_path": "data/raw/37106_stripped.txt"
+    },
+    "345": {
+      "id": 345,
+      "title": "Dracula",
+      "author": "Stoker, Bram",
+      "language": "en",
+      "subjects": [
+        "Horror tales",
+        "Epistolary fiction",
+        "Gothic fiction",
+        "Vampires -- Fiction",
+        "Dracula, Count (Fictitious character) -- Fiction",
+        "Transylvania (Romania) -- Fiction",
+        "Whitby (England) -- Fiction",
+        "PR"
+      ],
+      "word_count": 161321,
+      "raw_path": "data/raw/345.txt",
+      "ingested_at": "2026-03-07T06:00:15.319142+00:00",
+      "stripped_path": "data/raw/345_stripped.txt"
+    },
+    "2554": {
+      "id": 2554,
+      "title": "Crime and Punishment",
+      "author": "Dostoyevsky, Fyodor",
+      "language": "en",
+      "subjects": [
+        "Detective and mystery stories",
+        "Psychological fiction",
+        "Saint Petersburg (Russia) -- Fiction",
+        "Murder -- Fiction",
+        "Crime -- Psychological aspects -- Fiction",
+        "PG"
+      ],
+      "word_count": 203505,
+      "raw_path": "data/raw/2554.txt",
+      "ingested_at": "2026-03-07T06:00:16.270817+00:00",
+      "stripped_path": "data/raw/2554_stripped.txt"
+    },
+    "844": {
+      "id": 844,
+      "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+      "author": "Wilde, Oscar",
+      "language": "en",
+      "subjects": [
+        "Comedy plays",
+        "England -- Drama",
+        "Identity (Psychology) -- Drama",
+        "Foundlings -- Drama",
+        "PR"
+      ],
+      "word_count": 20714,
+      "raw_path": "data/raw/844.txt",
+      "ingested_at": "2026-03-07T06:00:16.993844+00:00",
+      "stripped_path": "data/raw/844_stripped.txt"
+    },
+    "1080": {
+      "id": 1080,
+      "title": "A Modest Proposal&#13;\nFor preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+      "author": "Swift, Jonathan",
+      "language": "en",
+      "subjects": [
+        "Political satire, English",
+        "Religious satire, English",
+        "Ireland -- Politics and government -- 18th century -- Humor",
+        "PR"
+      ],
+      "word_count": 3420,
+      "raw_path": "data/raw/1080.txt",
+      "ingested_at": "2026-03-07T06:00:18.248638+00:00",
+      "stripped_path": "data/raw/1080_stripped.txt"
+    },
+    "1661": {
+      "id": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Doyle, Arthur Conan",
+      "language": "en",
+      "subjects": [
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction",
+        "Detective and mystery stories, English",
+        "PR"
+      ],
+      "word_count": 104508,
+      "raw_path": "data/raw/1661.txt",
+      "ingested_at": "2026-03-07T06:00:19.421006+00:00",
+      "stripped_path": "data/raw/1661_stripped.txt"
+    },
+    "5197": {
+      "id": 5197,
+      "title": "My Life — Volume 1",
+      "author": "Wagner, Richard",
+      "language": "en",
+      "subjects": [
+        "Wagner, Richard, 1813-1883",
+        "Composers -- Germany -- Biography",
+        "ML"
+      ],
+      "word_count": 219572,
+      "raw_path": "data/raw/5197.txt",
+      "ingested_at": "2026-03-07T06:00:20.178006+00:00",
+      "stripped_path": "data/raw/5197_stripped.txt"
+    },
+    "98": {
+      "id": 98,
+      "title": "A Tale of Two Cities",
+      "author": "Dickens, Charles",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "France -- History -- Revolution, 1789-1799 -- Fiction",
+        "London (England) -- History -- 18th century -- Fiction",
+        "War stories",
+        "Executions and executioners -- Fiction",
+        "French -- England -- London -- Fiction",
+        "Lookalikes -- Fiction",
+        "British -- France -- Paris -- Fiction",
+        "Paris (France) -- History -- 1789-1799 -- Fiction",
+        "PR"
+      ],
+      "word_count": 135886,
+      "raw_path": "data/raw/98.txt",
+      "ingested_at": "2026-03-07T06:00:20.980899+00:00",
+      "stripped_path": "data/raw/98_stripped.txt"
+    },
+    "1259": {
+      "id": 1259,
+      "title": "Twenty years after",
+      "author": "Dumas, Alexandre",
+      "language": "en",
+      "subjects": [
+        "France -- History -- Louis XIV, 1643-1715 -- Fiction",
+        "PQ"
+      ],
+      "word_count": 242057,
+      "raw_path": "data/raw/1259.txt",
+      "ingested_at": "2026-03-07T06:00:21.705644+00:00",
+      "stripped_path": "data/raw/1259_stripped.txt"
+    },
+    "76": {
+      "id": 76,
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Twain, Mark",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Male friendship -- Fiction",
+        "Adventure stories",
+        "Missouri -- Fiction",
+        "Race relations -- Fiction",
+        "Runaway children -- Fiction",
+        "Finn, Huckleberry (Fictitious character) -- Fiction",
+        "Fugitive slaves -- Fiction",
+        "Mississippi River -- Fiction",
+        "PS"
+      ],
+      "word_count": 111085,
+      "raw_path": "data/raw/76.txt",
+      "ingested_at": "2026-03-07T06:00:22.493589+00:00",
+      "stripped_path": "data/raw/76_stripped.txt"
+    },
+    "16389": {
+      "id": 16389,
+      "title": "The Enchanted April",
+      "author": "Von Arnim, Elizabeth",
+      "language": "en",
+      "subjects": [
+        "Love stories",
+        "Domestic fiction",
+        "Italy -- Fiction",
+        "Female friendship -- Fiction",
+        "British -- Italy -- Fiction",
+        "PR"
+      ],
+      "word_count": 78258,
+      "raw_path": "data/raw/16389.txt",
+      "ingested_at": "2026-03-07T06:00:23.281629+00:00",
+      "stripped_path": "data/raw/16389_stripped.txt"
+    },
+    "6593": {
+      "id": 6593,
+      "title": "History of Tom Jones, a Foundling",
+      "author": "Fielding, Henry",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "England -- Fiction",
+        "Bildungsromans",
+        "Young men -- Fiction",
+        "Foundlings -- Fiction",
+        "Identity (Psychology) -- Fiction",
+        "PR"
+      ],
+      "word_count": 350588,
+      "raw_path": "data/raw/6593.txt",
+      "ingested_at": "2026-03-07T06:00:24.414471+00:00",
+      "stripped_path": "data/raw/6593_stripped.txt"
+    },
+    "394": {
+      "id": 394,
+      "title": "Cranford",
+      "author": "Gaskell, Elizabeth Cleghorn",
+      "language": "en",
+      "subjects": [
+        "England -- Fiction",
+        "Sisters -- Fiction",
+        "Pastoral fiction",
+        "Villages -- Fiction",
+        "Older women -- Fiction",
+        "Female friendship -- Fiction",
+        "PR"
+      ],
+      "word_count": 70985,
+      "raw_path": "data/raw/394.txt",
+      "ingested_at": "2026-03-07T06:00:25.893145+00:00",
+      "stripped_path": "data/raw/394_stripped.txt"
+    },
+    "2160": {
+      "id": 2160,
+      "title": "The Expedition of Humphry Clinker",
+      "author": "Smollett, T. (Tobias)",
+      "language": "en",
+      "subjects": [
+        "Epistolary fiction",
+        "Travelers -- Fiction",
+        "Great Britain -- Fiction",
+        "PR"
+      ],
+      "word_count": 148355,
+      "raw_path": "data/raw/2160.txt",
+      "ingested_at": "2026-03-07T06:00:28.412169+00:00",
+      "stripped_path": "data/raw/2160_stripped.txt"
+    },
+    "6761": {
+      "id": 6761,
+      "title": "The Adventures of Ferdinand Count Fathom — Complete",
+      "author": "Smollett, T. (Tobias)",
+      "language": "en",
+      "subjects": [
+        "Gothic fiction",
+        "Adventure stories",
+        "PR"
+      ],
+      "word_count": 161655,
+      "raw_path": "data/raw/6761.txt",
+      "ingested_at": "2026-03-07T06:00:33.382103+00:00",
+      "stripped_path": "data/raw/6761_stripped.txt"
+    },
+    "4085": {
+      "id": 4085,
+      "title": "The Adventures of Roderick Random",
+      "author": "Smollett, T. (Tobias)",
+      "language": "en",
+      "subjects": [
+        "Sea stories",
+        "England -- Fiction",
+        "Picaresque literature",
+        "Rogues and vagabonds -- Fiction",
+        "Sailors -- Fiction",
+        "Warships -- Fiction",
+        "Scots -- England -- Fiction",
+        "Impressment -- Fiction",
+        "PR"
+      ],
+      "word_count": 190589,
+      "raw_path": "data/raw/4085.txt",
+      "ingested_at": "2026-03-07T06:00:35.654872+00:00",
+      "stripped_path": "data/raw/4085_stripped.txt"
+    },
+    "1184": {
+      "id": 1184,
+      "title": "The Count of Monte Cristo",
+      "author": "Dumas, Alexandre",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "Revenge -- Fiction",
+        "Adventure stories",
+        "Prisoners -- Fiction",
+        "France -- History -- 19th century -- Fiction",
+        "Pirates -- Fiction",
+        "Dantès, Edmond (Fictitious character) -- Fiction",
+        "PQ"
+      ],
+      "word_count": 460971,
+      "raw_path": "data/raw/1184.txt",
+      "ingested_at": "2026-03-07T06:00:41.497263+00:00",
+      "stripped_path": "data/raw/1184_stripped.txt"
+    },
+    "8492": {
+      "id": 8492,
+      "title": "The King in Yellow",
+      "author": "Chambers, Robert W. (Robert William)",
+      "language": "en",
+      "subjects": [
+        "Short stories, American",
+        "Horror tales, American",
+        "United States -- Social life and customs -- 19th century -- Fiction",
+        "PS"
+      ],
+      "word_count": 71645,
+      "raw_path": "data/raw/8492.txt",
+      "ingested_at": "2026-03-07T06:00:43.446181+00:00",
+      "stripped_path": "data/raw/8492_stripped.txt"
+    },
+    "1952": {
+      "id": 1952,
+      "title": "The Yellow Wallpaper",
+      "author": "Gilman, Charlotte Perkins",
+      "language": "en",
+      "subjects": [
+        "Psychological fiction",
+        "Mentally ill women -- Fiction",
+        "Feminist fiction",
+        "Married women -- Psychology -- Fiction",
+        "Sex role -- Fiction",
+        "PS"
+      ],
+      "word_count": 6085,
+      "raw_path": "data/raw/1952.txt",
+      "ingested_at": "2026-03-07T06:00:44.647220+00:00",
+      "stripped_path": "data/raw/1952_stripped.txt"
+    },
+    "16328": {
+      "id": 16328,
+      "title": "Beowulf: An Anglo-Saxon Epic Poem",
+      "author": "Hall, J. Lesslie (John Lesslie)",
+      "language": "en",
+      "subjects": [
+        "Epic poetry, English (Old)",
+        "Monsters -- Poetry",
+        "Dragons -- Poetry",
+        "PR"
+      ],
+      "word_count": 39170,
+      "raw_path": "data/raw/16328.txt",
+      "ingested_at": "2026-03-07T06:00:46.242136+00:00",
+      "stripped_path": "data/raw/16328_stripped.txt"
+    },
+    "3296": {
+      "id": 3296,
+      "title": "The Confessions of St. Augustine",
+      "author": "Augustine, of Hippo, Saint",
+      "language": "en",
+      "subjects": [
+        "Augustine, of Hippo, Saint, 354-430",
+        "Christian saints -- Algeria -- Hippo (Extinct city) -- Biography",
+        "Catholic Church -- Bishops -- Biography",
+        "Bishops -- Algeria -- Hippo (Extinct city) -- Biography",
+        "BR"
+      ],
+      "word_count": 111821,
+      "raw_path": "data/raw/3296.txt",
+      "ingested_at": "2026-03-07T06:00:48.340811+00:00",
+      "stripped_path": "data/raw/3296_stripped.txt"
+    },
+    "45": {
+      "id": 45,
+      "title": "Anne of Green Gables",
+      "author": "Montgomery, L. M. (Lucy Maud)",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "Islands -- Fiction",
+        "Friendship -- Fiction",
+        "Bildungsromans",
+        "Girls -- Fiction",
+        "Country life -- Prince Edward Island -- Fiction",
+        "Prince Edward Island -- History -- 20th century -- Fiction",
+        "Canada -- History -- 1867-1914 -- Fiction",
+        "Shirley, Anne (Fictitious character) -- Fiction",
+        "PZ"
+      ],
+      "word_count": 102501,
+      "raw_path": "data/raw/45.txt",
+      "ingested_at": "2026-03-07T06:00:50.295152+00:00",
+      "stripped_path": "data/raw/45_stripped.txt"
+    },
+    "3207": {
+      "id": 3207,
+      "title": "Leviathan",
+      "author": "Hobbes, Thomas",
+      "language": "en",
+      "subjects": [
+        "Political science -- Early works to 1800",
+        "State, The -- Early works to 1800",
+        "JC"
+      ],
+      "word_count": 213346,
+      "raw_path": "data/raw/3207.txt",
+      "ingested_at": "2026-03-07T06:00:53.507772+00:00",
+      "stripped_path": "data/raw/3207_stripped.txt"
+    },
+    "5200": {
+      "id": 5200,
+      "title": "Metamorphosis",
+      "author": "Kafka, Franz",
+      "language": "en",
+      "subjects": [
+        "Psychological fiction",
+        "Metamorphosis -- Fiction",
+        "PT"
+      ],
+      "word_count": 21943,
+      "raw_path": "data/raw/5200.txt",
+      "ingested_at": "2026-03-07T06:00:54.834336+00:00",
+      "stripped_path": "data/raw/5200_stripped.txt"
+    },
+    "2591": {
+      "id": 2591,
+      "title": "Grimms' Fairy Tales",
+      "author": "Grimm, Jacob",
+      "language": "en",
+      "subjects": [
+        "Fairy tales -- Germany",
+        "PT"
+      ],
+      "word_count": 101111,
+      "raw_path": "data/raw/2591.txt",
+      "ingested_at": "2026-03-07T06:00:57.132513+00:00",
+      "stripped_path": "data/raw/2591_stripped.txt"
+    },
+    "28054": {
+      "id": 28054,
+      "title": "The Brothers Karamazov",
+      "author": "Dostoyevsky, Fyodor",
+      "language": "en",
+      "subjects": [
+        "Didactic fiction",
+        "Fathers and sons -- Fiction",
+        "Russia -- Social life and customs -- 1533-1917 -- Fiction",
+        "Brothers -- Fiction",
+        "PG"
+      ],
+      "word_count": 350849,
+      "raw_path": "data/raw/28054.txt",
+      "ingested_at": "2026-03-07T06:01:01.809861+00:00",
+      "stripped_path": "data/raw/28054_stripped.txt"
+    },
+    "25344": {
+      "id": 25344,
+      "title": "The Scarlet Letter",
+      "author": "Hawthorne, Nathaniel",
+      "language": "en",
+      "subjects": [
+        "Adultery -- Fiction",
+        "Historical fiction",
+        "Revenge -- Fiction",
+        "Psychological fiction",
+        "Married women -- Fiction",
+        "Clergy -- Fiction",
+        "Triangles (Interpersonal relations) -- Fiction",
+        "Illegitimate children -- Fiction",
+        "Women immigrants -- Fiction",
+        "Puritans -- Fiction",
+        "Boston (Mass.) -- History -- Colonial period, ca. 1600-1775 -- Fiction",
+        "PS"
+      ],
+      "word_count": 83826,
+      "raw_path": "data/raw/25344.txt",
+      "ingested_at": "2026-03-07T06:01:03.671346+00:00",
+      "stripped_path": "data/raw/25344_stripped.txt"
+    },
+    "23": {
+      "id": 23,
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "author": "Douglass, Frederick",
+      "language": "en",
+      "subjects": [
+        "Douglass, Frederick, 1818-1895",
+        "African American abolitionists -- Biography",
+        "Abolitionists -- United States -- Biography",
+        "Enslaved persons -- United States -- Biography",
+        "E300"
+      ],
+      "word_count": 40750,
+      "raw_path": "data/raw/23.txt",
+      "ingested_at": "2026-03-07T06:01:05.056087+00:00",
+      "stripped_path": "data/raw/23_stripped.txt"
+    },
+    "78116": {
+      "id": 78116,
+      "title": "The bar act",
+      "author": "La Mar, Bud",
+      "language": "en",
+      "word_count": 4947,
+      "raw_path": "data/raw/78116.txt",
+      "ingested_at": "2026-03-07T06:01:06.852676+00:00",
+      "stripped_path": "data/raw/78116_stripped.txt"
+    },
+    "1400": {
+      "id": 1400,
+      "title": "Great Expectations",
+      "author": "Dickens, Charles",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "England -- Fiction",
+        "Revenge -- Fiction",
+        "Bildungsromans",
+        "Young men -- Fiction",
+        "Man-woman relationships -- Fiction",
+        "Ex-convicts -- Fiction",
+        "Benefactors -- Fiction",
+        "PR"
+      ],
+      "word_count": 184478,
+      "raw_path": "data/raw/1400.txt",
+      "ingested_at": "2026-03-07T06:01:09.368030+00:00",
+      "stripped_path": "data/raw/1400_stripped.txt"
+    },
+    "1232": {
+      "id": 1232,
+      "title": "The Prince",
+      "author": "Machiavelli, Niccolò",
+      "language": "en",
+      "subjects": [
+        "State, The -- Early works to 1800",
+        "Political science -- Philosophy -- Early works to 1800",
+        "Political ethics -- Early works to 1800",
+        "JC"
+      ],
+      "word_count": 49943,
+      "raw_path": "data/raw/1232.txt",
+      "ingested_at": "2026-03-07T06:01:10.780857+00:00",
+      "stripped_path": "data/raw/1232_stripped.txt"
+    },
+    "74": {
+      "id": 74,
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "author": "Twain, Mark",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Male friendship -- Fiction",
+        "Adventure stories",
+        "Missouri -- Fiction",
+        "Sawyer, Tom (Fictitious character) -- Fiction",
+        "Child witnesses -- Fiction",
+        "Runaway children -- Fiction",
+        "Mississippi River Valley -- Fiction",
+        "PS"
+      ],
+      "word_count": 70800,
+      "raw_path": "data/raw/74.txt",
+      "ingested_at": "2026-03-07T06:01:12.351366+00:00",
+      "stripped_path": "data/raw/74_stripped.txt"
+    },
+    "27673": {
+      "id": 27673,
+      "title": "Oedipus King of Thebes\nTranslated into English Rhyming Verse with Explanatory Notes",
+      "author": "Sophocles",
+      "language": "en",
+      "subjects": [
+        "Tragedies (Drama)",
+        "Oedipus (Greek mythological figure) -- Drama",
+        "PA"
+      ],
+      "word_count": 18289,
+      "raw_path": "data/raw/27673.txt",
+      "ingested_at": "2026-03-07T06:01:14.040718+00:00",
+      "stripped_path": "data/raw/27673_stripped.txt"
+    },
+    "408": {
+      "id": 408,
+      "title": "The Souls of Black Folk",
+      "author": "Du Bois, W. E. B. (William Edward Burghardt)",
+      "language": "en",
+      "subjects": [
+        "African Americans",
+        "E151"
+      ],
+      "word_count": 68628,
+      "raw_path": "data/raw/408.txt",
+      "ingested_at": "2026-03-07T06:01:15.637833+00:00",
+      "stripped_path": "data/raw/408_stripped.txt"
+    },
+    "244": {
+      "id": 244,
+      "title": "A Study in Scarlet",
+      "author": "Doyle, Arthur Conan",
+      "language": "en",
+      "subjects": [
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction",
+        "Detective and mystery stories",
+        "England -- Fiction",
+        "PR"
+      ],
+      "word_count": 43427,
+      "raw_path": "data/raw/244.txt",
+      "ingested_at": "2026-03-07T06:01:16.973392+00:00",
+      "stripped_path": "data/raw/244_stripped.txt"
+    },
+    "2852": {
+      "id": 2852,
+      "title": "The Hound of the Baskervilles",
+      "author": "Doyle, Arthur Conan",
+      "language": "en",
+      "subjects": [
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction",
+        "Dogs -- Fiction",
+        "Detective and mystery stories",
+        "Blessing and cursing -- Fiction",
+        "Dartmoor (England) -- Fiction",
+        "PR"
+      ],
+      "word_count": 59258,
+      "raw_path": "data/raw/2852.txt",
+      "ingested_at": "2026-03-07T06:01:18.709698+00:00",
+      "stripped_path": "data/raw/2852_stripped.txt"
+    },
+    "219": {
+      "id": 219,
+      "title": "Heart of Darkness",
+      "author": "Conrad, Joseph",
+      "language": "en",
+      "subjects": [
+        "Africa -- Fiction",
+        "Europeans -- Africa -- Fiction",
+        "Trading posts -- Fiction",
+        "Degeneration -- Fiction",
+        "Imperialism -- Fiction",
+        "Psychological fiction",
+        "PR"
+      ],
+      "word_count": 37917,
+      "raw_path": "data/raw/219.txt",
+      "ingested_at": "2026-03-07T06:01:20.128690+00:00",
+      "stripped_path": "data/raw/219_stripped.txt"
+    },
+    "2680": {
+      "id": 2680,
+      "title": "Meditations",
+      "author": "Marcus Aurelius, Emperor of Rome",
+      "language": "en",
+      "subjects": [
+        "Stoics",
+        "Ethics",
+        "Life",
+        "B"
+      ],
+      "word_count": 71957,
+      "raw_path": "data/raw/2680.txt",
+      "ingested_at": "2026-03-07T06:01:21.909044+00:00",
+      "stripped_path": "data/raw/2680_stripped.txt"
+    },
+    "1727": {
+      "id": 1727,
+      "title": "The Odyssey&#13;\nRendered into English prose for the use of those who cannot read the original",
+      "author": "Homer",
+      "language": "en",
+      "subjects": [
+        "Homer -- Translations into English",
+        "Epic poetry, Greek -- Translations into English",
+        "Odysseus, King of Ithaca (Mythological character)",
+        "PA"
+      ],
+      "word_count": 129571,
+      "raw_path": "data/raw/1727.txt",
+      "ingested_at": "2026-03-07T06:01:24.239093+00:00",
+      "stripped_path": "data/raw/1727_stripped.txt"
+    },
+    "829": {
+      "id": 829,
+      "title": "Gulliver's Travels into Several Remote Nations of the World",
+      "author": "Swift, Jonathan",
+      "language": "en",
+      "subjects": [
+        "Fantasy fiction",
+        "Satire",
+        "Travelers -- Fiction",
+        "Gulliver, Lemuel (Fictitious character) -- Fiction",
+        "Voyages, Imaginary -- Early works to 1800",
+        "PR"
+      ],
+      "word_count": 105079,
+      "raw_path": "data/raw/829.txt",
+      "ingested_at": "2026-03-07T06:01:26.267210+00:00",
+      "stripped_path": "data/raw/829_stripped.txt"
+    },
+    "205": {
+      "id": 205,
+      "title": "Walden, and On The Duty Of Civil Disobedience",
+      "author": "Thoreau, Henry David",
+      "language": "en",
+      "subjects": [
+        "Civil disobedience",
+        "Authors, American -- 19th century -- Biography",
+        "Thoreau, Henry David, 1817-1862 -- Homes and haunts -- Massachusetts -- Walden Woods",
+        "Wilderness areas -- Massachusetts -- Walden Woods",
+        "Natural history -- Massachusetts -- Walden Woods",
+        "Solitude",
+        "Government, Resistance to",
+        "Walden Woods (Mass.) -- Social life and customs",
+        "PS"
+      ],
+      "word_count": 115813,
+      "raw_path": "data/raw/205.txt",
+      "ingested_at": "2026-03-07T06:01:28.682142+00:00",
+      "stripped_path": "data/raw/205_stripped.txt"
+    },
+    "4300": {
+      "id": 4300,
+      "title": "Ulysses",
+      "author": "Joyce, James",
+      "language": "en",
+      "subjects": [
+        "City and town life -- Fiction",
+        "Psychological fiction",
+        "Domestic fiction",
+        "Married people -- Fiction",
+        "Male friendship -- Fiction",
+        "Dublin (Ireland) -- Fiction",
+        "Epic literature",
+        "Artists -- Fiction",
+        "Jewish men -- Fiction",
+        "Alienation (Social psychology) -- Fiction",
+        "PR"
+      ],
+      "word_count": 265059,
+      "raw_path": "data/raw/4300.txt",
+      "ingested_at": "2026-03-07T06:01:37.170788+00:00",
+      "stripped_path": "data/raw/4300_stripped.txt"
+    },
+    "2600": {
+      "id": 2600,
+      "title": "War and Peace",
+      "author": "Tolstoy, Leo, graf",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "War stories",
+        "Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Fiction",
+        "Russia -- History -- Alexander I, 1801-1825 -- Fiction",
+        "Aristocracy (Social class) -- Russia -- Fiction",
+        "PG"
+      ],
+      "word_count": 563286,
+      "raw_path": "data/raw/2600.txt",
+      "ingested_at": "2026-03-07T06:01:43.112728+00:00",
+      "stripped_path": "data/raw/2600_stripped.txt"
+    },
+    "7370": {
+      "id": 7370,
+      "title": "Second Treatise of Government",
+      "author": "Locke, John",
+      "language": "en",
+      "subjects": [
+        "Political science -- Early works to 1800",
+        "Toleration -- Early works to 1800",
+        "Liberty -- Early works to 1800",
+        "JC"
+      ],
+      "word_count": 56517,
+      "raw_path": "data/raw/7370.txt",
+      "ingested_at": "2026-03-07T06:01:44.682867+00:00",
+      "stripped_path": "data/raw/7370_stripped.txt"
+    },
+    "8800": {
+      "id": 8800,
+      "title": "The divine comedy",
+      "author": "Dante Alighieri",
+      "language": "en",
+      "subjects": [
+        "Epic poetry, Italian -- Translations into English",
+        "Italian poetry -- To 1400 -- Translations into English",
+        "PQ"
+      ],
+      "word_count": 108629,
+      "raw_path": "data/raw/8800.txt",
+      "ingested_at": "2026-03-07T06:01:47.005930+00:00",
+      "stripped_path": "data/raw/8800_stripped.txt"
+    },
+    "36034": {
+      "id": 36034,
+      "title": "White nights, and other stories",
+      "author": "Dostoyevsky, Fyodor",
+      "language": "en",
+      "subjects": [
+        "Russian fiction -- Translations into English",
+        "Dostoyevsky, Fyodor, 1821-1881 -- Translations into English",
+        "PG"
+      ],
+      "word_count": 118706,
+      "raw_path": "data/raw/36034.txt",
+      "ingested_at": "2026-03-07T06:01:49.814839+00:00",
+      "stripped_path": "data/raw/36034_stripped.txt"
+    },
+    "26184": {
+      "id": 26184,
+      "title": "Simple Sabotage Field Manual",
+      "author": "United States. Office of Strategic Services",
+      "language": "en",
+      "subjects": [
+        "Sabotage",
+        "UH"
+      ],
+      "word_count": 9147,
+      "raw_path": "data/raw/26184.txt",
+      "ingested_at": "2026-03-07T06:01:51.063154+00:00",
+      "stripped_path": "data/raw/26184_stripped.txt"
+    },
+    "55": {
+      "id": 55,
+      "title": "The Wonderful Wizard of Oz",
+      "author": "Baum, L. Frank (Lyman Frank)",
+      "language": "en",
+      "subjects": [
+        "Oz (Imaginary place) -- Juvenile fiction",
+        "Fantasy literature",
+        "Courage -- Juvenile fiction",
+        "Home -- Juvenile fiction",
+        "Good and evil -- Juvenile fiction",
+        "Dreams -- Juvenile fiction",
+        "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+        "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+        "Cyclones -- Juvenile fiction",
+        "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+        "Toto (Fictitious character) -- Juvenile fiction",
+        "Witches -- Juvenile fiction",
+        "Wizard of Oz (Fictitious character) -- Juvenile fiction",
+        "Tin Woodman (Fictitious character) -- Juvenile fiction",
+        "PZ"
+      ],
+      "word_count": 39649,
+      "raw_path": "data/raw/55.txt",
+      "ingested_at": "2026-03-07T06:01:53.457574+00:00",
+      "stripped_path": "data/raw/55_stripped.txt"
+    },
+    "1998": {
+      "id": 1998,
+      "title": "Thus Spake Zarathustra: A Book for All and None",
+      "author": "Nietzsche, Friedrich Wilhelm",
+      "language": "en",
+      "subjects": [
+        "Superman (Philosophical concept)",
+        "Philosophy, German",
+        "B"
+      ],
+      "word_count": 110900,
+      "raw_path": "data/raw/1998.txt",
+      "ingested_at": "2026-03-07T06:01:55.623082+00:00",
+      "stripped_path": "data/raw/1998_stripped.txt"
+    },
+    "120": {
+      "id": 120,
+      "title": "Treasure Island",
+      "author": "Stevenson, Robert Louis",
+      "language": "en",
+      "subjects": [
+        "Sea stories",
+        "Pirates -- Fiction",
+        "Treasure troves -- Fiction",
+        "Treasure Island (Imaginary place) -- Fiction",
+        "PR",
+        "PZ"
+      ],
+      "word_count": 68637,
+      "raw_path": "data/raw/120.txt",
+      "ingested_at": "2026-03-07T06:01:57.197815+00:00",
+      "stripped_path": "data/raw/120_stripped.txt"
+    },
+    "7142": {
+      "id": 7142,
+      "title": "The History of the Peloponnesian War",
+      "author": "Thucydides",
+      "language": "en",
+      "subjects": [
+        "Greece -- History -- Peloponnesian War, 431-404 B.C.",
+        "DF"
+      ],
+      "word_count": 204653,
+      "raw_path": "data/raw/7142.txt",
+      "ingested_at": "2026-03-07T06:02:00.183418+00:00",
+      "stripped_path": "data/raw/7142_stripped.txt"
+    },
+    "72679": {
+      "id": 72679,
+      "title": "The lesser Key of Solomon, Goetia, the book of evil spirits : $b contains two hundred diagrams and seals for invocation and convocation of spirits, necromancy, witchcraft and black art",
+      "author": "De Laurence, L. W. (Lauron William)",
+      "language": "en",
+      "subjects": [
+        "Magic",
+        "Occultism",
+        "BF"
+      ],
+      "word_count": 21210,
+      "raw_path": "data/raw/72679.txt",
+      "ingested_at": "2026-03-07T06:02:01.544678+00:00",
+      "stripped_path": "data/raw/72679_stripped.txt"
+    },
+    "1399": {
+      "id": 1399,
+      "title": "Anna Karenina",
+      "author": "Tolstoy, Leo, graf",
+      "language": "en",
+      "subjects": [
+        "Adultery -- Fiction",
+        "Didactic fiction",
+        "Love stories",
+        "Married women -- Fiction",
+        "Russia -- Fiction",
+        "PG"
+      ],
+      "word_count": 349763,
+      "raw_path": "data/raw/1399.txt",
+      "ingested_at": "2026-03-07T06:02:06.111184+00:00",
+      "stripped_path": "data/raw/1399_stripped.txt"
+    },
+    "78112": {
+      "id": 78112,
+      "title": "Astronomy for beginners",
+      "author": "Carrington, Hereward",
+      "language": "en",
+      "word_count": 13665,
+      "raw_path": "data/raw/78112.txt",
+      "ingested_at": "2026-03-07T06:02:11.034629+00:00",
+      "stripped_path": "data/raw/78112_stripped.txt"
+    },
+    "15399": {
+      "id": 15399,
+      "title": "The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African\nWritten By Himself",
+      "author": "Equiano, Olaudah",
+      "language": "en",
+      "subjects": [
+        "Enslaved persons -- United States -- Biography",
+        "Equiano, Olaudah, 1745-1797",
+        "Enslaved persons -- Great Britain -- Biography",
+        "HT"
+      ],
+      "word_count": 82569,
+      "raw_path": "data/raw/15399.txt",
+      "ingested_at": "2026-03-07T06:02:13.411805+00:00",
+      "stripped_path": "data/raw/15399_stripped.txt"
+    },
+    "16": {
+      "id": 16,
+      "title": "Peter Pan : $b [Peter and Wendy]",
+      "author": "Barrie, J. M. (James Matthew)",
+      "language": "en",
+      "subjects": [
+        "Fantasy literature",
+        "Peter Pan (Fictitious character) -- Fiction",
+        "Never-Never Land (Imaginary place) -- Fiction",
+        "Pirates -- Fiction",
+        "Fairies -- Fiction",
+        "PR",
+        "PZ"
+      ],
+      "word_count": 47268,
+      "raw_path": "data/raw/16.txt",
+      "ingested_at": "2026-03-07T06:02:15.524165+00:00",
+      "stripped_path": "data/raw/16_stripped.txt"
+    },
+    "41445": {
+      "id": 41445,
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "author": "Shelley, Mary Wollstonecraft",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Horror tales",
+        "Gothic fiction",
+        "Scientists -- Fiction",
+        "Monsters -- Fiction",
+        "Frankenstein, Victor (Fictitious character) -- Fiction",
+        "Frankenstein's monster (Fictitious character) -- Fiction",
+        "PR"
+      ],
+      "word_count": 72699,
+      "raw_path": "data/raw/41445.txt",
+      "ingested_at": "2026-03-07T06:02:17.254303+00:00",
+      "stripped_path": "data/raw/41445_stripped.txt"
+    },
+    "78118": {
+      "id": 78118,
+      "title": "Barry Locke, half-back",
+      "author": "Barbour, Ralph Henry",
+      "language": "en",
+      "word_count": 63879,
+      "raw_path": "data/raw/78118.txt",
+      "ingested_at": "2026-03-07T06:02:19.949380+00:00",
+      "stripped_path": "data/raw/78118_stripped.txt"
+    },
+    "42324": {
+      "id": 42324,
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "author": "Shelley, Mary Wollstonecraft",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Horror tales",
+        "Gothic fiction",
+        "Scientists -- Fiction",
+        "Monsters -- Fiction",
+        "Frankenstein, Victor (Fictitious character) -- Fiction",
+        "Frankenstein's monster (Fictitious character) -- Fiction",
+        "PR"
+      ],
+      "word_count": 77977,
+      "raw_path": "data/raw/42324.txt",
+      "ingested_at": "2026-03-07T06:02:21.441590+00:00",
+      "stripped_path": "data/raw/42324_stripped.txt"
+    },
+    "161": {
+      "id": 161,
+      "title": "Sense and Sensibility",
+      "author": "Austen, Jane",
+      "language": "en",
+      "subjects": [
+        "England -- Social life and customs -- 19th century -- Fiction",
+        "Inheritance and succession -- Fiction",
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "Love stories",
+        "Sisters -- Fiction",
+        "Domestic fiction",
+        "Mate selection -- Fiction",
+        "Social classes -- Fiction",
+        "Gentry -- England -- Fiction",
+        "Regency fiction",
+        "PR"
+      ],
+      "word_count": 118860,
+      "raw_path": "data/raw/161.txt",
+      "ingested_at": "2026-03-07T06:02:23.528554+00:00",
+      "stripped_path": "data/raw/161_stripped.txt"
+    },
+    "45368": {
+      "id": 45368,
+      "title": "The Outline of History: Being a Plain History of Life and Mankind",
+      "author": "Wells, H. G. (Herbert George)",
+      "language": "en",
+      "subjects": [
+        "World history",
+        "D"
+      ],
+      "word_count": 463818,
+      "raw_path": "data/raw/45368.txt",
+      "ingested_at": "2026-03-07T06:02:28.173787+00:00",
+      "stripped_path": "data/raw/45368_stripped.txt"
+    },
+    "1497": {
+      "id": 1497,
+      "title": "The Republic",
+      "author": "Plato",
+      "language": "en",
+      "subjects": [
+        "Classical literature",
+        "Political science -- Early works to 1800",
+        "Utopias -- Early works to 1800",
+        "Justice -- Early works to 1800",
+        "JC",
+        "PA"
+      ],
+      "word_count": 216285,
+      "raw_path": "data/raw/1497.txt",
+      "ingested_at": "2026-03-07T06:02:34.152893+00:00",
+      "stripped_path": "data/raw/1497_stripped.txt"
+    },
+    "209": {
+      "id": 209,
+      "title": "The Turn of the Screw",
+      "author": "James, Henry",
+      "language": "en",
+      "subjects": [
+        "England -- Fiction",
+        "Psychological fiction",
+        "Governesses -- Fiction",
+        "Ghost stories",
+        "Children -- Fiction",
+        "PS"
+      ],
+      "word_count": 42277,
+      "raw_path": "data/raw/209.txt",
+      "ingested_at": "2026-03-07T06:02:38.712202+00:00",
+      "stripped_path": "data/raw/209_stripped.txt"
+    },
+    "215": {
+      "id": 215,
+      "title": "The call of the wild",
+      "author": "London, Jack",
+      "language": "en",
+      "subjects": [
+        "Dogs -- Fiction",
+        "Adventure stories",
+        "Nature stories",
+        "Klondike River Valley (Yukon) -- Fiction",
+        "Sled dogs -- Fiction",
+        "Pet theft -- Fiction",
+        "Feral dogs -- Fiction",
+        "Animal welfare -- Fiction",
+        "PS"
+      ],
+      "word_count": 31824,
+      "raw_path": "data/raw/215.txt",
+      "ingested_at": "2026-03-07T06:02:45.049721+00:00",
+      "stripped_path": "data/raw/215_stripped.txt"
+    },
+    "3268": {
+      "id": 3268,
+      "title": "The Mysteries of Udolpho",
+      "author": "Radcliffe, Ann Ward",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "Horror tales",
+        "Inheritance and succession -- Fiction",
+        "Young women -- Fiction",
+        "Gothic fiction",
+        "Guardian and ward -- Fiction",
+        "Castles -- Fiction",
+        "Italy -- Fiction",
+        "PR"
+      ],
+      "word_count": 290378,
+      "raw_path": "data/raw/3268.txt",
+      "ingested_at": "2026-03-07T06:02:54.182611+00:00",
+      "stripped_path": "data/raw/3268_stripped.txt"
+    },
+    "165": {
+      "id": 165,
+      "title": "McTeague: A Story of San Francisco",
+      "author": "Norris, Frank",
+      "language": "en",
+      "subjects": [
+        "Didactic fiction",
+        "Psychological fiction",
+        "Married people -- Fiction",
+        "Murderers -- Fiction",
+        "San Francisco (Calif.) -- Fiction",
+        "Avarice -- Fiction",
+        "Dentists -- Fiction",
+        "PS"
+      ],
+      "word_count": 112642,
+      "raw_path": "data/raw/165.txt",
+      "ingested_at": "2026-03-07T06:03:00.391350+00:00",
+      "stripped_path": "data/raw/165_stripped.txt"
+    },
+    "4363": {
+      "id": 4363,
+      "title": "Beyond Good and Evil",
+      "author": "Nietzsche, Friedrich Wilhelm",
+      "language": "en",
+      "subjects": [
+        "Ethics",
+        "Philosophy, German",
+        "B"
+      ],
+      "word_count": 62678,
+      "raw_path": "data/raw/4363.txt",
+      "ingested_at": "2026-03-07T06:03:06.457036+00:00",
+      "stripped_path": "data/raw/4363_stripped.txt"
+    },
+    "28189": {
+      "id": 28189,
+      "title": "My Friends the Savages\nNotes and Observations of a Perak settler (Malay Peninsula)",
+      "author": "Cerruti, Giovanni Battista",
+      "language": "en",
+      "subjects": [
+        "Malay Peninsula -- Description and travel",
+        "Senoi (Southeast Asian people)",
+        "DS"
+      ],
+      "word_count": 68321,
+      "raw_path": "data/raw/28189.txt",
+      "ingested_at": "2026-03-07T06:03:10.522986+00:00",
+      "stripped_path": "data/raw/28189_stripped.txt"
+    },
+    "7735": {
+      "id": 7735,
+      "title": "Paul Clifford — Complete",
+      "author": "Lytton, Edward Bulwer Lytton, Baron",
+      "language": "en",
+      "subjects": [
+        "Brigands and robbers -- Fiction",
+        "PR"
+      ],
+      "word_count": 179789,
+      "raw_path": "data/raw/7735.txt",
+      "ingested_at": "2026-03-07T06:03:14.346607+00:00",
+      "stripped_path": "data/raw/7735_stripped.txt"
+    },
+    "46": {
+      "id": 46,
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "author": "Dickens, Charles",
+      "language": "en",
+      "subjects": [
+        "Christmas stories",
+        "London (England) -- Fiction",
+        "Poor families -- Fiction",
+        "Ghost stories",
+        "Misers -- Fiction",
+        "Sick children -- Fiction",
+        "Scrooge, Ebenezer (Fictitious character) -- Fiction",
+        "PR"
+      ],
+      "word_count": 28541,
+      "raw_path": "data/raw/46.txt",
+      "ingested_at": "2026-03-07T06:03:17.388956+00:00",
+      "stripped_path": "data/raw/46_stripped.txt"
+    },
+    "730": {
+      "id": 730,
+      "title": "Oliver Twist",
+      "author": "Dickens, Charles",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "London (England) -- Fiction",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Criminals -- Fiction",
+        "Kidnapping victims -- Fiction",
+        "PR"
+      ],
+      "word_count": 157969,
+      "raw_path": "data/raw/730.txt",
+      "ingested_at": "2026-03-07T06:03:19.822987+00:00",
+      "stripped_path": "data/raw/730_stripped.txt"
+    },
+    "3206": {
+      "id": 3206,
+      "title": "Moby Multiple Language Lists of Common Words",
+      "author": "Ward, Grady",
+      "language": "en",
+      "subjects": [
+        "Words and phrase lists -- English",
+        "AG"
+      ],
+      "word_count": 421,
+      "raw_path": "data/raw/3206.txt",
+      "ingested_at": "2026-03-07T06:03:20.884577+00:00",
+      "stripped_path": "data/raw/3206_stripped.txt"
+    },
+    "2148": {
+      "id": 2148,
+      "title": "The Works of Edgar Allan Poe — Volume 2",
+      "author": "Poe, Edgar Allan",
+      "language": "en",
+      "subjects": [
+        "Short stories",
+        "Fantasy fiction",
+        "Horror tales, American",
+        "American fiction -- 19th century",
+        "PS"
+      ],
+      "word_count": 95043,
+      "raw_path": "data/raw/2148.txt",
+      "ingested_at": "2026-03-07T06:03:22.695245+00:00",
+      "stripped_path": "data/raw/2148_stripped.txt"
+    },
+    "1946": {
+      "id": 1946,
+      "title": "On War",
+      "author": "Clausewitz, Carl von",
+      "language": "en",
+      "subjects": [
+        "Military art and science",
+        "War",
+        "U"
+      ],
+      "word_count": 293756,
+      "raw_path": "data/raw/1946.txt",
+      "ingested_at": "2026-03-07T06:03:28.012897+00:00",
+      "stripped_path": "data/raw/1946_stripped.txt"
+    },
+    "10636": {
+      "id": 10636,
+      "title": "The Travels of Marco Polo — Volume 1",
+      "author": "Polo, Marco",
+      "language": "en",
+      "subjects": [
+        "Voyages and travels",
+        "Asia -- Description and travel -- Early works to 1800",
+        "Mongols -- History",
+        "Polo, Marco, 1254-1323?",
+        "G"
+      ],
+      "word_count": 370127,
+      "raw_path": "data/raw/10636.txt",
+      "ingested_at": "2026-03-07T06:03:34.126563+00:00",
+      "stripped_path": "data/raw/10636_stripped.txt"
+    },
+    "1001": {
+      "id": 1001,
+      "title": "Divine Comedy, Longfellow's Translation, Hell",
+      "author": "Dante Alighieri",
+      "language": "en",
+      "subjects": [
+        "Hell -- Poetry",
+        "Epic poetry, Italian -- Translations into English",
+        "Italian poetry -- To 1400 -- Translations into English",
+        "PQ"
+      ],
+      "word_count": 38044,
+      "raw_path": "data/raw/1001.txt",
+      "ingested_at": "2026-03-07T06:03:35.574040+00:00",
+      "stripped_path": "data/raw/1001_stripped.txt"
+    },
+    "69087": {
+      "id": 69087,
+      "title": "The murder of Roger Ackroyd",
+      "author": "Christie, Agatha",
+      "language": "en",
+      "subjects": [
+        "Private investigators -- England -- Fiction",
+        "Detective and mystery stories",
+        "Murder -- Investigation -- Fiction",
+        "Belgians -- England -- Fiction",
+        "Poirot, Hercule (Fictitious character) -- Fiction",
+        "PR"
+      ],
+      "word_count": 70727,
+      "raw_path": "data/raw/69087.txt",
+      "ingested_at": "2026-03-07T06:03:37.691289+00:00",
+      "stripped_path": "data/raw/69087_stripped.txt"
+    },
+    "996": {
+      "id": 996,
+      "title": "Don Quixote",
+      "author": "Cervantes Saavedra, Miguel de",
+      "language": "en",
+      "subjects": [
+        "Spain -- Social life and customs -- 16th century -- Fiction",
+        "Knights and knighthood -- Spain -- Fiction",
+        "Picaresque literature",
+        "Romances",
+        "PQ"
+      ],
+      "word_count": 427246,
+      "raw_path": "data/raw/996.txt",
+      "ingested_at": "2026-03-07T06:03:41.957243+00:00",
+      "stripped_path": "data/raw/996_stripped.txt"
+    },
+    "6271": {
+      "id": 6271,
+      "title": "Embers, Complete",
+      "author": "Parker, Gilbert",
+      "language": "en",
+      "subjects": [
+        "Canadian poetry",
+        "PS"
+      ],
+      "word_count": 20135,
+      "raw_path": "data/raw/6271.txt",
+      "ingested_at": "2026-03-07T06:03:43.358213+00:00",
+      "stripped_path": "data/raw/6271_stripped.txt"
+    },
+    "34901": {
+      "id": 34901,
+      "title": "On Liberty",
+      "author": "Mill, John Stuart",
+      "language": "en",
+      "subjects": [
+        "Liberty",
+        "JC"
+      ],
+      "word_count": 52067,
+      "raw_path": "data/raw/34901.txt",
+      "ingested_at": "2026-03-07T06:03:53.900828+00:00",
+      "stripped_path": "data/raw/34901_stripped.txt"
+    },
+    "20417": {
+      "id": 20417,
+      "title": "The Outline of Science, Vol. 1 (of 4)\nA Plain Story Simply Told",
+      "author": "Thomson, J. Arthur (John Arthur)",
+      "language": "en",
+      "subjects": [
+        "Science",
+        "Q"
+      ],
+      "word_count": 106829,
+      "raw_path": "data/raw/20417.txt",
+      "ingested_at": "2026-03-07T06:03:56.553078+00:00",
+      "stripped_path": "data/raw/20417_stripped.txt"
+    },
+    "20738": {
+      "id": 20738,
+      "title": "Diccionario Ingles-Español-Tagalog&#13;\nCon partes de la oracion y pronunciacion figurada",
+      "author": "Calderón, Sofronio G.",
+      "language": "en",
+      "subjects": [
+        "English language -- Dictionaries -- Spanish",
+        "English language -- Dictionaries -- Tagalog",
+        "English language -- Dictionaries -- Polyglot",
+        "PL"
+      ],
+      "word_count": 140841,
+      "raw_path": "data/raw/20738.txt",
+      "ingested_at": "2026-03-07T06:04:02.951589+00:00",
+      "stripped_path": "data/raw/20738_stripped.txt"
+    },
+    "39647": {
+      "id": 39647,
+      "title": "The Spanish American Reader",
+      "author": "Nelson, Ernesto",
+      "language": "en",
+      "subjects": [
+        "Spanish language -- Readers",
+        "PC"
+      ],
+      "word_count": 114158,
+      "raw_path": "data/raw/39647.txt",
+      "ingested_at": "2026-03-07T06:04:07.476980+00:00",
+      "stripped_path": "data/raw/39647_stripped.txt"
+    },
+    "20203": {
+      "id": 20203,
+      "title": "Autobiography of Benjamin Franklin",
+      "author": "Franklin, Benjamin",
+      "language": "en",
+      "subjects": [
+        "Franklin, Benjamin, 1706-1790",
+        "Statesmen -- United States -- Biography",
+        "E300"
+      ],
+      "word_count": 76195,
+      "raw_path": "data/raw/20203.txt",
+      "ingested_at": "2026-03-07T06:04:09.809051+00:00",
+      "stripped_path": "data/raw/20203_stripped.txt"
+    },
+    "2814": {
+      "id": 2814,
+      "title": "Dubliners",
+      "author": "Joyce, James",
+      "language": "en",
+      "subjects": [
+        "Short stories",
+        "Dublin (Ireland) -- Fiction",
+        "PR"
+      ],
+      "word_count": 67559,
+      "raw_path": "data/raw/2814.txt",
+      "ingested_at": "2026-03-07T06:04:11.511856+00:00",
+      "stripped_path": "data/raw/2814_stripped.txt"
+    },
+    "10": {
+      "id": 10,
+      "title": "The King James Version of the Bible",
+      "language": "en",
+      "subjects": [
+        "Bible",
+        "BS"
+      ],
+      "word_count": 821496,
+      "raw_path": "data/raw/10.txt",
+      "ingested_at": "2026-03-07T06:04:18.291704+00:00",
+      "stripped_path": "data/raw/10_stripped.txt"
+    },
+    "1719": {
+      "id": 1719,
+      "title": "The Ballad of the White Horse",
+      "author": "Chesterton, G. K. (Gilbert Keith)",
+      "language": "en",
+      "subjects": [
+        "White Horse, Vale of (England) -- Poetry",
+        "Epic poetry",
+        "Alfred, King of England, 849-899 -- Poetry",
+        "Great Britain -- History -- Alfred, 871-899 -- Poetry",
+        "Historical poetry",
+        "Christian poetry",
+        "PR"
+      ],
+      "word_count": 17495,
+      "raw_path": "data/raw/1719.txt",
+      "ingested_at": "2026-03-07T06:04:22.004637+00:00",
+      "stripped_path": "data/raw/1719_stripped.txt"
+    },
+    "73887": {
+      "id": 73887,
+      "title": "Modern ships of war",
+      "author": "Reed, Edward J. (Edward James), Sir",
+      "language": "en",
+      "subjects": [
+        "Navies",
+        "Warships",
+        "VA"
+      ],
+      "word_count": 109904,
+      "raw_path": "data/raw/73887.txt",
+      "ingested_at": "2026-03-07T06:04:24.063275+00:00",
+      "stripped_path": "data/raw/73887_stripped.txt"
+    },
+    "19315": {
+      "id": 19315,
+      "title": "The Poems of Giacomo Leopardi",
+      "author": "Leopardi, Giacomo",
+      "language": "en",
+      "subjects": [
+        "Italian poetry -- Translations into English",
+        "PQ"
+      ],
+      "word_count": 28364,
+      "raw_path": "data/raw/19315.txt",
+      "ingested_at": "2026-03-07T06:04:26.962941+00:00",
+      "stripped_path": "data/raw/19315_stripped.txt"
+    },
+    "51912": {
+      "id": 51912,
+      "title": "The Boss, and How He Came to Rule New York",
+      "author": "Lewis, Alfred Henry",
+      "language": "en",
+      "subjects": [
+        "New York (N.Y.) -- Fiction",
+        "Political fiction",
+        "Politicians -- Fiction",
+        "PS"
+      ],
+      "word_count": 98410,
+      "raw_path": "data/raw/51912.txt",
+      "ingested_at": "2026-03-07T06:04:29.018633+00:00",
+      "stripped_path": "data/raw/51912_stripped.txt"
+    },
+    "50498": {
+      "id": 50498,
+      "title": "The Raft",
+      "author": "Dawson, Coningsby",
+      "language": "en",
+      "subjects": [
+        "Man-woman relationships -- Fiction",
+        "Marriage -- Fiction",
+        "PS"
+      ],
+      "word_count": 142932,
+      "raw_path": "data/raw/50498.txt",
+      "ingested_at": "2026-03-07T06:04:31.367089+00:00",
+      "stripped_path": "data/raw/50498_stripped.txt"
+    }
+  }
+}
