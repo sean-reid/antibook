@@ -50,16 +50,40 @@ jobs:
               nltk.download(corpus, quiet=False)
           EOF
 
+      - name: Cache Moby Thesaurus
+        uses: actions/cache@v4
+        with:
+          path: data/moby-thesaurus
+          key: moby-thesaurus-v1
+
       - name: Download Moby Thesaurus
         run: |
           mkdir -p data/moby-thesaurus
-          if [ ! -f data/moby-thesaurus/mthesaur.txt ]; then
-            echo "Downloading Moby Thesaurus (public domain)..."
-            curl -L "https://www.gutenberg.org/files/3202/files/mthesaur.txt" \
-              -o data/moby-thesaurus/mthesaur.txt \
-              --retry 3 --retry-delay 2
-          else
-            echo "Moby Thesaurus already present."
+          if [ -f data/moby-thesaurus/mthesaur.txt ]; then
+            echo "Moby Thesaurus already cached."
+            exit 0
+          fi
+          echo "Downloading Moby Thesaurus (public domain)..."
+          # gutenberg.org blocks CI runners; try mirrors first
+          DOWNLOADED=false
+          for URL in \
+            "https://gutenberg.pglaf.org/files/3202/files/mthesaur.txt" \
+            "https://mirrors.xmission.com/gutenberg/files/3202/files/mthesaur.txt" \
+            "https://www.gutenberg.org/files/3202/files/mthesaur.txt"; do
+            echo "  Trying $URL ..."
+            if curl -fsSL "$URL" \
+                --connect-timeout 20 --max-time 120 \
+                --retry 2 --retry-delay 3 \
+                -o data/moby-thesaurus/mthesaur.txt; then
+              echo "  Downloaded from $URL"
+              DOWNLOADED=true
+              break
+            fi
+            echo "  Failed."
+            rm -f data/moby-thesaurus/mthesaur.txt
+          done
+          if [ "$DOWNLOADED" = "false" ]; then
+            echo "All mirrors failed — Tier 3 will be skipped (map build continues)."
           fi
 
       - name: Cache GloVe vectors

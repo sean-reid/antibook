@@ -29,12 +29,13 @@ CATALOG_PATH = DATA_DIR / "gutenberg-catalog.json"
 
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-# Gutenberg mirrors (tried in order)
+# Gutenberg mirrors (tried in order).
+# gutenberg.org blocks CI/cloud IPs, so PGLAF mirror goes first.
 MIRRORS = [
-    "https://www.gutenberg.org/files/{id}/{id}-0.txt",
-    "https://www.gutenberg.org/files/{id}/{id}.txt",
     "https://gutenberg.pglaf.org/cache/epub/{id}/pg{id}.txt",
     "https://aleph.gutenberg.org/cache/epub/{id}/pg{id}.txt",
+    "https://www.gutenberg.org/files/{id}/{id}-0.txt",
+    "https://www.gutenberg.org/files/{id}/{id}.txt",
 ]
 
 # Gutendex: open REST API for Gutenberg (gutendex.com), 32 results per page
@@ -110,7 +111,7 @@ def fetch_metadata_rdf(book_id: int) -> dict:
     """Fetch book metadata from Gutenberg's RDF catalog."""
     url = CATALOG_RDF_BASE.format(id=book_id)
     try:
-        resp = requests.get(url, timeout=20)
+        resp = requests.get(url, timeout=(10, 20))
         resp.raise_for_status()
         text = resp.text
     except requests.RequestException:
@@ -144,7 +145,8 @@ def download_text(book_id: int) -> str | None:
     for template in MIRRORS:
         url = template.format(id=book_id)
         try:
-            resp = requests.get(url, timeout=60)
+            # connect_timeout=10 so blocked mirrors fail fast; read timeout=60
+            resp = requests.get(url, timeout=(10, 60))
             if resp.status_code == 200:
                 # Gutenberg serves Latin-1 or UTF-8; try both
                 for enc in ("utf-8", "latin-1"):
