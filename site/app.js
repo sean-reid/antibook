@@ -430,16 +430,21 @@ async function loadOrigChunks() {
 }
 
 function setupScrollSync(paneA, paneB) {
-  let active = null;
-  function onScroll(from, to) {
-    if (active) return;
-    active = from;
+  let locked = 0;
+
+  function syncFrom(from, to) {
     const max = from.scrollHeight - from.clientHeight;
-    if (max > 0) to.scrollTop = (from.scrollTop / max) * (to.scrollHeight - to.clientHeight);
-    requestAnimationFrame(() => { active = null; });
+    if (max <= 0) return;
+    const target = Math.round((from.scrollTop / max) * (to.scrollHeight - to.clientHeight));
+    if (Math.abs(to.scrollTop - target) < 2) return; // already close — skip to avoid micro-drift
+    locked++;
+    to.scrollTop = target;
+    // Double rAF: outlives the async scroll event the browser fires for the programmatic scrollTop
+    requestAnimationFrame(() => requestAnimationFrame(() => { locked--; }));
   }
-  const onA = () => onScroll(paneA, paneB);
-  const onB = () => onScroll(paneB, paneA);
+
+  const onA = () => { if (!locked) syncFrom(paneA, paneB); };
+  const onB = () => { if (!locked) syncFrom(paneB, paneA); };
   paneA.addEventListener("scroll", onA, { passive: true });
   paneB.addEventListener("scroll", onB, { passive: true });
   return () => { paneA.removeEventListener("scroll", onA); paneB.removeEventListener("scroll", onB); };

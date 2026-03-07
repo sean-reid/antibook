@@ -299,8 +299,8 @@ def transform_text(text: str, antonym_map: dict[str, str]) -> str:
             # Try the original word form too
             antonym_lemma = antonym_map.get(word_lower)
 
-        if antonym_lemma is None:
-            # No mapping — keep original
+        if antonym_lemma is None or " " in antonym_lemma:
+            # No mapping or multi-word antonym — keep original (preserves word count)
             continue
 
         antonym_inflected = reinflect(antonym_lemma, suffix_type)

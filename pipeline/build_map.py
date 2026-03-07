@@ -67,10 +67,13 @@ def extract_wordnet_antonyms() -> dict[str, str]:
 
     for synset in wn.all_synsets():
         for lemma in synset.lemmas():
-            word = lemma.name().lower().replace("_", " ")
+            word = lemma.name().lower().replace("_", "-")
+            if " " in word:
+                continue  # skip multi-word source lemmas
             for ant_lemma in lemma.antonyms():
-                ant_word = ant_lemma.name().lower().replace("_", " ")
-                # Use lemma count as a proxy for frequency
+                ant_word = ant_lemma.name().lower().replace("_", "-")
+                if " " in ant_word:
+                    continue  # skip multi-word antonyms — can't substitute 1-for-1
                 freq = ant_lemma.count() + 1
                 antonyms[word].append((ant_word, freq))
 
@@ -254,7 +257,7 @@ def assemble_map(
     audit: list[dict] = []
 
     def add(word: str, antonym: str, tier: int):
-        if word not in final_map:
+        if word not in final_map and " " not in antonym and " " not in word:
             final_map[word] = antonym
             audit.append({"word": word, "antonym": antonym, "tier": tier})
 
