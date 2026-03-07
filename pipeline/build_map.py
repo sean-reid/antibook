@@ -134,12 +134,17 @@ def build_tier3(tier1: dict, tier2: dict, thesaurus: dict) -> dict[str, str]:
         if word in known:
             continue
 
+        syn_cluster = set(synonyms) | {word}
+
         # For each synonym of `word`, check if that synonym has a direct antonym
         for syn in synonyms:
             if syn in known:
-                # The antonym of `syn` can serve as the antonym of `word`
-                result[word] = known[syn]
-                break
+                candidate = known[syn]
+                # Skip if the candidate is the word itself or one of its synonyms
+                # (that would be a circular or identity mapping)
+                if candidate != word and candidate not in syn_cluster:
+                    result[word] = candidate
+                    break
 
     return result
 
@@ -171,11 +176,18 @@ def cosine_similarity(a: list[float], b: list[float]) -> float:
     return dot / (norm_a * norm_b)
 
 
-def build_tier4(remaining: set[str], known: dict[str, str], glove_path: Path) -> dict[str, str]:
+def build_tier4(remaining: set[str], known: dict[str, str], glove_path: Path,
+                thesaurus: dict[str, list[str]] | None = None) -> dict[str, str]:
     """
-    For remaining words: find the word with the most *dissimilar* embedding
-    (lowest cosine similarity) within the same part of speech.
-    Only uses the subset of known-antonym words as candidates.
+    For remaining words: use GloVe to find the best antonym candidate.
+
+    Strategy: for each word, collect the antonyms of its Moby synonyms as
+    candidates (same logic as Tier 3, but use embedding similarity to pick
+    the *best* candidate rather than just the first). Only accept mappings
+    where cosine similarity is genuinely negative (truly dissimilar vectors).
+
+    Falls back to searching all known antonym values only when no synonym-based
+    candidates exist, but still requires negative cosine similarity.
     """
     if not glove_path.exists():
         print(f"  GloVe file not found at {glove_path} — skipping Tier 4.")
@@ -183,35 +195,47 @@ def build_tier4(remaining: set[str], known: dict[str, str], glove_path: Path) ->
 
     import numpy as np
 
-    vocab = remaining | set(known.values())
+    vocab = remaining | set(known.keys()) | set(known.values())
     vectors = load_glove(glove_path, vocab)
 
     result = {}
-    known_targets = list(known.values())
-    known_target_vecs = [vectors[w] for w in known_targets if w in vectors]
-    known_target_words = [w for w in known_targets if w in vectors]
-
-    if not known_target_vecs:
-        return {}
-
-    mat = np.array(known_target_vecs)  # shape: (N, D)
-    mat_norms = np.linalg.norm(mat, axis=1, keepdims=True)
-    mat_normalized = mat / (mat_norms + 1e-9)
 
     for word in remaining:
         if word not in vectors:
             continue
+
         vec = np.array(vectors[word])
         norm = np.linalg.norm(vec)
         if norm == 0:
             continue
         vec_normalized = vec / norm
-        sims = mat_normalized @ vec_normalized  # cosine similarities
-        # Pick the most dissimilar (lowest cosine similarity)
+
+        # Build candidate antonyms from synonyms' known antonyms
+        candidates: set[str] = set()
+        if thesaurus and word in thesaurus:
+            syn_cluster = set(thesaurus[word]) | {word}
+            for syn in thesaurus[word]:
+                if syn in known and known[syn] not in syn_cluster:
+                    candidates.add(known[syn])
+        # Fallback: all known antonym values (filtered below by similarity)
+        if not candidates:
+            candidates = set(known.values())
+
+        candidates.discard(word)
+        candidate_list = [c for c in candidates if c in vectors]
+        if not candidate_list:
+            continue
+
+        cand_vecs = np.array([vectors[c] for c in candidate_list])
+        cand_norms = np.linalg.norm(cand_vecs, axis=1, keepdims=True)
+        cand_normalized = cand_vecs / (cand_norms + 1e-9)
+
+        sims = cand_normalized @ vec_normalized
         idx = int(np.argmin(sims))
-        antonym_candidate = known_target_words[idx]
-        if antonym_candidate != word:
-            result[word] = antonym_candidate
+
+        # Only accept if similarity is genuinely negative (opposite direction)
+        if sims[idx] < 0.0:
+            result[word] = candidate_list[idx]
 
     return result
 
@@ -299,7 +323,7 @@ def main():
         known = {**tier1, **tier2, **tier3}
         all_words = set(thesaurus.keys()) | set(tier2.keys())
         remaining = all_words - set(known.keys())
-        tier4 = build_tier4(remaining, known, args.glove_path)
+        tier4 = build_tier4(remaining, known, args.glove_path, thesaurus)
         print(f"  {len(tier4):,} entries")
     else:
         print("Tier 4: Skipped (pass --glove to enable)")
