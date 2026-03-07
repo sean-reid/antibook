@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANTIBOOK</title>
+  <meta name="description" content="Every word in a Project Gutenberg classic, replaced with its polar antonym. The same structure, the inverted meaning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Search screen -->
+  <div id="search-screen" class="screen active">
+    <header class="site-header">
+      <div class="header-inner">
+        <h1 class="site-title">ANTIBOOK</h1>
+        <p class="site-tagline">Every word replaced with its polar antonym.</p>
+      </div>
+    </header>
+
+    <main class="search-main">
+      <div class="search-box-wrap">
+        <label for="search-input" class="sr-only">Search books</label>
+        <input
+          id="search-input"
+          type="search"
+          class="search-input"
+          placeholder="Search by title, author, or subject…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <span id="search-status" class="search-status" aria-live="polite"></span>
+      </div>
+
+      <div id="results-container" class="results-container" role="list" aria-label="Search results">
+        <div id="results-empty" class="results-state">
+          <p>Search above to explore <span id="total-books">…</span> AntiBooks.</p>
+        </div>
+        <div id="results-loading" class="results-state hidden">
+          <p>Loading catalog…</p>
+        </div>
+        <div id="results-list" class="results-list" role="list"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Reader screen -->
+  <div id="reader-screen" class="screen hidden">
+    <div class="reader-toolbar">
+      <button id="back-btn" class="btn-icon" aria-label="Back to search" title="Back to search">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M12 4L6 10L12 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="reader-title-block">
+        <span id="reader-title" class="reader-title"></span>
+        <span id="reader-author" class="reader-author"></span>
+      </div>
+      <div class="reader-controls">
+        <button id="dual-pane-btn" class="btn-text" aria-pressed="false" title="Toggle original text alongside">
+          Compare
+        </button>
+        <span id="reader-progress" class="reader-progress"></span>
+      </div>
+    </div>
+
+    <div id="reader-body" class="reader-body">
+      <div id="reader-pane" class="reader-pane">
+        <div id="chunk-container" class="chunk-container"></div>
+        <div id="reader-spinner" class="reader-spinner hidden" aria-label="Loading…">
+          <span></span><span></span><span></span>
+        </div>
+        <div id="reader-end" class="reader-end hidden">— End of AntiBook —</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

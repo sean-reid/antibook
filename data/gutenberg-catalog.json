@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Cached Project Gutenberg metadata. Populated by pipeline/ingest.py.",
+    "last_updated": null,
+    "total_titles": 0
+  },
+  "books": {}
+}

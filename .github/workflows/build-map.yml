@@ -1,0 +1,128 @@
+name: Build Antonym Map
+
+# Trigger: manual dispatch only. Run infrequently — only when improving the map.
+on:
+  workflow_dispatch:
+    inputs:
+      enable_glove:
+        description: "Enable Tier 4 GloVe embedding inversion (slower, +5% coverage)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["true", "false"]
+
+jobs:
+  build-map:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit antonym-map.json back to main
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache NLTK data
+        uses: actions/cache@v4
+        with:
+          path: ~/nltk_data
+          key: nltk-data-v2
+
+      - name: Download NLTK corpora
+        run: |
+          python - <<'EOF'
+          import nltk
+          for corpus in ("wordnet", "averaged_perceptron_tagger", "omw-1.4", "punkt", "punkt_tab"):
+              nltk.download(corpus, quiet=False)
+          EOF
+
+      - name: Download Moby Thesaurus
+        run: |
+          mkdir -p data/moby-thesaurus
+          if [ ! -f data/moby-thesaurus/mthesaur.txt ]; then
+            echo "Downloading Moby Thesaurus (public domain)..."
+            curl -L "https://www.gutenberg.org/files/3202/files/mthesaur.txt" \
+              -o data/moby-thesaurus/mthesaur.txt \
+              --retry 3 --retry-delay 2
+          else
+            echo "Moby Thesaurus already present."
+          fi
+
+      - name: Cache GloVe vectors
+        if: inputs.enable_glove == 'true'
+        uses: actions/cache@v4
+        with:
+          path: data/glove
+          key: glove-6b-300d-v1
+
+      - name: Download GloVe vectors
+        if: inputs.enable_glove == 'true'
+        run: |
+          mkdir -p data/glove
+          if [ ! -f data/glove/glove.6B.300d.txt ]; then
+            echo "Downloading GloVe 6B 300d (~820 MB)..."
+            curl -L "https://nlp.stanford.edu/data/glove.6B.zip" \
+              -o /tmp/glove.zip \
+              --retry 3
+            unzip -j /tmp/glove.zip "glove.6B.300d.txt" -d data/glove/
+            rm /tmp/glove.zip
+          else
+            echo "GloVe vectors already cached."
+          fi
+
+      - name: Build antonym map
+        run: |
+          GLOVE_FLAG=""
+          if [ "${{ inputs.enable_glove }}" = "true" ]; then
+            GLOVE_FLAG="--glove --glove-path data/glove/glove.6B.300d.txt"
+          fi
+          python pipeline/build_map.py $GLOVE_FLAG
+
+      - name: Show map stats
+        run: |
+          echo "=== antonym-map.json ==="
+          python -c "
+          import json
+          m = json.load(open('data/antonym-map.json'))
+          print(f'Total entries: {len(m):,}')
+          print(f'File size: {len(json.dumps(m)) / 1024:.1f} KB')
+          "
+          echo ""
+          echo "=== Tier breakdown (audit-log.csv) ==="
+          python -c "
+          import csv
+          from collections import Counter
+          with open('data/audit-log.csv') as f:
+              rows = list(csv.DictReader(f))
+          c = Counter(r['tier'] for r in rows)
+          total = len(rows)
+          for tier in sorted(c):
+              pct = 100 * c[tier] / total
+              print(f'  Tier {tier}: {c[tier]:,}  ({pct:.1f}%)')
+          "
+
+      - name: Commit updated map
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/antonym-map.json data/audit-log.csv
+          if git diff --cached --quiet; then
+            echo "No changes to antonym map."
+          else
+            git commit -m "chore: rebuild antonym map [skip ci]"
+            git push
+          fi

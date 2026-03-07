@@ -1,0 +1,22 @@
+# Build output
+dist/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Data downloads (large, downloaded at build time)
+data/raw/
+data/glove/
+
+# Node (esbuild artifacts)
+node_modules/
+
+# OS
+.DS_Store

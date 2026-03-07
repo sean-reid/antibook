@@ -1,0 +1,115 @@
+name: Deploy to GitHub Pages
+
+# Trigger: completion of build-books workflow, or any push to main
+# (covers frontend-only changes — CSS, JS, HTML).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy.yml"
+
+# Allow only one concurrent deployment; cancel in-progress if a new one starts.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── Download book assets built by build-books workflow ────────────────
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-books
+          path: dist/
+        # If no artifact exists (first deploy or frontend-only push), continue
+        continue-on-error: true
+
+      # ── Bundle frontend with esbuild ──────────────────────────────────────
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Bundle frontend (esbuild)
+        run: |
+          # Install esbuild as a local dev dep (zero config, single binary)
+          npm install --save-dev esbuild
+
+          mkdir -p publish
+
+          # Bundle app.js — resolve any imports, target modern browsers
+          npx esbuild site/app.js \
+            --bundle \
+            --format=esm \
+            --target=es2020 \
+            --minify \
+            --sourcemap \
+            --outfile=publish/app.js
+
+          # Copy HTML and CSS
+          cp site/index.html publish/index.html
+          cp site/style.css publish/style.css
+
+          # Inject content-hashed asset filenames into HTML
+          APP_HASH=$(md5sum publish/app.js | cut -c1-8)
+          CSS_HASH=$(md5sum publish/style.css | cut -c1-8)
+
+          # Rename to content-hashed filenames
+          mv publish/app.js     publish/app.${APP_HASH}.js
+          mv publish/app.js.map publish/app.${APP_HASH}.js.map 2>/dev/null || true
+          mv publish/style.css  publish/style.${CSS_HASH}.css
+
+          # Update HTML references
+          sed -i \
+            -e "s|src=\"app.js\"|src=\"app.${APP_HASH}.js\"|g" \
+            -e "s|href=\"style.css\"|href=\"style.${CSS_HASH}.css\"|g" \
+            publish/index.html
+
+          echo "Bundle complete:"
+          ls -lh publish/
+
+      # ── Merge book assets into publish directory ──────────────────────────
+      - name: Merge dist assets
+        run: |
+          if [ -d dist ]; then
+            # Copy catalog, manifest, and book chunks
+            cp -r dist/. publish/
+            echo "Merged dist/ into publish/:"
+            du -sh publish/
+          else
+            echo "No dist/ found — deploying frontend only."
+            # Create empty catalog so the frontend doesn't 404
+            echo "[]" > publish/catalog.json
+          fi
+
+      # ── Deploy to GitHub Pages ────────────────────────────────────────────
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: publish/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Report deployment URL
+        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
