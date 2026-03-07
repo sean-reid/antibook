@@ -153,6 +153,7 @@ jobs:
             echo "No catalog changes to commit."
           else
             git commit -m "chore: update gutenberg catalog [skip ci]"
+            git pull --rebase
             git push
           fi
 
