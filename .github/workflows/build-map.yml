@@ -124,5 +124,6 @@ jobs:
             echo "No changes to antonym map."
           else
             git commit -m "chore: rebuild antonym map [skip ci]"
+            git pull --rebase
             git push
           fi
