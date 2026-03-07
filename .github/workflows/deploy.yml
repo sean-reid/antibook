@@ -35,17 +35,24 @@ jobs:
         uses: actions/checkout@v4
 
       # ── Download book assets built by build-books workflow ────────────────
-      - name: Download dist artifact
+      # When triggered by workflow_run, we know the exact run that has the artifact.
+      - name: Download dist artifact (from build-books run)
+        if: github.event_name == 'workflow_run'
         uses: actions/download-artifact@v4
         with:
           name: dist-books
           path: dist/
-          # When triggered by workflow_run, pull the artifact from that run.
-          # For push/workflow_dispatch triggers, this is empty and falls back
-          # to same-run lookup (which will correctly fail-safe below).
-          run-id: ${{ github.event.workflow_run.id || '' }}
+          run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        # If no artifact exists (first deploy or frontend-only push), continue
+        continue-on-error: true
+
+      # For push/workflow_dispatch, try same-run artifact (frontend-only deploys won't have one).
+      - name: Download dist artifact (same-run fallback)
+        if: github.event_name != 'workflow_run'
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-books
+          path: dist/
         continue-on-error: true
 
       # ── Bundle frontend with esbuild ──────────────────────────────────────
