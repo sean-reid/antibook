@@ -37,8 +37,8 @@ MIRRORS = [
     "https://aleph.gutenberg.org/cache/epub/{id}/pg{id}.txt",
 ]
 
-# Gutenberg catalog RSS / top-100 list
-POPULAR_LIST_URL = "https://www.gutenberg.org/browse/scores/top"
+# Gutendex: open REST API for Gutenberg (gutendex.com), 32 results per page
+GUTENDEX_URL = "https://gutendex.com/books/?languages=en&sort=popular"
 CATALOG_RDF_BASE = "https://www.gutenberg.org/ebooks/{id}.rdf"
 
 # The well-known Gutenberg boilerplate delimiters
@@ -53,21 +53,41 @@ END_MARKERS = [
 
 
 def fetch_top_ids(limit: int = 500) -> list[int]:
-    """Scrape the Gutenberg top-downloads page to get the most popular English book IDs."""
-    print(f"Fetching top {limit} Gutenberg IDs …")
-    try:
-        resp = requests.get(POPULAR_LIST_URL, timeout=30)
-        resp.raise_for_status()
-    except requests.RequestException as e:
-        print(f"  Warning: could not fetch popular list ({e}); falling back to known top IDs.")
+    """
+    Fetch the most popular English Gutenberg book IDs via the Gutendex API.
+    Gutendex returns 32 results per page sorted by download count; we paginate
+    until we have enough IDs or run out of pages.
+    """
+    print(f"Fetching top {limit} Gutenberg IDs via Gutendex …")
+    ids: list[int] = []
+    url: str | None = GUTENDEX_URL
+    page = 0
+
+    while url and len(ids) < limit:
+        try:
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+        except (requests.RequestException, ValueError) as e:
+            print(f"  Warning: Gutendex request failed ({e}); stopping at {len(ids)} IDs.")
+            break
+
+        page += 1
+        results = data.get("results", [])
+        for book in results:
+            book_id = book.get("id")
+            if book_id and book_id not in ids:
+                ids.append(book_id)
+        url = data.get("next")  # None when last page
+
+        print(f"  Page {page}: {len(results)} books (total so far: {len(ids)})")
+        time.sleep(0.2)  # polite pacing between API pages
+
+    if not ids:
+        print("  Gutendex returned no results; falling back to known top IDs.")
         return _fallback_top_ids()[:limit]
 
-    # IDs appear as /ebooks/NNN links
-    ids = list(dict.fromkeys(
-        int(m) for m in re.findall(r"/ebooks/(\d+)", resp.text)
-        if m.isdigit()
-    ))
-    print(f"  Found {len(ids)} IDs from popular list.")
+    print(f"  {len(ids[:limit])} IDs collected.")
     return ids[:limit]
 
 

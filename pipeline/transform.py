@@ -227,6 +227,49 @@ def reinflect(antonym_lemma: str, suffix_type: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# British → American spelling normalization (fallback coverage)
+# ---------------------------------------------------------------------------
+
+# Words ending in -ise that are NOT British variants of -ize words
+_ISE_EXCEPTIONS = frozenset({
+    "arise", "franchise", "surprise", "comprise", "promise", "premise",
+    "compromise", "enterprise", "merchandise", "otherwise", "precise",
+    "concise", "disguise", "advise", "devise", "revise", "supervise",
+    "televise", "improvise", "exercise", "expertise", "paradise",
+    "surmise", "demise", "incise", "excise", "reprise", "apprise",
+})
+
+# Words ending in -our that are NOT British variants of -or words
+_OUR_EXCEPTIONS = frozenset({
+    "your", "pour", "four", "hour", "tour", "sour", "dour",
+    "flour", "scour", "devour", "contour", "velour", "glamour",
+    "paramour",
+})
+
+
+def brit_to_amer_candidates(word: str) -> list[str]:
+    """
+    Generate American spelling candidates from a (possibly British) spelling.
+    Only returns candidates; caller checks whether any are in the antonym map.
+    """
+    w = word.lower()
+    out: list[str] = []
+    # -ise → -ize (organise→organize, realise→realize, recognise→recognize)
+    if len(w) > 4 and w.endswith("ise") and w not in _ISE_EXCEPTIONS:
+        out.append(w[:-3] + "ize")
+    # -yse → -yze (analyse→analyze, paralyse→paralyze)
+    if len(w) > 4 and w.endswith("yse"):
+        out.append(w[:-3] + "yze")
+    # -our → -or (colour→color, honour→honor, behaviour→behavior)
+    if len(w) > 4 and w.endswith("our") and w not in _OUR_EXCEPTIONS:
+        out.append(w[:-3] + "or")
+    # -re → -er (centre→center, theatre→theater, fibre→fiber)
+    if len(w) > 3 and w.endswith("re") and w[-3] not in "aeiou":
+        out.append(w[:-2] + "er")
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Proper-noun detection
 # ---------------------------------------------------------------------------
 
@@ -298,6 +341,18 @@ def transform_text(text: str, antonym_map: dict[str, str]) -> str:
         if antonym_lemma is None:
             # Try the original word form too
             antonym_lemma = antonym_map.get(word_lower)
+
+        # British spelling fallback: try normalizing to American spelling
+        if antonym_lemma is None:
+            for amer in brit_to_amer_candidates(lemma):
+                antonym_lemma = antonym_map.get(amer)
+                if antonym_lemma:
+                    break
+        if antonym_lemma is None:
+            for amer in brit_to_amer_candidates(word_lower):
+                antonym_lemma = antonym_map.get(amer)
+                if antonym_lemma:
+                    break
 
         if antonym_lemma is None or " " in antonym_lemma:
             # No mapping or multi-word antonym — keep original (preserves word count)

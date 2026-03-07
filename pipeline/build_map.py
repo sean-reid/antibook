@@ -247,11 +247,39 @@ def build_tier4(remaining: set[str], known: dict[str, str], glove_path: Path,
 # Map assembly
 # ---------------------------------------------------------------------------
 
+def american_to_british_variants(word: str) -> list[str]:
+    """
+    Generate British spelling variants of an American word.
+    Used to expand the map so British-spelled source texts get coverage.
+    """
+    w = word.lower()
+    variants: list[str] = []
+    # -ize → -ise (organize→organise, realize→realise)
+    if w.endswith("ize") and len(w) > 4:
+        variants.append(w[:-3] + "ise")
+    # -yze → -yse (analyze→analyse, paralyze→paralyse)
+    if w.endswith("yze") and len(w) > 4:
+        variants.append(w[:-3] + "yse")
+    # -or → -our for common colour/honor pattern:
+    # Must be consonant + or, length > 3, and not a short common word
+    _OR_EXCEPTIONS = frozenset({"or", "for", "nor", "cor", "nor", "tor", "vor"})
+    if (len(w) > 4 and w.endswith("or") and w not in _OR_EXCEPTIONS
+            and w[-3] not in "aeiou" and not w.endswith("oor")):
+        variants.append(w[:-2] + "our")
+    # -er → -re (center→centre, theater→theatre, fiber→fibre)
+    # Only when preceded by a consonant that is c, t, b (common cases)
+    if len(w) > 4 and w.endswith("er") and w[-3] in "bcdfgklmnprstv":
+        candidate = w[:-2] + "re"
+        variants.append(candidate)
+    return variants
+
+
 def assemble_map(
     tier1: dict, tier2: dict, tier3: dict, tier4: dict
 ) -> tuple[dict[str, str], list[dict]]:
     """
-    Merge tiers in priority order. Return (final_map, audit_rows).
+    Merge tiers in priority order, then expand with British spelling variants.
+    Return (final_map, audit_rows).
     """
     final_map: dict[str, str] = {}
     audit: list[dict] = []
@@ -269,6 +297,15 @@ def assemble_map(
         add(word, ant, 3)
     for word, ant in tier4.items():
         add(word, ant, 4)
+
+    # Tier 5: British spelling variants of all American entries collected so far
+    british_additions: dict[str, str] = {}
+    for word, antonym in list(final_map.items()):
+        for brit in american_to_british_variants(word):
+            if brit not in final_map and brit not in british_additions:
+                british_additions[brit] = antonym
+    for word, ant in british_additions.items():
+        add(word, ant, 5)
 
     return final_map, audit
 
@@ -291,6 +328,7 @@ def print_stats(audit: list[dict], final_map: dict):
         (2, "Tier 2 (WordNet)"),
         (3, "Tier 3 (Moby transitive)"),
         (4, "Tier 4 (GloVe inversion)"),
+        (5, "Tier 5 (British variants)"),
     ]:
         count = tier_counts.get(tier, 0)
         pct = 100 * count / total if total else 0
