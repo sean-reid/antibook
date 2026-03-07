@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-03-07T06:04:31.476335+00:00",
+    "last_updated": "2026-03-07T06:08:08.498095+00:00",
     "total_titles": 108
   },
   "books": {
@@ -21,7 +21,7 @@
       ],
       "word_count": 75042,
       "raw_path": "data/raw/84.txt",
-      "ingested_at": "2026-03-07T06:00:01.164327+00:00",
+      "ingested_at": "2026-03-07T06:05:50.761777+00:00",
       "stripped_path": "data/raw/84_stripped.txt"
     },
     "33170": {
@@ -35,7 +35,7 @@
       ],
       "word_count": 28992,
       "raw_path": "data/raw/33170.txt",
-      "ingested_at": "2026-03-07T06:00:01.962228+00:00",
+      "ingested_at": "2026-03-07T06:05:57.852626+00:00",
       "stripped_path": "data/raw/33170_stripped.txt"
     },
     "45304": {
@@ -50,7 +50,7 @@
       ],
       "word_count": 231170,
       "raw_path": "data/raw/45304.txt",
-      "ingested_at": "2026-03-07T06:00:02.718442+00:00",
+      "ingested_at": "2026-03-07T06:06:03.415972+00:00",
       "stripped_path": "data/raw/45304_stripped.txt"
     },
     "1342": {
@@ -70,7 +70,7 @@
       ],
       "word_count": 127359,
       "raw_path": "data/raw/1342.txt",
-      "ingested_at": "2026-03-07T06:00:03.480010+00:00",
+      "ingested_at": "2026-03-07T06:06:07.761206+00:00",
       "stripped_path": "data/raw/1342_stripped.txt"
     },
     "2701": {
@@ -92,7 +92,7 @@
       ],
       "word_count": 212796,
       "raw_path": "data/raw/2701.txt",
-      "ingested_at": "2026-03-07T06:00:04.334395+00:00",
+      "ingested_at": "2026-03-07T06:06:09.439965+00:00",
       "stripped_path": "data/raw/2701_stripped.txt"
     },
     "768": {
@@ -115,7 +115,7 @@
       ],
       "word_count": 115945,
       "raw_path": "data/raw/768.txt",
-      "ingested_at": "2026-03-07T06:00:05.127165+00:00",
+      "ingested_at": "2026-03-07T06:06:12.244487+00:00",
       "stripped_path": "data/raw/768_stripped.txt"
     },
     "1513": {
@@ -135,7 +135,7 @@
       ],
       "word_count": 25958,
       "raw_path": "data/raw/1513.txt",
-      "ingested_at": "2026-03-07T06:00:05.934030+00:00",
+      "ingested_at": "2026-03-07T06:06:14.188222+00:00",
       "stripped_path": "data/raw/1513_stripped.txt"
     },
     "11": {
@@ -153,7 +153,7 @@
       ],
       "word_count": 26525,
       "raw_path": "data/raw/11.txt",
-      "ingested_at": "2026-03-07T06:00:06.670939+00:00",
+      "ingested_at": "2026-03-07T06:06:16.012805+00:00",
       "stripped_path": "data/raw/11_stripped.txt"
     },
     "64317": {
@@ -171,7 +171,7 @@
       ],
       "word_count": 48208,
       "raw_path": "data/raw/64317.txt",
-      "ingested_at": "2026-03-07T06:00:07.483020+00:00",
+      "ingested_at": "2026-03-07T06:06:16.904792+00:00",
       "stripped_path": "data/raw/64317_stripped.txt"
     },
     "43": {
@@ -191,7 +191,7 @@
       ],
       "word_count": 25629,
       "raw_path": "data/raw/43.txt",
-      "ingested_at": "2026-03-07T06:00:08.294148+00:00",
+      "ingested_at": "2026-03-07T06:06:17.647143+00:00",
       "stripped_path": "data/raw/43_stripped.txt"
     },
     "174": {
@@ -212,7 +212,7 @@
       ],
       "word_count": 78979,
       "raw_path": "data/raw/174.txt",
-      "ingested_at": "2026-03-07T06:00:09.048631+00:00",
+      "ingested_at": "2026-03-07T06:06:18.466975+00:00",
       "stripped_path": "data/raw/174_stripped.txt"
     },
     "2641": {
@@ -230,7 +230,7 @@
       ],
       "word_count": 66599,
       "raw_path": "data/raw/2641.txt",
-      "ingested_at": "2026-03-07T06:00:09.999200+00:00",
+      "ingested_at": "2026-03-07T06:06:19.253142+00:00",
       "stripped_path": "data/raw/2641_stripped.txt"
     },
     "2542": {
@@ -247,7 +247,7 @@
       ],
       "word_count": 26479,
       "raw_path": "data/raw/2542.txt",
-      "ingested_at": "2026-03-07T06:00:10.750400+00:00",
+      "ingested_at": "2026-03-07T06:06:19.989549+00:00",
       "stripped_path": "data/raw/2542_stripped.txt"
     },
     "100": {
@@ -261,7 +261,7 @@
       ],
       "word_count": 963460,
       "raw_path": "data/raw/100.txt",
-      "ingested_at": "2026-03-07T06:00:11.541998+00:00",
+      "ingested_at": "2026-03-07T06:06:21.523162+00:00",
       "stripped_path": "data/raw/100_stripped.txt"
     },
     "1260": {
@@ -285,7 +285,7 @@
       ],
       "word_count": 185390,
       "raw_path": "data/raw/1260.txt",
-      "ingested_at": "2026-03-07T06:00:12.318788+00:00",
+      "ingested_at": "2026-03-07T06:06:22.860641+00:00",
       "stripped_path": "data/raw/1260_stripped.txt"
     },
     "145": {
@@ -306,7 +306,7 @@
       ],
       "word_count": 316381,
       "raw_path": "data/raw/145.txt",
-      "ingested_at": "2026-03-07T06:00:13.062324+00:00",
+      "ingested_at": "2026-03-07T06:06:23.779233+00:00",
       "stripped_path": "data/raw/145_stripped.txt"
     },
     "67979": {
@@ -327,7 +327,7 @@
       ],
       "word_count": 68274,
       "raw_path": "data/raw/67979.txt",
-      "ingested_at": "2026-03-07T06:00:13.795803+00:00",
+      "ingested_at": "2026-03-07T06:06:24.558473+00:00",
       "stripped_path": "data/raw/67979_stripped.txt"
     },
     "37106": {
@@ -350,7 +350,7 @@
       ],
       "word_count": 192557,
       "raw_path": "data/raw/37106.txt",
-      "ingested_at": "2026-03-07T06:00:14.555924+00:00",
+      "ingested_at": "2026-03-07T06:06:25.437398+00:00",
       "stripped_path": "data/raw/37106_stripped.txt"
     },
     "345": {
@@ -370,7 +370,7 @@
       ],
       "word_count": 161321,
       "raw_path": "data/raw/345.txt",
-      "ingested_at": "2026-03-07T06:00:15.319142+00:00",
+      "ingested_at": "2026-03-07T06:06:26.306887+00:00",
       "stripped_path": "data/raw/345_stripped.txt"
     },
     "2554": {
@@ -388,7 +388,7 @@
       ],
       "word_count": 203505,
       "raw_path": "data/raw/2554.txt",
-      "ingested_at": "2026-03-07T06:00:16.270817+00:00",
+      "ingested_at": "2026-03-07T06:06:27.189207+00:00",
       "stripped_path": "data/raw/2554_stripped.txt"
     },
     "844": {
@@ -405,7 +405,7 @@
       ],
       "word_count": 20714,
       "raw_path": "data/raw/844.txt",
-      "ingested_at": "2026-03-07T06:00:16.993844+00:00",
+      "ingested_at": "2026-03-07T06:06:28.208477+00:00",
       "stripped_path": "data/raw/844_stripped.txt"
     },
     "1080": {
@@ -421,7 +421,7 @@
       ],
       "word_count": 3420,
       "raw_path": "data/raw/1080.txt",
-      "ingested_at": "2026-03-07T06:00:18.248638+00:00",
+      "ingested_at": "2026-03-07T06:06:28.860820+00:00",
       "stripped_path": "data/raw/1080_stripped.txt"
     },
     "1661": {
@@ -437,7 +437,7 @@
       ],
       "word_count": 104508,
       "raw_path": "data/raw/1661.txt",
-      "ingested_at": "2026-03-07T06:00:19.421006+00:00",
+      "ingested_at": "2026-03-07T06:06:29.689592+00:00",
       "stripped_path": "data/raw/1661_stripped.txt"
     },
     "5197": {
@@ -452,7 +452,7 @@
       ],
       "word_count": 219572,
       "raw_path": "data/raw/5197.txt",
-      "ingested_at": "2026-03-07T06:00:20.178006+00:00",
+      "ingested_at": "2026-03-07T06:06:30.574106+00:00",
       "stripped_path": "data/raw/5197_stripped.txt"
     },
     "98": {
@@ -474,7 +474,7 @@
       ],
       "word_count": 135886,
       "raw_path": "data/raw/98.txt",
-      "ingested_at": "2026-03-07T06:00:20.980899+00:00",
+      "ingested_at": "2026-03-07T06:06:31.402184+00:00",
       "stripped_path": "data/raw/98_stripped.txt"
     },
     "1259": {
@@ -488,7 +488,7 @@
       ],
       "word_count": 242057,
       "raw_path": "data/raw/1259.txt",
-      "ingested_at": "2026-03-07T06:00:21.705644+00:00",
+      "ingested_at": "2026-03-07T06:06:32.293125+00:00",
       "stripped_path": "data/raw/1259_stripped.txt"
     },
     "76": {
@@ -512,7 +512,7 @@
       ],
       "word_count": 111085,
       "raw_path": "data/raw/76.txt",
-      "ingested_at": "2026-03-07T06:00:22.493589+00:00",
+      "ingested_at": "2026-03-07T06:06:33.116971+00:00",
       "stripped_path": "data/raw/76_stripped.txt"
     },
     "16389": {
@@ -530,7 +530,7 @@
       ],
       "word_count": 78258,
       "raw_path": "data/raw/16389.txt",
-      "ingested_at": "2026-03-07T06:00:23.281629+00:00",
+      "ingested_at": "2026-03-07T06:06:33.939548+00:00",
       "stripped_path": "data/raw/16389_stripped.txt"
     },
     "6593": {
@@ -549,7 +549,7 @@
       ],
       "word_count": 350588,
       "raw_path": "data/raw/6593.txt",
-      "ingested_at": "2026-03-07T06:00:24.414471+00:00",
+      "ingested_at": "2026-03-07T06:06:34.869420+00:00",
       "stripped_path": "data/raw/6593_stripped.txt"
     },
     "394": {
@@ -568,7 +568,7 @@
       ],
       "word_count": 70985,
       "raw_path": "data/raw/394.txt",
-      "ingested_at": "2026-03-07T06:00:25.893145+00:00",
+      "ingested_at": "2026-03-07T06:06:35.652619+00:00",
       "stripped_path": "data/raw/394_stripped.txt"
     },
     "2160": {
@@ -584,7 +584,7 @@
       ],
       "word_count": 148355,
       "raw_path": "data/raw/2160.txt",
-      "ingested_at": "2026-03-07T06:00:28.412169+00:00",
+      "ingested_at": "2026-03-07T06:06:36.520678+00:00",
       "stripped_path": "data/raw/2160_stripped.txt"
     },
     "6761": {
@@ -599,7 +599,7 @@
       ],
       "word_count": 161655,
       "raw_path": "data/raw/6761.txt",
-      "ingested_at": "2026-03-07T06:00:33.382103+00:00",
+      "ingested_at": "2026-03-07T06:06:37.390733+00:00",
       "stripped_path": "data/raw/6761_stripped.txt"
     },
     "4085": {
@@ -620,7 +620,7 @@
       ],
       "word_count": 190589,
       "raw_path": "data/raw/4085.txt",
-      "ingested_at": "2026-03-07T06:00:35.654872+00:00",
+      "ingested_at": "2026-03-07T06:06:38.606446+00:00",
       "stripped_path": "data/raw/4085_stripped.txt"
     },
     "1184": {
@@ -640,7 +640,7 @@
       ],
       "word_count": 460971,
       "raw_path": "data/raw/1184.txt",
-      "ingested_at": "2026-03-07T06:00:41.497263+00:00",
+      "ingested_at": "2026-03-07T06:06:39.539878+00:00",
       "stripped_path": "data/raw/1184_stripped.txt"
     },
     "8492": {
@@ -656,7 +656,7 @@
       ],
       "word_count": 71645,
       "raw_path": "data/raw/8492.txt",
-      "ingested_at": "2026-03-07T06:00:43.446181+00:00",
+      "ingested_at": "2026-03-07T06:06:40.328753+00:00",
       "stripped_path": "data/raw/8492_stripped.txt"
     },
     "1952": {
@@ -674,7 +674,7 @@
       ],
       "word_count": 6085,
       "raw_path": "data/raw/1952.txt",
-      "ingested_at": "2026-03-07T06:00:44.647220+00:00",
+      "ingested_at": "2026-03-07T06:06:40.973499+00:00",
       "stripped_path": "data/raw/1952_stripped.txt"
     },
     "16328": {
@@ -690,7 +690,7 @@
       ],
       "word_count": 39170,
       "raw_path": "data/raw/16328.txt",
-      "ingested_at": "2026-03-07T06:00:46.242136+00:00",
+      "ingested_at": "2026-03-07T06:06:41.761155+00:00",
       "stripped_path": "data/raw/16328_stripped.txt"
     },
     "3296": {
@@ -707,7 +707,7 @@
       ],
       "word_count": 111821,
       "raw_path": "data/raw/3296.txt",
-      "ingested_at": "2026-03-07T06:00:48.340811+00:00",
+      "ingested_at": "2026-03-07T06:06:42.587456+00:00",
       "stripped_path": "data/raw/3296_stripped.txt"
     },
     "45": {
@@ -729,7 +729,7 @@
       ],
       "word_count": 102501,
       "raw_path": "data/raw/45.txt",
-      "ingested_at": "2026-03-07T06:00:50.295152+00:00",
+      "ingested_at": "2026-03-07T06:06:43.416230+00:00",
       "stripped_path": "data/raw/45_stripped.txt"
     },
     "3207": {
@@ -744,7 +744,7 @@
       ],
       "word_count": 213346,
       "raw_path": "data/raw/3207.txt",
-      "ingested_at": "2026-03-07T06:00:53.507772+00:00",
+      "ingested_at": "2026-03-07T06:06:44.296421+00:00",
       "stripped_path": "data/raw/3207_stripped.txt"
     },
     "5200": {
@@ -759,7 +759,7 @@
       ],
       "word_count": 21943,
       "raw_path": "data/raw/5200.txt",
-      "ingested_at": "2026-03-07T06:00:54.834336+00:00",
+      "ingested_at": "2026-03-07T06:06:45.035412+00:00",
       "stripped_path": "data/raw/5200_stripped.txt"
     },
     "2591": {
@@ -773,7 +773,7 @@
       ],
       "word_count": 101111,
       "raw_path": "data/raw/2591.txt",
-      "ingested_at": "2026-03-07T06:00:57.132513+00:00",
+      "ingested_at": "2026-03-07T06:06:46.064546+00:00",
       "stripped_path": "data/raw/2591_stripped.txt"
     },
     "28054": {
@@ -790,7 +790,7 @@
       ],
       "word_count": 350849,
       "raw_path": "data/raw/28054.txt",
-      "ingested_at": "2026-03-07T06:01:01.809861+00:00",
+      "ingested_at": "2026-03-07T06:06:47.439562+00:00",
       "stripped_path": "data/raw/28054_stripped.txt"
     },
     "25344": {
@@ -814,7 +814,7 @@
       ],
       "word_count": 83826,
       "raw_path": "data/raw/25344.txt",
-      "ingested_at": "2026-03-07T06:01:03.671346+00:00",
+      "ingested_at": "2026-03-07T06:06:48.263661+00:00",
       "stripped_path": "data/raw/25344_stripped.txt"
     },
     "23": {
@@ -831,7 +831,7 @@
       ],
       "word_count": 40750,
       "raw_path": "data/raw/23.txt",
-      "ingested_at": "2026-03-07T06:01:05.056087+00:00",
+      "ingested_at": "2026-03-07T06:06:49.038812+00:00",
       "stripped_path": "data/raw/23_stripped.txt"
     },
     "78116": {
@@ -841,7 +841,7 @@
       "language": "en",
       "word_count": 4947,
       "raw_path": "data/raw/78116.txt",
-      "ingested_at": "2026-03-07T06:01:06.852676+00:00",
+      "ingested_at": "2026-03-07T06:06:50.089998+00:00",
       "stripped_path": "data/raw/78116_stripped.txt"
     },
     "1400": {
@@ -862,7 +862,7 @@
       ],
       "word_count": 184478,
       "raw_path": "data/raw/1400.txt",
-      "ingested_at": "2026-03-07T06:01:09.368030+00:00",
+      "ingested_at": "2026-03-07T06:06:50.959938+00:00",
       "stripped_path": "data/raw/1400_stripped.txt"
     },
     "1232": {
@@ -878,7 +878,7 @@
       ],
       "word_count": 49943,
       "raw_path": "data/raw/1232.txt",
-      "ingested_at": "2026-03-07T06:01:10.780857+00:00",
+      "ingested_at": "2026-03-07T06:06:51.739717+00:00",
       "stripped_path": "data/raw/1232_stripped.txt"
     },
     "74": {
@@ -901,7 +901,7 @@
       ],
       "word_count": 70800,
       "raw_path": "data/raw/74.txt",
-      "ingested_at": "2026-03-07T06:01:12.351366+00:00",
+      "ingested_at": "2026-03-07T06:06:52.557950+00:00",
       "stripped_path": "data/raw/74_stripped.txt"
     },
     "27673": {
@@ -916,7 +916,7 @@
       ],
       "word_count": 18289,
       "raw_path": "data/raw/27673.txt",
-      "ingested_at": "2026-03-07T06:01:14.040718+00:00",
+      "ingested_at": "2026-03-07T06:06:53.923346+00:00",
       "stripped_path": "data/raw/27673_stripped.txt"
     },
     "408": {
@@ -930,7 +930,7 @@
       ],
       "word_count": 68628,
       "raw_path": "data/raw/408.txt",
-      "ingested_at": "2026-03-07T06:01:15.637833+00:00",
+      "ingested_at": "2026-03-07T06:06:54.704857+00:00",
       "stripped_path": "data/raw/408_stripped.txt"
     },
     "244": {
@@ -947,7 +947,7 @@
       ],
       "word_count": 43427,
       "raw_path": "data/raw/244.txt",
-      "ingested_at": "2026-03-07T06:01:16.973392+00:00",
+      "ingested_at": "2026-03-07T06:06:55.485340+00:00",
       "stripped_path": "data/raw/244_stripped.txt"
     },
     "2852": {
@@ -966,7 +966,7 @@
       ],
       "word_count": 59258,
       "raw_path": "data/raw/2852.txt",
-      "ingested_at": "2026-03-07T06:01:18.709698+00:00",
+      "ingested_at": "2026-03-07T06:06:56.268772+00:00",
       "stripped_path": "data/raw/2852_stripped.txt"
     },
     "219": {
@@ -985,7 +985,7 @@
       ],
       "word_count": 37917,
       "raw_path": "data/raw/219.txt",
-      "ingested_at": "2026-03-07T06:01:20.128690+00:00",
+      "ingested_at": "2026-03-07T06:06:57.041766+00:00",
       "stripped_path": "data/raw/219_stripped.txt"
     },
     "2680": {
@@ -1001,7 +1001,7 @@
       ],
       "word_count": 71957,
       "raw_path": "data/raw/2680.txt",
-      "ingested_at": "2026-03-07T06:01:21.909044+00:00",
+      "ingested_at": "2026-03-07T06:06:58.326973+00:00",
       "stripped_path": "data/raw/2680_stripped.txt"
     },
     "1727": {
@@ -1017,7 +1017,7 @@
       ],
       "word_count": 129571,
       "raw_path": "data/raw/1727.txt",
-      "ingested_at": "2026-03-07T06:01:24.239093+00:00",
+      "ingested_at": "2026-03-07T06:06:59.158885+00:00",
       "stripped_path": "data/raw/1727_stripped.txt"
     },
     "829": {
@@ -1035,7 +1035,7 @@
       ],
       "word_count": 105079,
       "raw_path": "data/raw/829.txt",
-      "ingested_at": "2026-03-07T06:01:26.267210+00:00",
+      "ingested_at": "2026-03-07T06:06:59.989337+00:00",
       "stripped_path": "data/raw/829_stripped.txt"
     },
     "205": {
@@ -1056,7 +1056,7 @@
       ],
       "word_count": 115813,
       "raw_path": "data/raw/205.txt",
-      "ingested_at": "2026-03-07T06:01:28.682142+00:00",
+      "ingested_at": "2026-03-07T06:07:00.802155+00:00",
       "stripped_path": "data/raw/205_stripped.txt"
     },
     "4300": {
@@ -1079,7 +1079,7 @@
       ],
       "word_count": 265059,
       "raw_path": "data/raw/4300.txt",
-      "ingested_at": "2026-03-07T06:01:37.170788+00:00",
+      "ingested_at": "2026-03-07T06:07:01.687259+00:00",
       "stripped_path": "data/raw/4300_stripped.txt"
     },
     "2600": {
@@ -1097,7 +1097,7 @@
       ],
       "word_count": 563286,
       "raw_path": "data/raw/2600.txt",
-      "ingested_at": "2026-03-07T06:01:43.112728+00:00",
+      "ingested_at": "2026-03-07T06:07:02.648763+00:00",
       "stripped_path": "data/raw/2600_stripped.txt"
     },
     "7370": {
@@ -1113,7 +1113,7 @@
       ],
       "word_count": 56517,
       "raw_path": "data/raw/7370.txt",
-      "ingested_at": "2026-03-07T06:01:44.682867+00:00",
+      "ingested_at": "2026-03-07T06:07:03.440354+00:00",
       "stripped_path": "data/raw/7370_stripped.txt"
     },
     "8800": {
@@ -1128,7 +1128,7 @@
       ],
       "word_count": 108629,
       "raw_path": "data/raw/8800.txt",
-      "ingested_at": "2026-03-07T06:01:47.005930+00:00",
+      "ingested_at": "2026-03-07T06:07:04.273868+00:00",
       "stripped_path": "data/raw/8800_stripped.txt"
     },
     "36034": {
@@ -1143,7 +1143,7 @@
       ],
       "word_count": 118706,
       "raw_path": "data/raw/36034.txt",
-      "ingested_at": "2026-03-07T06:01:49.814839+00:00",
+      "ingested_at": "2026-03-07T06:07:05.271061+00:00",
       "stripped_path": "data/raw/36034_stripped.txt"
     },
     "26184": {
@@ -1157,7 +1157,7 @@
       ],
       "word_count": 9147,
       "raw_path": "data/raw/26184.txt",
-      "ingested_at": "2026-03-07T06:01:51.063154+00:00",
+      "ingested_at": "2026-03-07T06:07:05.964698+00:00",
       "stripped_path": "data/raw/26184_stripped.txt"
     },
     "55": {
@@ -1184,7 +1184,7 @@
       ],
       "word_count": 39649,
       "raw_path": "data/raw/55.txt",
-      "ingested_at": "2026-03-07T06:01:53.457574+00:00",
+      "ingested_at": "2026-03-07T06:07:07.546642+00:00",
       "stripped_path": "data/raw/55_stripped.txt"
     },
     "1998": {
@@ -1199,7 +1199,7 @@
       ],
       "word_count": 110900,
       "raw_path": "data/raw/1998.txt",
-      "ingested_at": "2026-03-07T06:01:55.623082+00:00",
+      "ingested_at": "2026-03-07T06:07:08.381514+00:00",
       "stripped_path": "data/raw/1998_stripped.txt"
     },
     "120": {
@@ -1217,7 +1217,7 @@
       ],
       "word_count": 68637,
       "raw_path": "data/raw/120.txt",
-      "ingested_at": "2026-03-07T06:01:57.197815+00:00",
+      "ingested_at": "2026-03-07T06:07:09.157977+00:00",
       "stripped_path": "data/raw/120_stripped.txt"
     },
     "7142": {
@@ -1231,7 +1231,7 @@
       ],
       "word_count": 204653,
       "raw_path": "data/raw/7142.txt",
-      "ingested_at": "2026-03-07T06:02:00.183418+00:00",
+      "ingested_at": "2026-03-07T06:07:10.024300+00:00",
       "stripped_path": "data/raw/7142_stripped.txt"
     },
     "72679": {
@@ -1246,7 +1246,7 @@
       ],
       "word_count": 21210,
       "raw_path": "data/raw/72679.txt",
-      "ingested_at": "2026-03-07T06:02:01.544678+00:00",
+      "ingested_at": "2026-03-07T06:07:10.761569+00:00",
       "stripped_path": "data/raw/72679_stripped.txt"
     },
     "1399": {
@@ -1264,7 +1264,7 @@
       ],
       "word_count": 349763,
       "raw_path": "data/raw/1399.txt",
-      "ingested_at": "2026-03-07T06:02:06.111184+00:00",
+      "ingested_at": "2026-03-07T06:07:11.695140+00:00",
       "stripped_path": "data/raw/1399_stripped.txt"
     },
     "78112": {
@@ -1274,7 +1274,7 @@
       "language": "en",
       "word_count": 13665,
       "raw_path": "data/raw/78112.txt",
-      "ingested_at": "2026-03-07T06:02:11.034629+00:00",
+      "ingested_at": "2026-03-07T06:07:13.774627+00:00",
       "stripped_path": "data/raw/78112_stripped.txt"
     },
     "15399": {
@@ -1290,7 +1290,7 @@
       ],
       "word_count": 82569,
       "raw_path": "data/raw/15399.txt",
-      "ingested_at": "2026-03-07T06:02:13.411805+00:00",
+      "ingested_at": "2026-03-07T06:07:14.596399+00:00",
       "stripped_path": "data/raw/15399_stripped.txt"
     },
     "16": {
@@ -1309,7 +1309,7 @@
       ],
       "word_count": 47268,
       "raw_path": "data/raw/16.txt",
-      "ingested_at": "2026-03-07T06:02:15.524165+00:00",
+      "ingested_at": "2026-03-07T06:07:15.380368+00:00",
       "stripped_path": "data/raw/16_stripped.txt"
     },
     "41445": {
@@ -1329,7 +1329,7 @@
       ],
       "word_count": 72699,
       "raw_path": "data/raw/41445.txt",
-      "ingested_at": "2026-03-07T06:02:17.254303+00:00",
+      "ingested_at": "2026-03-07T06:07:16.159665+00:00",
       "stripped_path": "data/raw/41445_stripped.txt"
     },
     "78118": {
@@ -1339,7 +1339,7 @@
       "language": "en",
       "word_count": 63879,
       "raw_path": "data/raw/78118.txt",
-      "ingested_at": "2026-03-07T06:02:19.949380+00:00",
+      "ingested_at": "2026-03-07T06:07:16.890558+00:00",
       "stripped_path": "data/raw/78118_stripped.txt"
     },
     "42324": {
@@ -1359,7 +1359,7 @@
       ],
       "word_count": 77977,
       "raw_path": "data/raw/42324.txt",
-      "ingested_at": "2026-03-07T06:02:21.441590+00:00",
+      "ingested_at": "2026-03-07T06:07:17.708582+00:00",
       "stripped_path": "data/raw/42324_stripped.txt"
     },
     "161": {
@@ -1383,7 +1383,7 @@
       ],
       "word_count": 118860,
       "raw_path": "data/raw/161.txt",
-      "ingested_at": "2026-03-07T06:02:23.528554+00:00",
+      "ingested_at": "2026-03-07T06:07:19.104921+00:00",
       "stripped_path": "data/raw/161_stripped.txt"
     },
     "45368": {
@@ -1397,7 +1397,7 @@
       ],
       "word_count": 463818,
       "raw_path": "data/raw/45368.txt",
-      "ingested_at": "2026-03-07T06:02:28.173787+00:00",
+      "ingested_at": "2026-03-07T06:07:20.055982+00:00",
       "stripped_path": "data/raw/45368_stripped.txt"
     },
     "1497": {
@@ -1415,7 +1415,7 @@
       ],
       "word_count": 216285,
       "raw_path": "data/raw/1497.txt",
-      "ingested_at": "2026-03-07T06:02:34.152893+00:00",
+      "ingested_at": "2026-03-07T06:07:20.946739+00:00",
       "stripped_path": "data/raw/1497_stripped.txt"
     },
     "209": {
@@ -1433,7 +1433,7 @@
       ],
       "word_count": 42277,
       "raw_path": "data/raw/209.txt",
-      "ingested_at": "2026-03-07T06:02:38.712202+00:00",
+      "ingested_at": "2026-03-07T06:07:21.719947+00:00",
       "stripped_path": "data/raw/209_stripped.txt"
     },
     "215": {
@@ -1454,7 +1454,7 @@
       ],
       "word_count": 31824,
       "raw_path": "data/raw/215.txt",
-      "ingested_at": "2026-03-07T06:02:45.049721+00:00",
+      "ingested_at": "2026-03-07T06:07:22.461137+00:00",
       "stripped_path": "data/raw/215_stripped.txt"
     },
     "3268": {
@@ -1475,7 +1475,7 @@
       ],
       "word_count": 290378,
       "raw_path": "data/raw/3268.txt",
-      "ingested_at": "2026-03-07T06:02:54.182611+00:00",
+      "ingested_at": "2026-03-07T06:07:23.497561+00:00",
       "stripped_path": "data/raw/3268_stripped.txt"
     },
     "165": {
@@ -1495,7 +1495,7 @@
       ],
       "word_count": 112642,
       "raw_path": "data/raw/165.txt",
-      "ingested_at": "2026-03-07T06:03:00.391350+00:00",
+      "ingested_at": "2026-03-07T06:07:24.320977+00:00",
       "stripped_path": "data/raw/165_stripped.txt"
     },
     "4363": {
@@ -1510,7 +1510,7 @@
       ],
       "word_count": 62678,
       "raw_path": "data/raw/4363.txt",
-      "ingested_at": "2026-03-07T06:03:06.457036+00:00",
+      "ingested_at": "2026-03-07T06:07:25.291056+00:00",
       "stripped_path": "data/raw/4363_stripped.txt"
     },
     "28189": {
@@ -1525,7 +1525,7 @@
       ],
       "word_count": 68321,
       "raw_path": "data/raw/28189.txt",
-      "ingested_at": "2026-03-07T06:03:10.522986+00:00",
+      "ingested_at": "2026-03-07T06:07:26.518228+00:00",
       "stripped_path": "data/raw/28189_stripped.txt"
     },
     "7735": {
@@ -1539,7 +1539,7 @@
       ],
       "word_count": 179789,
       "raw_path": "data/raw/7735.txt",
-      "ingested_at": "2026-03-07T06:03:14.346607+00:00",
+      "ingested_at": "2026-03-07T06:07:27.401150+00:00",
       "stripped_path": "data/raw/7735_stripped.txt"
     },
     "46": {
@@ -1559,7 +1559,7 @@
       ],
       "word_count": 28541,
       "raw_path": "data/raw/46.txt",
-      "ingested_at": "2026-03-07T06:03:17.388956+00:00",
+      "ingested_at": "2026-03-07T06:07:29.508390+00:00",
       "stripped_path": "data/raw/46_stripped.txt"
     },
     "730": {
@@ -1578,7 +1578,7 @@
       ],
       "word_count": 157969,
       "raw_path": "data/raw/730.txt",
-      "ingested_at": "2026-03-07T06:03:19.822987+00:00",
+      "ingested_at": "2026-03-07T06:07:30.375960+00:00",
       "stripped_path": "data/raw/730_stripped.txt"
     },
     "3206": {
@@ -1592,7 +1592,7 @@
       ],
       "word_count": 421,
       "raw_path": "data/raw/3206.txt",
-      "ingested_at": "2026-03-07T06:03:20.884577+00:00",
+      "ingested_at": "2026-03-07T06:07:30.980097+00:00",
       "stripped_path": "data/raw/3206_stripped.txt"
     },
     "2148": {
@@ -1609,7 +1609,7 @@
       ],
       "word_count": 95043,
       "raw_path": "data/raw/2148.txt",
-      "ingested_at": "2026-03-07T06:03:22.695245+00:00",
+      "ingested_at": "2026-03-07T06:07:31.800961+00:00",
       "stripped_path": "data/raw/2148_stripped.txt"
     },
     "1946": {
@@ -1624,7 +1624,7 @@
       ],
       "word_count": 293756,
       "raw_path": "data/raw/1946.txt",
-      "ingested_at": "2026-03-07T06:03:28.012897+00:00",
+      "ingested_at": "2026-03-07T06:07:33.186633+00:00",
       "stripped_path": "data/raw/1946_stripped.txt"
     },
     "10636": {
@@ -1641,7 +1641,7 @@
       ],
       "word_count": 370127,
       "raw_path": "data/raw/10636.txt",
-      "ingested_at": "2026-03-07T06:03:34.126563+00:00",
+      "ingested_at": "2026-03-07T06:07:34.127352+00:00",
       "stripped_path": "data/raw/10636_stripped.txt"
     },
     "1001": {
@@ -1657,7 +1657,7 @@
       ],
       "word_count": 38044,
       "raw_path": "data/raw/1001.txt",
-      "ingested_at": "2026-03-07T06:03:35.574040+00:00",
+      "ingested_at": "2026-03-07T06:07:34.907988+00:00",
       "stripped_path": "data/raw/1001_stripped.txt"
     },
     "69087": {
@@ -1675,7 +1675,7 @@
       ],
       "word_count": 70727,
       "raw_path": "data/raw/69087.txt",
-      "ingested_at": "2026-03-07T06:03:37.691289+00:00",
+      "ingested_at": "2026-03-07T06:07:35.728771+00:00",
       "stripped_path": "data/raw/69087_stripped.txt"
     },
     "996": {
@@ -1692,7 +1692,7 @@
       ],
       "word_count": 427246,
       "raw_path": "data/raw/996.txt",
-      "ingested_at": "2026-03-07T06:03:41.957243+00:00",
+      "ingested_at": "2026-03-07T06:07:36.683650+00:00",
       "stripped_path": "data/raw/996_stripped.txt"
     },
     "6271": {
@@ -1706,7 +1706,7 @@
       ],
       "word_count": 20135,
       "raw_path": "data/raw/6271.txt",
-      "ingested_at": "2026-03-07T06:03:43.358213+00:00",
+      "ingested_at": "2026-03-07T06:07:37.413754+00:00",
       "stripped_path": "data/raw/6271_stripped.txt"
     },
     "34901": {
@@ -1720,7 +1720,7 @@
       ],
       "word_count": 52067,
       "raw_path": "data/raw/34901.txt",
-      "ingested_at": "2026-03-07T06:03:53.900828+00:00",
+      "ingested_at": "2026-03-07T06:07:42.604354+00:00",
       "stripped_path": "data/raw/34901_stripped.txt"
     },
     "20417": {
@@ -1734,7 +1734,7 @@
       ],
       "word_count": 106829,
       "raw_path": "data/raw/20417.txt",
-      "ingested_at": "2026-03-07T06:03:56.553078+00:00",
+      "ingested_at": "2026-03-07T06:07:43.597834+00:00",
       "stripped_path": "data/raw/20417_stripped.txt"
     },
     "20738": {
@@ -1750,7 +1750,7 @@
       ],
       "word_count": 140841,
       "raw_path": "data/raw/20738.txt",
-      "ingested_at": "2026-03-07T06:04:02.951589+00:00",
+      "ingested_at": "2026-03-07T06:07:51.442648+00:00",
       "stripped_path": "data/raw/20738_stripped.txt"
     },
     "39647": {
@@ -1764,7 +1764,7 @@
       ],
       "word_count": 114158,
       "raw_path": "data/raw/39647.txt",
-      "ingested_at": "2026-03-07T06:04:07.476980+00:00",
+      "ingested_at": "2026-03-07T06:07:59.783370+00:00",
       "stripped_path": "data/raw/39647_stripped.txt"
     },
     "20203": {
@@ -1779,7 +1779,7 @@
       ],
       "word_count": 76195,
       "raw_path": "data/raw/20203.txt",
-      "ingested_at": "2026-03-07T06:04:09.809051+00:00",
+      "ingested_at": "2026-03-07T06:08:00.757381+00:00",
       "stripped_path": "data/raw/20203_stripped.txt"
     },
     "2814": {
@@ -1794,7 +1794,7 @@
       ],
       "word_count": 67559,
       "raw_path": "data/raw/2814.txt",
-      "ingested_at": "2026-03-07T06:04:11.511856+00:00",
+      "ingested_at": "2026-03-07T06:08:01.643788+00:00",
       "stripped_path": "data/raw/2814_stripped.txt"
     },
     "10": {
@@ -1807,7 +1807,7 @@
       ],
       "word_count": 821496,
       "raw_path": "data/raw/10.txt",
-      "ingested_at": "2026-03-07T06:04:18.291704+00:00",
+      "ingested_at": "2026-03-07T06:08:02.646932+00:00",
       "stripped_path": "data/raw/10_stripped.txt"
     },
     "1719": {
@@ -1826,7 +1826,7 @@
       ],
       "word_count": 17495,
       "raw_path": "data/raw/1719.txt",
-      "ingested_at": "2026-03-07T06:04:22.004637+00:00",
+      "ingested_at": "2026-03-07T06:08:04.722840+00:00",
       "stripped_path": "data/raw/1719_stripped.txt"
     },
     "73887": {
@@ -1841,7 +1841,7 @@
       ],
       "word_count": 109904,
       "raw_path": "data/raw/73887.txt",
-      "ingested_at": "2026-03-07T06:04:24.063275+00:00",
+      "ingested_at": "2026-03-07T06:08:05.557276+00:00",
       "stripped_path": "data/raw/73887_stripped.txt"
     },
     "19315": {
@@ -1855,7 +1855,7 @@
       ],
       "word_count": 28364,
       "raw_path": "data/raw/19315.txt",
-      "ingested_at": "2026-03-07T06:04:26.962941+00:00",
+      "ingested_at": "2026-03-07T06:08:06.732922+00:00",
       "stripped_path": "data/raw/19315_stripped.txt"
     },
     "51912": {
@@ -1871,7 +1871,7 @@
       ],
       "word_count": 98410,
       "raw_path": "data/raw/51912.txt",
-      "ingested_at": "2026-03-07T06:04:29.018633+00:00",
+      "ingested_at": "2026-03-07T06:08:07.557560+00:00",
       "stripped_path": "data/raw/51912_stripped.txt"
     },
     "50498": {
@@ -1886,7 +1886,7 @@
       ],
       "word_count": 142932,
       "raw_path": "data/raw/50498.txt",
-      "ingested_at": "2026-03-07T06:04:31.367089+00:00",
+      "ingested_at": "2026-03-07T06:08:08.394479+00:00",
       "stripped_path": "data/raw/50498_stripped.txt"
     }
   }
