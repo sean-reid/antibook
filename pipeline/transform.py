@@ -24,6 +24,7 @@ import inflect
 import nltk
 from nltk.corpus import wordnet as wn
 from nltk.stem import WordNetLemmatizer
+from nltk.wsd import lesk as _nltk_lesk
 from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -42,6 +43,10 @@ _inflect = inflect.engine()
 
 # NLTK setup
 _lemmatizer = WordNetLemmatizer()
+
+
+# Words on each side of the target word used as Lesk WSD context
+LESK_WINDOW = 8
 
 
 def ensure_nltk():
@@ -227,6 +232,61 @@ def reinflect(antonym_lemma: str, suffix_type: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Word Sense Disambiguation — Lesk algorithm
+# ---------------------------------------------------------------------------
+
+def get_wsd_antonym(
+    word: str,
+    wn_pos: str,
+    context: list[str],
+    antonym_map: dict[str, str],
+) -> str | None:
+    """
+    Return the context-appropriate antonym using Lesk WSD.
+
+    Strategy:
+      1. Collect antonyms from every WordNet synset for (word, pos).
+      2. If all synsets agree on a single antonym, return it directly —
+         no WSD overhead needed.
+      3. If synsets disagree, run Lesk on the surrounding context words
+         to pick the best-matching synset, then return its antonym.
+      4. If Lesk fails or the synset has no antonym, fall back to the
+         static antonym_map lookup.
+    """
+    synsets = wn.synsets(word, pos=wn_pos)
+    if not synsets:
+        return antonym_map.get(word)
+
+    # Build synset → best antonym mapping
+    sense_ant: dict = {}
+    for ss in synsets:
+        for lemma in ss.lemmas():
+            for ant in lemma.antonyms():
+                ant_word = ant.name().lower().replace("_", "-")
+                if " " not in ant_word:
+                    sense_ant[ss] = ant_word
+                    break
+            if ss in sense_ant:
+                break
+
+    if not sense_ant:
+        return antonym_map.get(word)
+
+    # All senses agree — skip Lesk overhead
+    unique_ants = set(sense_ant.values())
+    if len(unique_ants) == 1:
+        return next(iter(unique_ants))
+
+    # Multiple senses give different antonyms — use Lesk to disambiguate
+    best = _nltk_lesk(context, word, pos=wn_pos)
+    if best and best in sense_ant:
+        return sense_ant[best]
+
+    # Lesk returned no clear winner — fall back to static map
+    return antonym_map.get(word)
+
+
+# ---------------------------------------------------------------------------
 # British → American spelling normalization (fallback coverage)
 # ---------------------------------------------------------------------------
 
@@ -337,10 +397,16 @@ def transform_text(text: str, antonym_map: dict[str, str]) -> str:
         lemma = lemmatize(word_lower, wn_pos)
         suffix_type = get_suffix_type(original_word, tag)
 
-        antonym_lemma = antonym_map.get(lemma)
+        # Context window for Lesk WSD (words around the current position)
+        ctx_start = max(0, list_idx - LESK_WINDOW)
+        ctx_end = min(len(word_strings), list_idx + LESK_WINDOW + 1)
+        context = word_strings[ctx_start:ctx_end]
+
+        # WSD-aware lookup: uses Lesk when a word has multiple senses
+        # with different antonyms, otherwise falls back to static map.
+        antonym_lemma = get_wsd_antonym(lemma, wn_pos, context, antonym_map)
         if antonym_lemma is None:
-            # Try the original word form too
-            antonym_lemma = antonym_map.get(word_lower)
+            antonym_lemma = get_wsd_antonym(word_lower, wn_pos, context, antonym_map)
 
         # British spelling fallback: try normalizing to American spelling
         if antonym_lemma is None:

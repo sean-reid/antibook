@@ -19,10 +19,12 @@ import csv
 import json
 import os
 import sys
+import time
 from collections import defaultdict
 from pathlib import Path
 
 import nltk
+import requests
 from nltk.corpus import wordnet as wn
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -33,6 +35,8 @@ ANTONYM_MAP_PATH = DATA_DIR / "antonym-map.json"
 AUDIT_LOG_PATH = DATA_DIR / "audit-log.csv"
 
 GLOVE_DEFAULT = DATA_DIR / "glove" / "glove.6B.300d.txt"
+CONCEPTNET_CACHE_PATH = DATA_DIR / "conceptnet-cache.json"
+CONCEPTNET_API = "https://api.conceptnet.io/query"
 
 
 def ensure_nltk():
@@ -247,6 +251,98 @@ def build_tier4(remaining: set[str], known: dict[str, str], glove_path: Path,
 # Map assembly
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Tier 5: ConceptNet antonyms
+# ---------------------------------------------------------------------------
+
+def _load_conceptnet_cache() -> dict[str, str]:
+    if CONCEPTNET_CACHE_PATH.exists():
+        return json.loads(CONCEPTNET_CACHE_PATH.read_text())
+    return {}
+
+
+def _save_conceptnet_cache(cache: dict[str, str]):
+    CONCEPTNET_CACHE_PATH.write_text(
+        json.dumps(cache, indent=2, sort_keys=True, ensure_ascii=False)
+    )
+
+
+def _query_conceptnet(word: str, session: "requests.Session") -> str | None:
+    """Return the highest-weighted single-word English antonym from ConceptNet, or None."""
+    try:
+        resp = session.get(
+            CONCEPTNET_API,
+            params={"node": f"/c/en/{word}", "rel": "/r/Antonym", "limit": 10},
+            timeout=(8, 20),
+        )
+        if resp.status_code != 200:
+            return None
+        edges = resp.json().get("edges", [])
+    except Exception:
+        return None
+
+    candidates: list[tuple[str, float]] = []
+    for edge in edges:
+        start_id = edge.get("start", {}).get("@id", "")
+        end_id   = edge.get("end",   {}).get("@id", "")
+        weight   = float(edge.get("weight", 1.0))
+        # Pick the end that is NOT our word
+        other = end_id if f"/c/en/{word}" in start_id else start_id
+        # Extract bare word: /c/en/word or /c/en/word/pos
+        parts = other.strip("/").split("/")
+        if len(parts) >= 3 and parts[0] == "c" and parts[1] == "en":
+            ant = parts[2].lower()
+            if ant != word and ant.isalpha():
+                candidates.append((ant, weight))
+
+    if not candidates:
+        return None
+    return max(candidates, key=lambda x: x[1])[0]
+
+
+def build_conceptnet_tier(
+    remaining: set[str],
+    known: dict[str, str],
+    per_run_limit: int = 1000,
+) -> dict[str, str]:
+    """
+    Query ConceptNet for antonyms of words not yet in the map.
+
+    Results are cached in data/conceptnet-cache.json so API calls only happen
+    once per word across all future map rebuilds.  Each run queries at most
+    `per_run_limit` new words (cache fills in over successive runs).
+    """
+    cache = _load_conceptnet_cache()
+
+    uncached = [w for w in sorted(remaining) if w not in cache]
+    to_query  = uncached[:per_run_limit]
+
+    if to_query:
+        print(f"  Querying ConceptNet for {len(to_query)} words "
+              f"({len(uncached) - len(to_query)} deferred to future runs)…")
+        session = requests.Session()
+        session.headers["User-Agent"] = "antibook-pipeline/1.0"
+
+        for i, word in enumerate(to_query, 1):
+            ant = _query_conceptnet(word, session)
+            cache[word] = ant or ""   # empty string = confirmed no antonym
+            if i % 100 == 0:
+                _save_conceptnet_cache(cache)
+                print(f"    {i}/{len(to_query)} queried…")
+            time.sleep(0.35)          # ~3 req/s — polite to ConceptNet
+
+        _save_conceptnet_cache(cache)
+    else:
+        print(f"  ConceptNet: all {len(remaining)} words already cached.")
+
+    result: dict[str, str] = {}
+    for word in remaining:
+        ant = cache.get(word, "")
+        if ant and word not in known and " " not in ant:
+            result[word] = ant
+    return result
+
+
 def american_to_british_variants(word: str) -> list[str]:
     """
     Generate British spelling variants of an American word.
@@ -275,7 +371,7 @@ def american_to_british_variants(word: str) -> list[str]:
 
 
 def assemble_map(
-    tier1: dict, tier2: dict, tier3: dict, tier4: dict
+    tier1: dict, tier2: dict, tier3: dict, tier4: dict, tier5: dict | None = None
 ) -> tuple[dict[str, str], list[dict]]:
     """
     Merge tiers in priority order, then expand with British spelling variants.
@@ -297,15 +393,17 @@ def assemble_map(
         add(word, ant, 3)
     for word, ant in tier4.items():
         add(word, ant, 4)
+    for word, ant in (tier5 or {}).items():
+        add(word, ant, 5)
 
-    # Tier 5: British spelling variants of all American entries collected so far
+    # Tier 6: British spelling variants of all American entries collected so far
     british_additions: dict[str, str] = {}
     for word, antonym in list(final_map.items()):
         for brit in american_to_british_variants(word):
             if brit not in final_map and brit not in british_additions:
                 british_additions[brit] = antonym
     for word, ant in british_additions.items():
-        add(word, ant, 5)
+        add(word, ant, 6)
 
     return final_map, audit
 
@@ -328,7 +426,8 @@ def print_stats(audit: list[dict], final_map: dict):
         (2, "Tier 2 (WordNet)"),
         (3, "Tier 3 (Moby transitive)"),
         (4, "Tier 4 (GloVe inversion)"),
-        (5, "Tier 5 (British variants)"),
+        (5, "Tier 5 (ConceptNet)"),
+        (6, "Tier 6 (British variants)"),
     ]:
         count = tier_counts.get(tier, 0)
         pct = 100 * count / total if total else 0
@@ -340,6 +439,10 @@ def main():
     parser.add_argument("--glove", action="store_true", help="Enable Tier 4 GloVe inversion")
     parser.add_argument("--glove-path", type=Path, default=GLOVE_DEFAULT,
                         help="Path to glove.6B.300d.txt")
+    parser.add_argument("--conceptnet", action="store_true",
+                        help="Enable Tier 5 ConceptNet antonyms (queries API, results cached)")
+    parser.add_argument("--conceptnet-limit", type=int, default=1000,
+                        help="Max new ConceptNet API queries per run (default: 1000)")
     args = parser.parse_args()
 
     print("Ensuring NLTK corpora …")
@@ -369,8 +472,23 @@ def main():
     else:
         print("Tier 4: Skipped (pass --glove to enable)")
 
+    tier5 = {}
+    if args.conceptnet:
+        print("Tier 5: ConceptNet antonyms …")
+        known_so_far = {**tier1, **tier2, **tier3, **tier4}
+        # Build vocabulary: Moby roots + WordNet lemmas, filtered to plain words
+        vocab: set[str] = set()
+        for w in list(thesaurus.keys()) + [l.name() for s in wn.all_synsets() for l in s.lemmas()]:
+            w = w.lower().replace("_", "-")
+            if w.isalpha() and 3 <= len(w) <= 15 and w not in known_so_far:
+                vocab.add(w)
+        tier5 = build_conceptnet_tier(vocab, known_so_far, per_run_limit=args.conceptnet_limit)
+        print(f"  {len(tier5):,} entries ({len(vocab):,} words checked)")
+    else:
+        print("Tier 5: Skipped (pass --conceptnet to enable)")
+
     print("\nAssembling final map …")
-    final_map, audit = assemble_map(tier1, tier2, tier3, tier4)
+    final_map, audit = assemble_map(tier1, tier2, tier3, tier4, tier5)
 
     ANTONYM_MAP_PATH.write_text(json.dumps(final_map, indent=2, ensure_ascii=False, sort_keys=True))
     write_audit_log(audit)

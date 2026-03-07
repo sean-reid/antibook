@@ -10,6 +10,16 @@ on:
         default: "false"
         type: choice
         options: ["true", "false"]
+      enable_conceptnet:
+        description: "Enable Tier 5 ConceptNet antonyms (queries API, results cached)"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      conceptnet_limit:
+        description: "Max new ConceptNet API queries per run (cached results are free)"
+        required: false
+        default: "1000"
 
 jobs:
   build-map:
@@ -110,11 +120,14 @@ jobs:
 
       - name: Build antonym map
         run: |
-          GLOVE_FLAG=""
+          FLAGS=""
           if [ "${{ inputs.enable_glove }}" = "true" ]; then
-            GLOVE_FLAG="--glove --glove-path data/glove/glove.6B.300d.txt"
+            FLAGS="$FLAGS --glove --glove-path data/glove/glove.6B.300d.txt"
           fi
-          python pipeline/build_map.py $GLOVE_FLAG
+          if [ "${{ inputs.enable_conceptnet }}" = "true" ]; then
+            FLAGS="$FLAGS --conceptnet --conceptnet-limit ${{ inputs.conceptnet_limit || '1000' }}"
+          fi
+          python pipeline/build_map.py $FLAGS
 
       - name: Show map stats
         run: |
@@ -144,6 +157,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/antonym-map.json data/audit-log.csv
+          git add data/conceptnet-cache.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to antonym map."
           else
