@@ -45,9 +45,16 @@ _lemmatizer = WordNetLemmatizer()
 
 
 def ensure_nltk():
-    for corpus in ("averaged_perceptron_tagger", "wordnet", "punkt", "punkt_tab"):
+    checks = {
+        "averaged_perceptron_tagger": "taggers/averaged_perceptron_tagger",
+        "averaged_perceptron_tagger_eng": "taggers/averaged_perceptron_tagger_eng",
+        "wordnet": "corpora/wordnet",
+        "punkt": "tokenizers/punkt",
+        "punkt_tab": "tokenizers/punkt_tab",
+    }
+    for corpus, path in checks.items():
         try:
-            nltk.data.find(f"tokenizers/{corpus}") if corpus.startswith("punkt") else nltk.data.find(f"corpora/{corpus}")
+            nltk.data.find(path)
         except LookupError:
             nltk.download(corpus, quiet=True)
 

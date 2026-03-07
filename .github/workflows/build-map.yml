@@ -40,13 +40,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/nltk_data
-          key: nltk-data-v2
+          key: nltk-data-v3
 
       - name: Download NLTK corpora
         run: |
           python - <<'EOF'
           import nltk
-          for corpus in ("wordnet", "averaged_perceptron_tagger", "omw-1.4", "punkt", "punkt_tab"):
+          for corpus in ("wordnet", "averaged_perceptron_tagger", "averaged_perceptron_tagger_eng", "omw-1.4", "punkt", "punkt_tab"):
               nltk.download(corpus, quiet=False)
           EOF
 
