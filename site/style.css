@@ -297,6 +297,8 @@ body {
 
 /* ── Dual-pane ── */
 .reader-body.dual {
+  height: calc(100dvh - var(--toolbar-h));
+  overflow: hidden;
   gap: 1px;
   background: var(--border);
 }
@@ -306,10 +308,21 @@ body {
   max-width: none;
   background: var(--bg);
   overflow-y: auto;
+  height: 100%;
 }
 
+/* Original text pane is dimmer than the AntiBook */
 .reader-body.dual .reader-pane + .reader-pane .chunk-container {
   color: var(--text-dim);
+}
+
+/* ── Word highlighting (compare mode) ── */
+.w { display: inline; }
+.w.hi {
+  background: rgba(160, 110, 0, 0.14);
+  border-radius: 2px;
+  outline: 1px solid rgba(160, 110, 0, 0.22);
+  outline-offset: 0;
 }
 
 /* ── Spinner ── */

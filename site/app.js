@@ -55,6 +55,13 @@ let prefetchSet = new Set();
 let loadedChunkCount = 0;
 let intersectionObserver = null;
 
+let compareMode = false;
+let origPane = null;
+let origChunkContainer = null;
+let origLoadedCount = 0;
+let scrollSyncCleanup = null;
+let wordHighlightCleanup = null;
+
 // ---------------------------------------------------------------------------
 // Catalog loading
 // ---------------------------------------------------------------------------
@@ -203,6 +210,9 @@ async function openBook(book) {
   searchScreen.classList.add("hidden");
   readerScreen.classList.remove("hidden");
 
+  // Reset compare mode
+  if (compareMode) { exitCompare(); compareMode = false; dualPaneBtn.setAttribute("aria-pressed", "false"); }
+
   // Reset reader state
   chunkContainer.innerHTML = "";
   hide(readerEnd);
@@ -210,6 +220,7 @@ async function openBook(book) {
   if (intersectionObserver) { intersectionObserver.disconnect(); intersectionObserver = null; }
   prefetchSet.clear();
   loadedChunkCount = 0;
+  origLoadedCount = 0;
 
   readerTitleEl.textContent = book.title || "Untitled";
   readerAuthorEl.textContent = book.author || "";
@@ -230,7 +241,8 @@ async function openBook(book) {
     ]);
 
     currentBook.totalChunks = meta.chunk_count;
-    appendChunk(chunk0);
+    currentBook.hasOriginal = meta.has_original || false;
+    appendAntiChunk(chunk0);
     hide(readerSpinner);
     updateProgress();
 
@@ -244,13 +256,45 @@ async function openBook(book) {
   }
 }
 
-function appendChunk(chunk) {
+function appendAntiChunk(chunk) {
   const div = document.createElement("div");
   div.className = "chunk";
   div.dataset.chunkIndex = chunk.index;
-  div.textContent = chunk.text;
+  div.dataset.wordOffset = chunk.word_offset || 0;
+  div.dataset.rawText = chunk.text;
+  div.appendChild(renderChunkContent(chunk.text, chunk.word_offset || 0, compareMode));
   chunkContainer.appendChild(div);
   loadedChunkCount = chunk.index + 1;
+}
+
+function appendOrigChunk(chunk) {
+  if (!origChunkContainer) return;
+  const div = document.createElement("div");
+  div.className = "chunk";
+  div.dataset.chunkIndex = chunk.index;
+  div.appendChild(renderChunkContent(chunk.text, chunk.word_offset || 0, true));
+  origChunkContainer.appendChild(div);
+  origLoadedCount = chunk.index + 1;
+}
+
+function renderChunkContent(text, wordOffset, withSpans) {
+  if (!withSpans) return document.createTextNode(text);
+  const TOKEN_RE = /[a-zA-Z]+(?:'[a-zA-Z]+)?(?:-[a-zA-Z]+)*|[^a-zA-Z]+/g;
+  const frag = document.createDocumentFragment();
+  let wi = wordOffset;
+  for (const m of text.matchAll(TOKEN_RE)) {
+    const tok = m[0];
+    if (/^[a-zA-Z]/.test(tok)) {
+      const span = document.createElement("span");
+      span.className = "w";
+      span.dataset.wi = wi++;
+      span.textContent = tok;
+      frag.appendChild(span);
+    } else {
+      frag.appendChild(document.createTextNode(tok));
+    }
+  }
+  return frag;
 }
 
 async function loadNextChunk() {
@@ -269,9 +313,10 @@ async function loadNextChunk() {
     const chunk = await fetchJSON(
       `${BOOKS_BASE}/${currentBook.id}/chunk-${loadedChunkCount}.json`
     );
-    appendChunk(chunk);
+    appendAntiChunk(chunk);
     updateProgress();
     prefetchChunks(loadedChunkCount + 1);
+    if (compareMode) loadOrigChunks();
   } catch (err) {
     console.warn("Chunk load failed:", err);
   } finally {
@@ -294,7 +339,7 @@ function prefetchChunks(fromIndex) {
   }
 }
 
-function setupScrollSentinel() {
+function setupScrollSentinel(root = null) {
   // Remove old sentinel
   const old = document.getElementById("scroll-sentinel");
   if (old) old.remove();
@@ -304,13 +349,12 @@ function setupScrollSentinel() {
   sentinel.style.height = "1px";
   chunkContainer.after(sentinel);
 
+  if (intersectionObserver) { intersectionObserver.disconnect(); intersectionObserver = null; }
   intersectionObserver = new IntersectionObserver(
     (entries) => {
-      if (entries[0].isIntersecting) {
-        loadNextChunk();
-      }
+      if (entries[0].isIntersecting) loadNextChunk();
     },
-    { rootMargin: "400px" }
+    { rootMargin: "400px", root }
   );
   intersectionObserver.observe(sentinel);
 }
@@ -322,35 +366,118 @@ function updateProgress() {
 }
 
 // ---------------------------------------------------------------------------
-// Dual-pane mode
+// Compare mode (dual-pane: AntiBook + original side by side)
 // ---------------------------------------------------------------------------
 
-let dualPaneActive = false;
-let originalPane = null;
-
 dualPaneBtn.addEventListener("click", () => {
-  dualPaneActive = !dualPaneActive;
-  dualPaneBtn.setAttribute("aria-pressed", String(dualPaneActive));
-
-  if (dualPaneActive) {
-    readerBody.classList.add("dual");
-    if (!originalPane) {
-      originalPane = document.createElement("div");
-      originalPane.id = "original-pane";
-      originalPane.className = "reader-pane";
-      originalPane.innerHTML = `<div class="chunk-container" style="color:var(--text-dim)">
-        <p style="font-family:var(--font-serif);font-style:italic;color:var(--text-faint);padding:40px 0;text-align:center">
-          Original text loading is deferred to v1.1.<br>
-          Word-level alignment requires an original-text chunk store.
-        </p>
-      </div>`;
-    }
-    readerBody.appendChild(originalPane);
-  } else {
-    readerBody.classList.remove("dual");
-    if (originalPane) originalPane.remove();
-  }
+  if (!currentBook) return;
+  compareMode = !compareMode;
+  dualPaneBtn.setAttribute("aria-pressed", String(compareMode));
+  if (compareMode) enterCompare(); else exitCompare();
 });
+
+function enterCompare() {
+  origPane = document.createElement("div");
+  origPane.className = "reader-pane";
+  origChunkContainer = document.createElement("div");
+  origChunkContainer.className = "chunk-container";
+  origPane.appendChild(origChunkContainer);
+
+  readerBody.classList.add("dual");
+  readerBody.appendChild(origPane);
+
+  rerenderAntiChunks(true);
+
+  origLoadedCount = 0;
+  loadOrigChunks();
+
+  const antiPane = document.getElementById("reader-pane");
+  scrollSyncCleanup = setupScrollSync(antiPane, origPane);
+  wordHighlightCleanup = setupWordHighlight(chunkContainer, origChunkContainer);
+  setupScrollSentinel(antiPane);
+}
+
+function exitCompare() {
+  if (scrollSyncCleanup) { scrollSyncCleanup(); scrollSyncCleanup = null; }
+  if (wordHighlightCleanup) { wordHighlightCleanup(); wordHighlightCleanup = null; }
+  readerBody.classList.remove("dual");
+  if (origPane) { origPane.remove(); origPane = null; origChunkContainer = null; }
+  origLoadedCount = 0;
+  rerenderAntiChunks(false);
+  setupScrollSentinel();
+}
+
+function rerenderAntiChunks(withSpans) {
+  chunkContainer.querySelectorAll(".chunk").forEach(div => {
+    const text = div.dataset.rawText;
+    const wordOffset = parseInt(div.dataset.wordOffset || "0", 10);
+    if (text === undefined) return;
+    div.replaceChildren(renderChunkContent(text, wordOffset, withSpans));
+  });
+}
+
+async function loadOrigChunks() {
+  if (!currentBook || !origChunkContainer) return;
+  while (origLoadedCount < loadedChunkCount) {
+    const idx = origLoadedCount;
+    try {
+      const chunk = await fetchJSON(`${BOOKS_BASE}/${currentBook.id}/orig-${idx}.json`);
+      appendOrigChunk(chunk);
+    } catch {
+      break; // orig chunks absent — book needs re-chunking
+    }
+  }
+}
+
+function setupScrollSync(paneA, paneB) {
+  let syncing = false;
+  function sync(from, to) {
+    if (syncing) return;
+    syncing = true;
+    const max = from.scrollHeight - from.clientHeight;
+    if (max > 0) to.scrollTop = (from.scrollTop / max) * (to.scrollHeight - to.clientHeight);
+    syncing = false;
+  }
+  const onA = () => sync(paneA, paneB);
+  const onB = () => sync(paneB, paneA);
+  paneA.addEventListener("scroll", onA);
+  paneB.addEventListener("scroll", onB);
+  return () => { paneA.removeEventListener("scroll", onA); paneB.removeEventListener("scroll", onB); };
+}
+
+function setupWordHighlight(containerA, containerB) {
+  let cur = null;
+  function highlight(wi) {
+    if (wi === cur) return;
+    unhighlight();
+    cur = wi;
+    [containerA, containerB].forEach(c =>
+      c.querySelectorAll(`.w[data-wi="${wi}"]`).forEach(el => el.classList.add("hi"))
+    );
+  }
+  function unhighlight() {
+    if (cur === null) return;
+    [containerA, containerB].forEach(c =>
+      c.querySelectorAll(".w.hi").forEach(el => el.classList.remove("hi"))
+    );
+    cur = null;
+  }
+  function onOver(e) { const w = e.target.closest(".w"); if (w) highlight(w.dataset.wi); }
+  function onOut(e) {
+    const w = e.target.closest(".w");
+    if (w && !e.relatedTarget?.closest(`.w[data-wi="${w.dataset.wi}"]`)) unhighlight();
+  }
+  [containerA, containerB].forEach(c => {
+    c.addEventListener("mouseover", onOver);
+    c.addEventListener("mouseout", onOut);
+  });
+  return () => {
+    [containerA, containerB].forEach(c => {
+      c.removeEventListener("mouseover", onOver);
+      c.removeEventListener("mouseout", onOut);
+    });
+  };
+}
 
 // ---------------------------------------------------------------------------
 // Navigation
@@ -359,6 +486,7 @@ dualPaneBtn.addEventListener("click", () => {
 backBtn.addEventListener("click", goBack);
 
 function goBack() {
+  if (compareMode) { exitCompare(); compareMode = false; dualPaneBtn.setAttribute("aria-pressed", "false"); }
   readerScreen.classList.add("hidden");
   searchScreen.classList.remove("hidden");
   searchScreen.classList.add("active");

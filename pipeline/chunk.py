@@ -34,10 +34,38 @@ MANIFEST_PATH = ROOT / "dist" / "manifest.json"
 DEFAULT_CHUNK_CHARS = 20_000
 
 WORD_RE = re.compile(r"[a-zA-Z]+(?:'[a-zA-Z]+)?(?:-[a-zA-Z]+)*")
+TOKEN_RE = re.compile(r"[a-zA-Z]+(?:'[a-zA-Z]+)?(?:-[a-zA-Z]+)*|[^a-zA-Z]+")
 
 
 def count_words(text: str) -> int:
     return len(WORD_RE.findall(text))
+
+
+def split_original_by_word_counts(text: str, word_counts: list[int]) -> list[str]:
+    """Split original text into segments whose word counts match word_counts exactly.
+
+    This ensures orig-N.json and chunk-N.json have the same word offsets,
+    enabling word-level alignment in the compare view.
+    """
+    tokens = [(m.group(), bool(WORD_RE.fullmatch(m.group()))) for m in TOKEN_RE.finditer(text)]
+    segments = []
+    pos = 0
+    for i, wc in enumerate(word_counts):
+        words_seen = 0
+        start = pos
+        while pos < len(tokens) and words_seen < wc:
+            if tokens[pos][1]:
+                words_seen += 1
+            pos += 1
+        # Consume trailing non-word tokens before the next segment (except last)
+        if i < len(word_counts) - 1:
+            while pos < len(tokens) and not tokens[pos][1]:
+                pos += 1
+        segments.append("".join(tok for tok, _ in tokens[start:pos]))
+    # Any remainder goes into the last segment
+    if pos < len(tokens) and segments:
+        segments[-1] += "".join(tok for tok, _ in tokens[pos:])
+    return segments
 
 
 def get_map_version() -> str:
@@ -113,13 +141,29 @@ def chunk_book(book_id: int, meta: dict, chunk_chars: int, map_version: str, for
 
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Write chunk files
+    # Write antibook chunk files
     for chunk in chunks:
         chunk_path = out_dir / f"chunk-{chunk['index']}.json"
         chunk_path.write_text(
             json.dumps(chunk, ensure_ascii=False),
             encoding="utf-8",
         )
+
+    # Write original text chunks (same word boundaries) for compare mode
+    has_original = False
+    stripped_path = ROOT / meta.get("stripped_path", "")
+    if stripped_path.exists():
+        orig_text = stripped_path.read_text(encoding="utf-8", errors="replace")
+        word_counts = [count_words(c["text"]) for c in chunks]
+        orig_segments = split_original_by_word_counts(orig_text, word_counts)
+        for chunk, orig_seg in zip(chunks, orig_segments):
+            orig_path = out_dir / f"orig-{chunk['index']}.json"
+            orig_path.write_text(
+                json.dumps({"index": chunk["index"], "word_offset": chunk["word_offset"], "text": orig_seg},
+                           ensure_ascii=False),
+                encoding="utf-8",
+            )
+        has_original = True
 
     # Write meta.json
     total_words = count_words(antibook_text)
@@ -132,6 +176,7 @@ def chunk_book(book_id: int, meta: dict, chunk_chars: int, map_version: str, for
         "subjects": meta.get("subjects", []),
         "word_count": total_words,
         "chunk_count": len(chunks),
+        "has_original": has_original,
         "map_version": map_version,
         "preview": make_preview(antibook_text),
         "chunked_at": datetime.now(timezone.utc).isoformat(),
