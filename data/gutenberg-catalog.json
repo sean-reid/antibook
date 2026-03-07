@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-07T07:58:06.745783+00:00",
-    "total_titles": 108
+    "last_updated": "2026-03-07T20:11:50.189992+00:00",
+    "total_titles": 124
   },
   "books": {
     "84": {
@@ -1888,6 +1888,254 @@
       "raw_path": "data/raw/50498.txt",
       "ingested_at": "2026-03-07T06:08:08.394479+00:00",
       "stripped_path": "data/raw/50498_stripped.txt"
+    },
+    "1023": {
+      "id": 1023,
+      "title": "Bleak House",
+      "author": "Dickens, Charles",
+      "language": "en",
+      "subjects": [
+        "London (England) -- Fiction",
+        "Inheritance and succession -- Fiction",
+        "Young women -- Fiction",
+        "Domestic fiction",
+        "Bildungsromans",
+        "Guardian and ward -- Fiction",
+        "Illegitimate children -- Fiction",
+        "Legal stories",
+        "PR"
+      ],
+      "word_count": 353463,
+      "raw_path": "data/raw/1023.txt",
+      "ingested_at": "2026-03-07T20:11:22.680062+00:00",
+      "stripped_path": "data/raw/1023_stripped.txt"
+    },
+    "78120": {
+      "id": 78120,
+      "title": "The marvellous land of Snergs",
+      "author": "Wyke-Smith, Edward Augustine",
+      "language": "en",
+      "word_count": 55058,
+      "raw_path": "data/raw/78120.txt",
+      "ingested_at": "2026-03-07T20:11:28.321184+00:00",
+      "stripped_path": "data/raw/78120_stripped.txt"
+    },
+    "46415": {
+      "id": 46415,
+      "title": "Makers of British Botany; a collection of biographies by living botanists",
+      "author": "Oliver, F. W. (Francis Wall)",
+      "language": "en",
+      "subjects": [
+        "Botany -- Great Britain -- History",
+        "Botanists -- Great Britain -- Biography",
+        "QK"
+      ],
+      "word_count": 120811,
+      "raw_path": "data/raw/46415.txt",
+      "ingested_at": "2026-03-07T20:11:33.171613+00:00",
+      "stripped_path": "data/raw/46415_stripped.txt"
+    },
+    "15272": {
+      "id": 15272,
+      "title": "Spenser's The Faerie Queene, Book I",
+      "author": "Spenser, Edmund",
+      "language": "en",
+      "subjects": [
+        "English poetry -- Early modern, 1500-1700",
+        "Knights and knighthood -- Poetry",
+        "Virtues -- Poetry",
+        "PR"
+      ],
+      "word_count": 74563,
+      "raw_path": "data/raw/15272.txt",
+      "ingested_at": "2026-03-07T20:11:36.070303+00:00",
+      "stripped_path": "data/raw/15272_stripped.txt"
+    },
+    "78121": {
+      "id": 78121,
+      "title": "The servant's behaviour book : $b or, Hints on manners and dress for maid servants in small households",
+      "author": "Patmore, Emily A. (Emily Augusta)",
+      "language": "en",
+      "subjects": [
+        "Women household employees -- England -- Handbooks, manuals, etc.",
+        "TX"
+      ],
+      "word_count": 19108,
+      "raw_path": "data/raw/78121.txt",
+      "ingested_at": "2026-03-07T20:11:36.958615+00:00",
+      "stripped_path": "data/raw/78121_stripped.txt"
+    },
+    "78126": {
+      "id": 78126,
+      "title": "The weird of the wanderer : $b Being the papyrus records of some incidents in one of the previous lives of  Mr. Nicholas Crabbe",
+      "author": "Rolfe, Frederick",
+      "language": "en",
+      "word_count": 80523,
+      "raw_path": "data/raw/78126.txt",
+      "ingested_at": "2026-03-07T20:11:37.552081+00:00",
+      "stripped_path": "data/raw/78126_stripped.txt"
+    },
+    "12116": {
+      "id": 12116,
+      "title": "Struwwelpeter: Merry Stories and Funny Pictures",
+      "author": "Hoffmann, Heinrich",
+      "language": "en",
+      "subjects": [
+        "Children -- Conduct of life -- Juvenile fiction",
+        "Stories in rhyme",
+        "Behavior -- Fiction",
+        "Children's stories, German -- Translations into English",
+        "Picture books for children",
+        "Children's poetry, German -- Translations into English",
+        "PZ"
+      ],
+      "word_count": 2377,
+      "raw_path": "data/raw/12116.txt",
+      "ingested_at": "2026-03-07T20:11:38.534897+00:00",
+      "stripped_path": "data/raw/12116_stripped.txt"
+    },
+    "16966": {
+      "id": 16966,
+      "title": "Shakespearean Tragedy: Lectures on Hamlet, Othello, King Lear, Macbeth",
+      "author": "Bradley, A. C. (Andrew Cecil)",
+      "language": "en",
+      "subjects": [
+        "Shakespeare, William, 1564-1616 -- Tragedies",
+        "PR"
+      ],
+      "word_count": 171240,
+      "raw_path": "data/raw/16966.txt",
+      "ingested_at": "2026-03-07T20:11:40.538985+00:00",
+      "stripped_path": "data/raw/16966_stripped.txt"
+    },
+    "10007": {
+      "id": 10007,
+      "title": "Carmilla",
+      "author": "Le Fanu, Joseph Sheridan",
+      "language": "en",
+      "subjects": [
+        "Young women -- Fiction",
+        "Vampires -- Fiction",
+        "PR"
+      ],
+      "word_count": 28103,
+      "raw_path": "data/raw/10007.txt",
+      "ingested_at": "2026-03-07T20:11:41.209524+00:00",
+      "stripped_path": "data/raw/10007_stripped.txt"
+    },
+    "3825": {
+      "id": 3825,
+      "title": "Pygmalion",
+      "author": "Shaw, Bernard",
+      "language": "en",
+      "subjects": [
+        "Comedy plays",
+        "Speech and social status -- Drama",
+        "London (England) -- Drama",
+        "Linguistics teachers -- Drama",
+        "Social classes -- Drama",
+        "Flower vending -- Drama",
+        "PR"
+      ],
+      "word_count": 33555,
+      "raw_path": "data/raw/3825.txt",
+      "ingested_at": "2026-03-07T20:11:41.895655+00:00",
+      "stripped_path": "data/raw/3825_stripped.txt"
+    },
+    "78122": {
+      "id": 78122,
+      "title": "The history of the Norman conquest of England, its causes and its results, Volume 3 (of 6)",
+      "author": "Freeman, Edward A. (Edward Augustus)",
+      "language": "en",
+      "word_count": 300431,
+      "raw_path": "data/raw/78122.txt",
+      "ingested_at": "2026-03-07T20:11:42.558490+00:00",
+      "stripped_path": "data/raw/78122_stripped.txt"
+    },
+    "27827": {
+      "id": 27827,
+      "title": "The Kama Sutra of Vatsyayana&#13;\nTranslated From the Sanscrit in Seven Parts With Preface, Introduction and Concluding Remarks",
+      "author": "Vatsyayana",
+      "language": "en",
+      "subjects": [
+        "Love",
+        "Sex",
+        "HQ"
+      ],
+      "word_count": 59080,
+      "raw_path": "data/raw/27827.txt",
+      "ingested_at": "2026-03-07T20:11:43.820530+00:00",
+      "stripped_path": "data/raw/27827_stripped.txt"
+    },
+    "37683": {
+      "id": 37683,
+      "title": "Chambers's Twentieth Century Dictionary (part 1 of 4: A-D)",
+      "author": "Davidson, Thomas",
+      "language": "en",
+      "subjects": [
+        "English language -- Dictionaries",
+        "PE"
+      ],
+      "word_count": 314616,
+      "raw_path": "data/raw/37683.txt",
+      "ingested_at": "2026-03-07T20:11:44.624730+00:00",
+      "stripped_path": "data/raw/37683_stripped.txt"
+    },
+    "135": {
+      "id": 135,
+      "title": "Les Misérables",
+      "author": "Hugo, Victor",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "Orphans -- Fiction",
+        "Paris (France) -- Fiction",
+        "Epic literature",
+        "Ex-convicts -- Fiction",
+        "PQ"
+      ],
+      "word_count": 565612,
+      "raw_path": "data/raw/135.txt",
+      "ingested_at": "2026-03-07T20:11:46.938914+00:00",
+      "stripped_path": "data/raw/135_stripped.txt"
+    },
+    "521": {
+      "id": 521,
+      "title": "The Life and Adventures of Robinson Crusoe",
+      "author": "Defoe, Daniel",
+      "language": "en",
+      "subjects": [
+        "Shipwreck survival -- Fiction",
+        "Islands -- Fiction",
+        "Crusoe, Robinson (Fictitious character) -- Fiction",
+        "Atlantic Ocean -- Fiction",
+        "Adventure stories",
+        "Castaways -- Fiction",
+        "PR"
+      ],
+      "word_count": 120920,
+      "raw_path": "data/raw/521.txt",
+      "ingested_at": "2026-03-07T20:11:47.943811+00:00",
+      "stripped_path": "data/raw/521_stripped.txt"
+    },
+    "30254": {
+      "id": 30254,
+      "title": "The Romance of Lust: A classic Victorian erotic novel",
+      "author": "Anonymous",
+      "language": "en",
+      "subjects": [
+        "Incest -- Fiction",
+        "Erotic fiction",
+        "Pornography",
+        "Sexual dominance and submission -- Fiction",
+        "Corporal punishment -- Fiction",
+        "Rape -- Fiction",
+        "PR"
+      ],
+      "word_count": 188899,
+      "raw_path": "data/raw/30254.txt",
+      "ingested_at": "2026-03-07T20:11:48.487510+00:00",
+      "stripped_path": "data/raw/30254_stripped.txt"
     }
   }
 }
