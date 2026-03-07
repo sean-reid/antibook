@@ -430,18 +430,18 @@ async function loadOrigChunks() {
 }
 
 function setupScrollSync(paneA, paneB) {
-  let syncing = false;
-  function sync(from, to) {
-    if (syncing) return;
-    syncing = true;
+  let active = null;
+  function onScroll(from, to) {
+    if (active) return;
+    active = from;
     const max = from.scrollHeight - from.clientHeight;
     if (max > 0) to.scrollTop = (from.scrollTop / max) * (to.scrollHeight - to.clientHeight);
-    syncing = false;
+    requestAnimationFrame(() => { active = null; });
   }
-  const onA = () => sync(paneA, paneB);
-  const onB = () => sync(paneB, paneA);
-  paneA.addEventListener("scroll", onA);
-  paneB.addEventListener("scroll", onB);
+  const onA = () => onScroll(paneA, paneB);
+  const onB = () => onScroll(paneB, paneA);
+  paneA.addEventListener("scroll", onA, { passive: true });
+  paneB.addEventListener("scroll", onB, { passive: true });
   return () => { paneA.removeEventListener("scroll", onA); paneB.removeEventListener("scroll", onB); };
 }
 
