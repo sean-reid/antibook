@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-07T23:48:49.430998+00:00",
-    "total_titles": 510
+    "last_updated": "2026-03-08T05:13:41.443870+00:00",
+    "total_titles": 518
   },
   "books": {
     "84": {
@@ -8485,6 +8485,124 @@
       "raw_path": "data/raw/49668.txt",
       "ingested_at": "2026-03-07T21:15:47.048784+00:00",
       "stripped_path": "data/raw/49668_stripped.txt"
+    },
+    "16433": {
+      "id": 16433,
+      "title": "The Gay Cockade",
+      "author": "Bailey, Temple",
+      "language": "en",
+      "subjects": [
+        "Short stories",
+        "PS"
+      ],
+      "word_count": 84889,
+      "raw_path": "data/raw/16433.txt",
+      "ingested_at": "2026-03-08T05:12:56.779441+00:00",
+      "stripped_path": "data/raw/16433_stripped.txt"
+    },
+    "14838": {
+      "id": 14838,
+      "title": "The Tale of Peter Rabbit",
+      "author": "Potter, Beatrix",
+      "language": "en",
+      "subjects": [
+        "Rabbits -- Juvenile fiction",
+        "PZ"
+      ],
+      "word_count": 1012,
+      "raw_path": "data/raw/14838.txt",
+      "ingested_at": "2026-03-08T05:13:08.350351+00:00",
+      "stripped_path": "data/raw/14838_stripped.txt"
+    },
+    "14975": {
+      "id": 14975,
+      "title": "Southern Horrors: Lynch Law in All Its Phases",
+      "author": "Wells-Barnett, Ida B.",
+      "language": "en",
+      "subjects": [
+        "Lynching",
+        "HV"
+      ],
+      "word_count": 9689,
+      "raw_path": "data/raw/14975.txt",
+      "ingested_at": "2026-03-08T05:13:11.228001+00:00",
+      "stripped_path": "data/raw/14975_stripped.txt"
+    },
+    "14672": {
+      "id": 14672,
+      "title": "The Religion of the Ancient Celts",
+      "author": "MacCulloch, J. A. (John Arnott)",
+      "language": "en",
+      "subjects": [
+        "Celts -- Religion",
+        "Mythology, Celtic",
+        "BL"
+      ],
+      "word_count": 130976,
+      "raw_path": "data/raw/14672.txt",
+      "ingested_at": "2026-03-08T05:13:15.292491+00:00",
+      "stripped_path": "data/raw/14672_stripped.txt"
+    },
+    "15381": {
+      "id": 15381,
+      "title": "Victorian Short Stories: Stories of Courtship",
+      "author": "Gilbert, W. S. (William Schwenck)",
+      "language": "en",
+      "subjects": [
+        "Short stories",
+        "Courtship -- Fiction",
+        "PR"
+      ],
+      "word_count": 35969,
+      "raw_path": "data/raw/15381.txt",
+      "ingested_at": "2026-03-08T05:13:16.612194+00:00",
+      "stripped_path": "data/raw/15381_stripped.txt"
+    },
+    "14818": {
+      "id": 14818,
+      "title": "The Daughter of Anderson Crow",
+      "author": "McCutcheon, George Barr",
+      "language": "en",
+      "subjects": [
+        "City and town life -- Fiction",
+        "Foundlings -- Fiction",
+        "New York (State) -- Fiction",
+        "PS"
+      ],
+      "word_count": 78683,
+      "raw_path": "data/raw/14818.txt",
+      "ingested_at": "2026-03-08T05:13:19.043568+00:00",
+      "stripped_path": "data/raw/14818_stripped.txt"
+    },
+    "14860": {
+      "id": 14860,
+      "title": "The Journal of Sir Walter Scott\nFrom the Original Manuscript at Abbotsford",
+      "author": "Scott, Walter",
+      "language": "en",
+      "subjects": [
+        "Scott, Walter, 1771-1832 -- Diaries",
+        "Authors, Scottish -- 19th century -- Diaries",
+        "PR"
+      ],
+      "word_count": 326738,
+      "raw_path": "data/raw/14860.txt",
+      "ingested_at": "2026-03-08T05:13:28.871128+00:00",
+      "stripped_path": "data/raw/14860_stripped.txt"
+    },
+    "15384": {
+      "id": 15384,
+      "title": "The Real Adventure",
+      "author": "Webster, Henry Kitchell",
+      "language": "en",
+      "subjects": [
+        "Married people -- Fiction",
+        "Man-woman relationships -- Fiction",
+        "PS"
+      ],
+      "word_count": 202471,
+      "raw_path": "data/raw/15384.txt",
+      "ingested_at": "2026-03-08T05:13:34.675379+00:00",
+      "stripped_path": "data/raw/15384_stripped.txt"
     }
   }
 }
