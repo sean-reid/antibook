@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-08T16:40:20.854301+00:00",
-    "total_titles": 1004
+    "last_updated": "2026-03-15T05:43:37.297031+00:00",
+    "total_titles": 1018
   },
   "books": {
     "84": {
@@ -16196,6 +16196,253 @@
       "raw_path": "data/raw/21608.txt",
       "ingested_at": "2026-03-08T16:40:20.741039+00:00",
       "stripped_path": "data/raw/21608_stripped.txt"
+    },
+    "17342": {
+      "id": 17342,
+      "title": "The Motor Maid",
+      "author": "Williamson, C. N. (Charles Norris)",
+      "language": "en",
+      "subjects": [
+        "Young women -- Fiction",
+        "France -- Fiction",
+        "Voyages and travels -- Fiction",
+        "Automobiles -- Fiction",
+        "PR"
+      ],
+      "word_count": 91874,
+      "raw_path": "data/raw/17342.txt",
+      "ingested_at": "2026-03-15T05:41:53.981574+00:00",
+      "stripped_path": "data/raw/17342_stripped.txt"
+    },
+    "19839": {
+      "id": 19839,
+      "title": "Emma",
+      "author": "Austen, Jane",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "England -- Fiction",
+        "Young women -- Fiction",
+        "Love stories",
+        "Fathers and daughters -- Fiction",
+        "Bildungsromans",
+        "Mate selection -- Fiction",
+        "Female friendship -- Fiction",
+        "PR"
+      ],
+      "word_count": 692,
+      "raw_path": "data/raw/19839.txt",
+      "ingested_at": "2026-03-15T05:42:08.053174+00:00",
+      "stripped_path": "data/raw/19839_stripped.txt"
+    },
+    "29951": {
+      "id": 29951,
+      "title": "The Mayflower, January, 1905",
+      "author": "Various",
+      "language": "en",
+      "subjects": [
+        "Horticulture -- Periodicals",
+        "Gardening -- Periodicals",
+        "QK"
+      ],
+      "word_count": 21460,
+      "raw_path": "data/raw/29951.txt",
+      "ingested_at": "2026-03-15T05:42:13.434989+00:00",
+      "stripped_path": "data/raw/29951_stripped.txt"
+    },
+    "21394": {
+      "id": 21394,
+      "title": "Priscilla's Spies",
+      "author": "Birmingham, George A.",
+      "language": "en",
+      "subjects": [
+        "Ireland -- Fiction",
+        "Sailing -- Fiction",
+        "PR"
+      ],
+      "word_count": 73036,
+      "raw_path": "data/raw/21394.txt",
+      "ingested_at": "2026-03-15T05:42:21.647882+00:00",
+      "stripped_path": "data/raw/21394_stripped.txt"
+    },
+    "22542": {
+      "id": 22542,
+      "title": "Jesus the Christ\nA Study of the Messiah and His Mission According to Holy\nScriptures Both Ancient and Modern",
+      "author": "Talmage, James E. (James Edward)",
+      "language": "en",
+      "subjects": [
+        "Jesus Christ -- Biography",
+        "Jesus Christ -- Mormon interpretations",
+        "Christian biography -- Palestine",
+        "BX"
+      ],
+      "word_count": 304383,
+      "raw_path": "data/raw/22542.txt",
+      "ingested_at": "2026-03-15T05:42:23.944713+00:00",
+      "stripped_path": "data/raw/22542_stripped.txt"
+    },
+    "19576": {
+      "id": 19576,
+      "title": "Anne of Green Gables",
+      "author": "Montgomery, L. M. (Lucy Maud)",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "Islands -- Fiction",
+        "Friendship -- Fiction",
+        "Bildungsromans",
+        "Girls -- Fiction",
+        "Country life -- Prince Edward Island -- Fiction",
+        "Prince Edward Island -- History -- 20th century -- Fiction",
+        "Canada -- History -- 1867-1914 -- Fiction",
+        "Shirley, Anne (Fictitious character) -- Fiction",
+        "PZ"
+      ],
+      "word_count": 886,
+      "raw_path": "data/raw/19576.txt",
+      "ingested_at": "2026-03-15T05:42:29.967212+00:00",
+      "stripped_path": "data/raw/19576_stripped.txt"
+    },
+    "21137": {
+      "id": 21137,
+      "title": "Parkhurst Boys, and Other Stories of School Life",
+      "author": "Reed, Talbot Baines",
+      "language": "en",
+      "subjects": [
+        "Schools -- Fiction",
+        "PZ"
+      ],
+      "word_count": 105516,
+      "raw_path": "data/raw/21137.txt",
+      "ingested_at": "2026-03-15T05:42:38.098011+00:00",
+      "stripped_path": "data/raw/21137_stripped.txt"
+    },
+    "20001": {
+      "id": 20001,
+      "title": "The English Spy: An Original Work Characteristic, Satirical, And Humorous.&#13;\nComprising Scenes And Sketches In Every Rank Of Society, Being Portraits Drawn From The Life",
+      "author": "Westmacott, C. M. (Charles Molloy)",
+      "language": "en",
+      "subjects": [
+        "Satire, English",
+        "England -- Social life and customs",
+        "University of Oxford -- Anecdotes",
+        "PR"
+      ],
+      "word_count": 213495,
+      "raw_path": "data/raw/20001.txt",
+      "ingested_at": "2026-03-15T05:42:39.672179+00:00",
+      "stripped_path": "data/raw/20001_stripped.txt"
+    },
+    "20546": {
+      "id": 20546,
+      "title": "The Hand in the Dark",
+      "author": "Rees, Arthur J. (Arthur John)",
+      "language": "en",
+      "subjects": [
+        "Detective and mystery stories",
+        "PR"
+      ],
+      "word_count": 106611,
+      "raw_path": "data/raw/20546.txt",
+      "ingested_at": "2026-03-15T05:42:57.578810+00:00",
+      "stripped_path": "data/raw/20546_stripped.txt"
+    },
+    "24739": {
+      "id": 24739,
+      "title": "Bidwell's Travels, from Wall Street to London Prison: Fifteen Years in Solitude",
+      "author": "Bidwell, Austin",
+      "language": "en",
+      "subjects": [
+        "Criminals -- Biography",
+        "Bidwell, Austin",
+        "Bank fraud -- England",
+        "Bank of England",
+        "CT",
+        "HV"
+      ],
+      "word_count": 137623,
+      "raw_path": "data/raw/24739.txt",
+      "ingested_at": "2026-03-15T05:43:10.990230+00:00",
+      "stripped_path": "data/raw/24739_stripped.txt"
+    },
+    "19506": {
+      "id": 19506,
+      "title": "A Connecticut Yankee in King Arthur's Court",
+      "author": "Twain, Mark",
+      "language": "en",
+      "subjects": [
+        "Fantasy fiction",
+        "Satire",
+        "Knights and knighthood -- Fiction",
+        "Arthurian romances -- Adaptations",
+        "Time travel -- Fiction",
+        "Americans -- Great Britain -- Fiction",
+        "Kings and rulers -- Fiction",
+        "Britons -- Fiction",
+        "PS"
+      ],
+      "word_count": 677,
+      "raw_path": "data/raw/19506.txt",
+      "ingested_at": "2026-03-15T05:43:12.753144+00:00",
+      "stripped_path": "data/raw/19506_stripped.txt"
+    },
+    "19640": {
+      "id": 19640,
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Twain, Mark",
+      "language": "en",
+      "subjects": [
+        "Humorous stories",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Male friendship -- Fiction",
+        "Adventure stories",
+        "Missouri -- Fiction",
+        "Race relations -- Fiction",
+        "Runaway children -- Fiction",
+        "Finn, Huckleberry (Fictitious character) -- Fiction",
+        "Fugitive slaves -- Fiction",
+        "Mississippi River -- Fiction",
+        "PZ",
+        "PS"
+      ],
+      "word_count": 518,
+      "raw_path": "data/raw/19640.txt",
+      "ingested_at": "2026-03-15T05:43:15.008510+00:00",
+      "stripped_path": "data/raw/19640_stripped.txt"
+    },
+    "28780": {
+      "id": 28780,
+      "title": "Peter the Brazen: A Mystery Story of Modern China",
+      "author": "Worts, George F. (George Frank)",
+      "language": "en",
+      "subjects": [
+        "Detective and mystery stories",
+        "China -- Fiction",
+        "PS"
+      ],
+      "word_count": 90374,
+      "raw_path": "data/raw/28780.txt",
+      "ingested_at": "2026-03-15T05:43:28.065021+00:00",
+      "stripped_path": "data/raw/28780_stripped.txt"
+    },
+    "19637": {
+      "id": 19637,
+      "title": "Black Beauty - The Autobiography of a Horse",
+      "author": "Sewell, Anna",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "Horses -- Juvenile fiction",
+        "Human-animal relationships -- Juvenile fiction",
+        "Great Britain -- History -- 19th century -- Juvenile fiction",
+        "PR",
+        "PZ"
+      ],
+      "word_count": 967,
+      "raw_path": "data/raw/19637.txt",
+      "ingested_at": "2026-03-15T05:43:32.082332+00:00",
+      "stripped_path": "data/raw/19637_stripped.txt"
     }
   }
 }
