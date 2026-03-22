@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-15T05:43:37.297031+00:00",
-    "total_titles": 1018
+    "last_updated": "2026-03-22T05:30:20.457483+00:00",
+    "total_titles": 1020
   },
   "books": {
     "84": {
@@ -16443,6 +16443,37 @@
       "raw_path": "data/raw/19637.txt",
       "ingested_at": "2026-03-15T05:43:32.082332+00:00",
       "stripped_path": "data/raw/19637_stripped.txt"
+    },
+    "35899": {
+      "id": 35899,
+      "title": "The Philippines a Century Hence",
+      "author": "Rizal, José",
+      "language": "en",
+      "subjects": [
+        "Philippines",
+        "DS"
+      ],
+      "word_count": 15834,
+      "raw_path": "data/raw/35899.txt",
+      "ingested_at": "2026-03-22T05:26:02.013059+00:00",
+      "stripped_path": "data/raw/35899_stripped.txt"
+    },
+    "36223": {
+      "id": 36223,
+      "title": "The Boy with Wings",
+      "author": "Ruck, Berta",
+      "language": "en",
+      "subjects": [
+        "Love stories",
+        "World War, 1914-1918 -- England -- Fiction",
+        "England -- Social life and customs -- 20th century -- Fiction",
+        "Air pilots, Military -- Fiction",
+        "PR"
+      ],
+      "word_count": 90168,
+      "raw_path": "data/raw/36223.txt",
+      "ingested_at": "2026-03-22T05:29:43.813556+00:00",
+      "stripped_path": "data/raw/36223_stripped.txt"
     }
   }
 }
