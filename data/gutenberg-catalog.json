@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-22T05:30:20.457483+00:00",
-    "total_titles": 1020
+    "last_updated": "2026-03-29T05:48:29.826366+00:00",
+    "total_titles": 1023
   },
   "books": {
     "84": {
@@ -16474,6 +16474,53 @@
       "raw_path": "data/raw/36223.txt",
       "ingested_at": "2026-03-22T05:29:43.813556+00:00",
       "stripped_path": "data/raw/36223_stripped.txt"
+    },
+    "67183": {
+      "id": 67183,
+      "title": "Aspects of nature, in different lands and different climates (Vol. 1 of 2)&#13;\nwith scientific elucidations",
+      "author": "Humboldt, Alexander von",
+      "language": "en",
+      "subjects": [
+        "Science",
+        "South America -- Description and travel",
+        "Physical geography",
+        "Plant morphology",
+        "Q"
+      ],
+      "word_count": 80133,
+      "raw_path": "data/raw/67183.txt",
+      "ingested_at": "2026-03-29T05:47:26.807295+00:00",
+      "stripped_path": "data/raw/67183_stripped.txt"
+    },
+    "58031": {
+      "id": 58031,
+      "title": "Report of the President's Commission on the Assassination of President John F. Kennedy",
+      "author": "United States. Warren Commission",
+      "language": "en",
+      "subjects": [
+        "Kennedy, John F. (John Fitzgerald), 1917-1963 -- Assassination",
+        "Oswald, Lee Harvey",
+        "E740"
+      ],
+      "word_count": 410276,
+      "raw_path": "data/raw/58031.txt",
+      "ingested_at": "2026-03-29T05:47:59.496668+00:00",
+      "stripped_path": "data/raw/58031_stripped.txt"
+    },
+    "67792": {
+      "id": 67792,
+      "title": "A History of Magic and Experimental Science, Volume 1 (of 2)&#13;\nDuring the First Thirteen Centuries of Our Era",
+      "author": "Thorndike, Lynn",
+      "language": "en",
+      "subjects": [
+        "Science -- History",
+        "Magic -- History",
+        "Q"
+      ],
+      "word_count": 320530,
+      "raw_path": "data/raw/67792.txt",
+      "ingested_at": "2026-03-29T05:48:14.293203+00:00",
+      "stripped_path": "data/raw/67792_stripped.txt"
     }
   }
 }
