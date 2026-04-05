@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-03-29T05:48:29.826366+00:00",
-    "total_titles": 1023
+    "last_updated": "2026-04-05T05:51:20.351687+00:00",
+    "total_titles": 1027
   },
   "books": {
     "84": {
@@ -16521,6 +16521,71 @@
       "raw_path": "data/raw/67792.txt",
       "ingested_at": "2026-03-29T05:48:14.293203+00:00",
       "stripped_path": "data/raw/67792_stripped.txt"
+    },
+    "78248": {
+      "id": 78248,
+      "title": "Prolegomena to the study of Greek religion",
+      "author": "Harrison, Jane Ellen",
+      "language": "en",
+      "subjects": [
+        "Mythology, Greek",
+        "Greece -- Religion",
+        "Mysteries, Religious",
+        "Rites and ceremonies -- Greece",
+        "Cults -- Greece",
+        "BL"
+      ],
+      "word_count": 254398,
+      "raw_path": "data/raw/78248.txt",
+      "ingested_at": "2026-04-05T05:49:44.063306+00:00",
+      "stripped_path": "data/raw/78248_stripped.txt"
+    },
+    "72171": {
+      "id": 72171,
+      "title": "How music grew, from prehistoric times to the present day",
+      "author": "Bauer, Marion",
+      "language": "en",
+      "subjects": [
+        "Musicians",
+        "Music -- History and criticism",
+        "ML"
+      ],
+      "word_count": 175598,
+      "raw_path": "data/raw/72171.txt",
+      "ingested_at": "2026-04-05T05:51:05.338215+00:00",
+      "stripped_path": "data/raw/72171_stripped.txt"
+    },
+    "78228": {
+      "id": 78228,
+      "title": "Two happy years in Ceylon",
+      "author": "Gordon Cumming, C. F. (Constance Frederica)",
+      "language": "en",
+      "subjects": [
+        "Sri Lanka -- Description and travel",
+        "DS"
+      ],
+      "word_count": 291320,
+      "raw_path": "data/raw/78228.txt",
+      "ingested_at": "2026-04-05T05:51:13.243423+00:00",
+      "stripped_path": "data/raw/78228_stripped.txt"
+    },
+    "621": {
+      "id": 621,
+      "title": "The Varieties of Religious Experience: A Study in Human Nature",
+      "author": "James, William",
+      "language": "en",
+      "subjects": [
+        "Religion",
+        "Psychology, Religious",
+        "Philosophy and religion",
+        "Conversion",
+        "Experience (Religion)",
+        "BL"
+      ],
+      "word_count": 186374,
+      "raw_path": "data/raw/621.txt",
+      "ingested_at": "2026-04-05T05:51:20.136894+00:00",
+      "stripped_path": "data/raw/621_stripped.txt"
     }
   }
 }
