@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-04-05T05:51:20.351687+00:00",
-    "total_titles": 1027
+    "last_updated": "2026-04-12T06:11:20.618008+00:00",
+    "total_titles": 1069
   },
   "books": {
     "84": {
@@ -16586,6 +16586,648 @@
       "raw_path": "data/raw/621.txt",
       "ingested_at": "2026-04-05T05:51:20.136894+00:00",
       "stripped_path": "data/raw/621_stripped.txt"
+    },
+    "13188": {
+      "id": 13188,
+      "title": "Putnam's Word Book&#13;\nA Practical Aid in Expressing Ideas Through the Use of an Exact and Varied Vocabulary",
+      "author": "Flemming, Louis A. (Louis Andrew)",
+      "language": "en",
+      "subjects": [
+        "English language -- Synonyms and antonyms",
+        "PE"
+      ],
+      "word_count": 106602,
+      "raw_path": "data/raw/13188.txt",
+      "ingested_at": "2026-04-12T05:59:56.140488+00:00",
+      "stripped_path": "data/raw/13188_stripped.txt"
+    },
+    "19488": {
+      "id": 19488,
+      "title": "The Life of Joan of Arc, Vol. 1 and 2",
+      "author": "France, Anatole",
+      "language": "en",
+      "subjects": [
+        "Joan, of Arc, Saint, 1412-1431",
+        "DC"
+      ],
+      "word_count": 307449,
+      "raw_path": "data/raw/19488.txt",
+      "ingested_at": "2026-04-12T06:00:22.426466+00:00",
+      "stripped_path": "data/raw/19488_stripped.txt"
+    },
+    "25833": {
+      "id": 25833,
+      "title": "The Great Controversy Between Christ and Satan",
+      "author": "White, Ellen Gould Harmon",
+      "language": "en",
+      "subjects": [
+        "Seventh-Day Adventists -- Doctrines",
+        "Spiritual direction",
+        "Good and evil",
+        "BX"
+      ],
+      "word_count": 251608,
+      "raw_path": "data/raw/25833.txt",
+      "ingested_at": "2026-04-12T06:00:43.876392+00:00",
+      "stripped_path": "data/raw/25833_stripped.txt"
+    },
+    "24253": {
+      "id": 24253,
+      "title": "Folkways\nA Study of the Sociological Importance of Usages, Manners, Customs, Mores, and Morals",
+      "author": "Sumner, William Graham",
+      "language": "en",
+      "subjects": [
+        "Manners and customs",
+        "GT"
+      ],
+      "word_count": 277425,
+      "raw_path": "data/raw/24253.txt",
+      "ingested_at": "2026-04-12T06:00:55.200698+00:00",
+      "stripped_path": "data/raw/24253_stripped.txt"
+    },
+    "23784": {
+      "id": 23784,
+      "title": "The History of Sir Richard Calmady: A Romance",
+      "author": "Malet, Lucas",
+      "language": "en",
+      "subjects": [
+        "People with disabilities -- Fiction",
+        "Psychological fiction",
+        "Cousins -- Fiction",
+        "Triangles (Interpersonal relations) -- Fiction",
+        "Mothers and sons -- Fiction",
+        "Lesbians -- Fiction",
+        "PR"
+      ],
+      "word_count": 260818,
+      "raw_path": "data/raw/23784.txt",
+      "ingested_at": "2026-04-12T06:01:17.476113+00:00",
+      "stripped_path": "data/raw/23784_stripped.txt"
+    },
+    "23349": {
+      "id": 23349,
+      "title": "The Religious Experience of the Roman People\nFrom the Earliest Times to the Age of Augustus",
+      "author": "Fowler, W. Warde (William Warde)",
+      "language": "en",
+      "subjects": [
+        "Rome -- Religion",
+        "Cults -- Rome",
+        "BL"
+      ],
+      "word_count": 193189,
+      "raw_path": "data/raw/23349.txt",
+      "ingested_at": "2026-04-12T06:01:35.751275+00:00",
+      "stripped_path": "data/raw/23349_stripped.txt"
+    },
+    "22815": {
+      "id": 22815,
+      "title": "The Philippine Islands&#13;\nA Political, Geographical, Ethnographical, Social and Commercial History of the Philippine Archipelago, Embracing the Whole Period of Spanish Rule",
+      "author": "Foreman, John, F.R.G.S.",
+      "language": "en",
+      "subjects": [
+        "Philippines",
+        "DS"
+      ],
+      "word_count": 318682,
+      "raw_path": "data/raw/22815.txt",
+      "ingested_at": "2026-04-12T06:01:58.278971+00:00",
+      "stripped_path": "data/raw/22815_stripped.txt"
+    },
+    "24979": {
+      "id": 24979,
+      "title": "A Source Book for Ancient Church History",
+      "author": "Ayer, Joseph Cullen",
+      "language": "en",
+      "subjects": [
+        "Church history -- Primitive and early church, ca. 30-600 -- Sources",
+        "BR"
+      ],
+      "word_count": 251911,
+      "raw_path": "data/raw/24979.txt",
+      "ingested_at": "2026-04-12T06:02:14.910574+00:00",
+      "stripped_path": "data/raw/24979_stripped.txt"
+    },
+    "22421": {
+      "id": 22421,
+      "title": "The Hesperides & Noble Numbers: Vol. 1 and 2",
+      "author": "Herrick, Robert",
+      "language": "en",
+      "subjects": [
+        "Poetry",
+        "PR"
+      ],
+      "word_count": 136202,
+      "raw_path": "data/raw/22421.txt",
+      "ingested_at": "2026-04-12T06:02:33.277333+00:00",
+      "stripped_path": "data/raw/22421_stripped.txt"
+    },
+    "20990": {
+      "id": 20990,
+      "title": "London and the Kingdom - Volume 2&#13;\nA History Derived Mainly from the Archives at Guildhall in the Custody of the Corporation of the City of London.",
+      "author": "Sharpe, Reginald R. (Reginald Robinson)",
+      "language": "en",
+      "subjects": [
+        "London (England) -- History",
+        "DA"
+      ],
+      "word_count": 199528,
+      "raw_path": "data/raw/20990.txt",
+      "ingested_at": "2026-04-12T06:02:47.587556+00:00",
+      "stripped_path": "data/raw/20990_stripped.txt"
+    },
+    "19771": {
+      "id": 19771,
+      "title": "Henrietta Temple: A Love Story",
+      "author": "Disraeli, Benjamin, Earl of Beaconsfield",
+      "language": "en",
+      "subjects": [
+        "Autobiographical fiction",
+        "London (England) -- Fiction",
+        "Love stories",
+        "Aristocracy (Social class) -- Fiction",
+        "Upper class families -- Fiction",
+        "Dandies -- Fiction",
+        "PR"
+      ],
+      "word_count": 142724,
+      "raw_path": "data/raw/19771.txt",
+      "ingested_at": "2026-04-12T06:03:05.691535+00:00",
+      "stripped_path": "data/raw/19771_stripped.txt"
+    },
+    "22397": {
+      "id": 22397,
+      "title": "Shakespearean Playhouses&#13;\nA History of English Theatres from the Beginnings to the Restoration",
+      "author": "Adams, Joseph Quincy",
+      "language": "en",
+      "subjects": [
+        "Shakespeare, William, 1564-1616 -- Stage history -- To 1625",
+        "Theaters -- England -- London -- History",
+        "PN"
+      ],
+      "word_count": 120252,
+      "raw_path": "data/raw/22397.txt",
+      "ingested_at": "2026-04-12T06:03:20.739609+00:00",
+      "stripped_path": "data/raw/22397_stripped.txt"
+    },
+    "12342": {
+      "id": 12342,
+      "title": "The Nuttall encyclopædia : $b being a concise and comprehensive dictionary of general knowledge",
+      "author": "Nuttall, P. Austin",
+      "language": "en",
+      "subjects": [
+        "Encyclopedias and dictionaries",
+        "AG"
+      ],
+      "word_count": 793613,
+      "raw_path": "data/raw/12342.txt",
+      "ingested_at": "2026-04-12T06:04:48.009875+00:00",
+      "stripped_path": "data/raw/12342_stripped.txt"
+    },
+    "25789": {
+      "id": 25789,
+      "title": "Emily Brontë",
+      "author": "Robinson, A. Mary F. (Agnes Mary Frances)",
+      "language": "en",
+      "subjects": [
+        "Authors, English -- 19th century -- Biography",
+        "Brontë, Emily, 1818-1848",
+        "Women and literature -- England -- History -- 19th century",
+        "PR"
+      ],
+      "word_count": 69407,
+      "raw_path": "data/raw/25789.txt",
+      "ingested_at": "2026-04-12T06:04:53.099314+00:00",
+      "stripped_path": "data/raw/25789_stripped.txt"
+    },
+    "19513": {
+      "id": 19513,
+      "title": "A Journey to the Center of the Earth",
+      "author": "Verne, Jules",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Adventure stories",
+        "Earth (Planet) -- Core -- Fiction",
+        "Voyages, Imaginary -- Fiction",
+        "PQ"
+      ],
+      "word_count": 707,
+      "raw_path": "data/raw/19513.txt",
+      "ingested_at": "2026-04-12T06:04:56.957051+00:00",
+      "stripped_path": "data/raw/19513_stripped.txt"
+    },
+    "19584": {
+      "id": 19584,
+      "title": "A New System; or, an Analysis of Antient Mythology. Volume 2 (of 6)",
+      "author": "Bryant, Jacob",
+      "language": "en",
+      "subjects": [
+        "History, Ancient",
+        "Mythology",
+        "BL"
+      ],
+      "word_count": 105457,
+      "raw_path": "data/raw/19584.txt",
+      "ingested_at": "2026-04-12T06:05:14.102576+00:00",
+      "stripped_path": "data/raw/19584_stripped.txt"
+    },
+    "21006": {
+      "id": 21006,
+      "title": "The Governments of Europe",
+      "author": "Ogg, Frederic Austin",
+      "language": "en",
+      "subjects": [
+        "Political science",
+        "Europe -- Politics and government",
+        "JF"
+      ],
+      "word_count": 295569,
+      "raw_path": "data/raw/21006.txt",
+      "ingested_at": "2026-04-12T06:05:53.420655+00:00",
+      "stripped_path": "data/raw/21006_stripped.txt"
+    },
+    "23500": {
+      "id": 23500,
+      "title": "The Car of Destiny",
+      "author": "Williamson, C. N. (Charles Norris)",
+      "language": "en",
+      "subjects": [
+        "Spain -- Fiction",
+        "PR"
+      ],
+      "word_count": 121898,
+      "raw_path": "data/raw/23500.txt",
+      "ingested_at": "2026-04-12T06:06:06.895412+00:00",
+      "stripped_path": "data/raw/23500_stripped.txt"
+    },
+    "15293": {
+      "id": 15293,
+      "title": "Influences of Geographic Environment\nOn the Basis of Ratzel's System of Anthropo-Geography",
+      "author": "Semple, Ellen Churchill",
+      "language": "en",
+      "subjects": [
+        "Human geography",
+        "Human beings -- Effect of environment on",
+        "GF"
+      ],
+      "word_count": 231566,
+      "raw_path": "data/raw/15293.txt",
+      "ingested_at": "2026-04-12T06:06:31.985898+00:00",
+      "stripped_path": "data/raw/15293_stripped.txt"
+    },
+    "16504": {
+      "id": 16504,
+      "title": "Renaissance in Italy, Volumes 6 and 7 (of 7)&#13;\nThe Catholic Reaction",
+      "author": "Symonds, John Addington",
+      "language": "en",
+      "subjects": [
+        "Renaissance -- Italy",
+        "Catholic Church -- Italy -- History",
+        "DG"
+      ],
+      "word_count": 233497,
+      "raw_path": "data/raw/16504.txt",
+      "ingested_at": "2026-04-12T06:06:58.840942+00:00",
+      "stripped_path": "data/raw/16504_stripped.txt"
+    },
+    "21851": {
+      "id": 21851,
+      "title": "History of the Negro Race in America from 1619 to 1880. Vol. 2&#13;\nNegroes as Slaves, as Soldiers, and as Citizens",
+      "author": "Williams, George Washington",
+      "language": "en",
+      "subjects": [
+        "African Americans -- History",
+        "Liberia",
+        "Sierra Leone",
+        "E151"
+      ],
+      "word_count": 266226,
+      "raw_path": "data/raw/21851.txt",
+      "ingested_at": "2026-04-12T06:07:24.259073+00:00",
+      "stripped_path": "data/raw/21851_stripped.txt"
+    },
+    "23172": {
+      "id": 23172,
+      "title": "The Damned Thing\n1898, From \"In the Midst of Life\"",
+      "author": "Bierce, Ambrose",
+      "language": "en",
+      "subjects": [
+        "Short stories",
+        "Horror tales",
+        "PS"
+      ],
+      "word_count": 3263,
+      "raw_path": "data/raw/23172.txt",
+      "ingested_at": "2026-04-12T06:07:35.381206+00:00",
+      "stripped_path": "data/raw/23172_stripped.txt"
+    },
+    "23354": {
+      "id": 23354,
+      "title": "Vegetable Teratology\nAn Account of the Principal Deviations from the Usual Construction of Plants",
+      "author": "Masters, Maxwell T. (Maxwell Tylden)",
+      "language": "en",
+      "subjects": [
+        "Plants -- Abnormalities",
+        "QK"
+      ],
+      "word_count": 148457,
+      "raw_path": "data/raw/23354.txt",
+      "ingested_at": "2026-04-12T06:07:48.591609+00:00",
+      "stripped_path": "data/raw/23354_stripped.txt"
+    },
+    "24882": {
+      "id": 24882,
+      "title": "Privateering and Piracy in the Colonial Period\nIllustrative Documents",
+      "author": "Jameson, J. Franklin (John Franklin)",
+      "language": "en",
+      "subjects": [
+        "Pirates",
+        "Privateering",
+        "United States -- History -- Colonial period, ca. 1600-1775 -- Sources",
+        "E186"
+      ],
+      "word_count": 239120,
+      "raw_path": "data/raw/24882.txt",
+      "ingested_at": "2026-04-12T06:08:10.225986+00:00",
+      "stripped_path": "data/raw/24882_stripped.txt"
+    },
+    "24855": {
+      "id": 24855,
+      "title": "Concrete Construction: Methods and Costs",
+      "author": "Gillette, Halbert Powers",
+      "language": "en",
+      "subjects": [
+        "Concrete construction",
+        "TA"
+      ],
+      "word_count": 206965,
+      "raw_path": "data/raw/24855.txt",
+      "ingested_at": "2026-04-12T06:08:29.250825+00:00",
+      "stripped_path": "data/raw/24855_stripped.txt"
+    },
+    "22163": {
+      "id": 22163,
+      "title": "The Rover Boys on the Farm; or, Last Days at Putnam Hall",
+      "author": "Stratemeyer, Edward",
+      "language": "en",
+      "subjects": [
+        "Schools -- Juvenile fiction",
+        "Brothers -- Juvenile fiction",
+        "Military education -- Juvenile fiction",
+        "PZ"
+      ],
+      "word_count": 49023,
+      "raw_path": "data/raw/22163.txt",
+      "ingested_at": "2026-04-12T06:08:35.432249+00:00",
+      "stripped_path": "data/raw/22163_stripped.txt"
+    },
+    "16464": {
+      "id": 16464,
+      "title": "The Ancient Irish Epic Tale Táin Bó Cúalnge",
+      "author": "Dunn, Joseph",
+      "language": "en",
+      "subjects": [
+        "Mythology, Celtic -- Ireland",
+        "PB"
+      ],
+      "word_count": 124115,
+      "raw_path": "data/raw/16464.txt",
+      "ingested_at": "2026-04-12T06:08:48.314328+00:00",
+      "stripped_path": "data/raw/16464_stripped.txt"
+    },
+    "18875": {
+      "id": 18875,
+      "title": "The Prairie Wife",
+      "author": "Stringer, Arthur",
+      "language": "en",
+      "subjects": [
+        "Canada -- Fiction",
+        "Frontier and pioneer life -- Prairie Provinces -- Fiction",
+        "PS"
+      ],
+      "word_count": 54271,
+      "raw_path": "data/raw/18875.txt",
+      "ingested_at": "2026-04-12T06:09:02.338588+00:00",
+      "stripped_path": "data/raw/18875_stripped.txt"
+    },
+    "22187": {
+      "id": 22187,
+      "title": "Chambers's Edinburgh Journal, No. 452\nVolume 18, New Series, August 28, 1852",
+      "author": "Various",
+      "language": "en",
+      "subjects": [
+        "Periodicals",
+        "AP"
+      ],
+      "word_count": 20804,
+      "raw_path": "data/raw/22187.txt",
+      "ingested_at": "2026-04-12T06:09:04.193657+00:00",
+      "stripped_path": "data/raw/22187_stripped.txt"
+    },
+    "23184": {
+      "id": 23184,
+      "title": "Monte-Cristo's Daughter",
+      "author": "Flagg, Edmund",
+      "language": "en",
+      "subjects": [
+        "Domestic fiction",
+        "Fathers and daughters -- Fiction",
+        "France -- Fiction",
+        "Dantès, Edmond (Fictitious character) -- Fiction",
+        "PS"
+      ],
+      "word_count": 85040,
+      "raw_path": "data/raw/23184.txt",
+      "ingested_at": "2026-04-12T06:09:17.723677+00:00",
+      "stripped_path": "data/raw/23184_stripped.txt"
+    },
+    "25911": {
+      "id": 25911,
+      "title": "Sea Power in its Relations to the War of 1812. Volume 1",
+      "author": "Mahan, A. T. (Alfred Thayer)",
+      "language": "en",
+      "subjects": [
+        "United States -- History -- War of 1812",
+        "Sea-power",
+        "United States -- History -- War of 1812 -- Naval operations",
+        "United States. Navy -- History -- War of 1812",
+        "E300"
+      ],
+      "word_count": 139152,
+      "raw_path": "data/raw/25911.txt",
+      "ingested_at": "2026-04-12T06:09:32.441109+00:00",
+      "stripped_path": "data/raw/25911_stripped.txt"
+    },
+    "19577": {
+      "id": 19577,
+      "title": "Art and Heart",
+      "author": "Wilcox, Ella Wheeler",
+      "language": "en",
+      "subjects": [
+        "Poetry",
+        "PS"
+      ],
+      "word_count": 766,
+      "raw_path": "data/raw/19577.txt",
+      "ingested_at": "2026-04-12T06:09:33.729454+00:00",
+      "stripped_path": "data/raw/19577_stripped.txt"
+    },
+    "20628": {
+      "id": 20628,
+      "title": "Torchy and Vee",
+      "author": "Ford, Sewell",
+      "language": "en",
+      "subjects": [
+        "New York (N.Y.) -- Fiction",
+        "Humorous stories",
+        "Private secretaries -- Fiction",
+        "World War, 1914-1918 -- United States -- Fiction",
+        "PS"
+      ],
+      "word_count": 70888,
+      "raw_path": "data/raw/20628.txt",
+      "ingested_at": "2026-04-12T06:09:39.625709+00:00",
+      "stripped_path": "data/raw/20628_stripped.txt"
+    },
+    "19575": {
+      "id": 19575,
+      "title": "Anne of Avonlea",
+      "author": "Montgomery, L. M. (Lucy Maud)",
+      "language": "en",
+      "subjects": [
+        "Orphans -- Fiction",
+        "Islands -- Fiction",
+        "Teachers -- Fiction",
+        "Prince Edward Island -- History -- 20th century -- Fiction",
+        "Canada -- History -- 1914-1945 -- Fiction",
+        "Shirley, Anne (Fictitious character) -- Fiction",
+        "PZ"
+      ],
+      "word_count": 739,
+      "raw_path": "data/raw/19575.txt",
+      "ingested_at": "2026-04-12T06:09:42.036368+00:00",
+      "stripped_path": "data/raw/19575_stripped.txt"
+    },
+    "22010": {
+      "id": 22010,
+      "title": "The Tribes and Castes of the Central Provinces of India, Volume 2",
+      "author": "Russell, R. V. (Robert Vane)",
+      "language": "en",
+      "subjects": [
+        "Ethnology -- India -- Madhya Pradesh",
+        "Caste -- India -- Madhya Pradesh",
+        "Madhya Pradesh (India) -- Religion",
+        "Madhya Pradesh (India) -- Scheduled tribes",
+        "DS"
+      ],
+      "word_count": 207994,
+      "raw_path": "data/raw/22010.txt",
+      "ingested_at": "2026-04-12T06:09:54.810039+00:00",
+      "stripped_path": "data/raw/22010_stripped.txt"
+    },
+    "20300": {
+      "id": 20300,
+      "title": "Henry VIII.",
+      "author": "Pollard, A. F. (Albert Frederick)",
+      "language": "en",
+      "subjects": [
+        "Henry VIII, King of England, 1491-1547",
+        "DA"
+      ],
+      "word_count": 146218,
+      "raw_path": "data/raw/20300.txt",
+      "ingested_at": "2026-04-12T06:10:12.910278+00:00",
+      "stripped_path": "data/raw/20300_stripped.txt"
+    },
+    "25761": {
+      "id": 25761,
+      "title": "St. Bernard of Clairvaux's Life of St. Malachy of Armagh",
+      "author": "Bernard, of Clairvaux, Saint",
+      "language": "en",
+      "subjects": [
+        "Malachy, Saint, 1094?-1148",
+        "BR"
+      ],
+      "word_count": 86924,
+      "raw_path": "data/raw/25761.txt",
+      "ingested_at": "2026-04-12T06:10:20.891577+00:00",
+      "stripped_path": "data/raw/25761_stripped.txt"
+    },
+    "22762": {
+      "id": 22762,
+      "title": "History of the Rise of the Huguenots, Vol. 1",
+      "author": "Baird, Henry Martyn",
+      "language": "en",
+      "subjects": [
+        "Huguenots",
+        "DC"
+      ],
+      "word_count": 241456,
+      "raw_path": "data/raw/22762.txt",
+      "ingested_at": "2026-04-12T06:10:30.738032+00:00",
+      "stripped_path": "data/raw/22762_stripped.txt"
+    },
+    "22536": {
+      "id": 22536,
+      "title": "Jane Austen, Her Life and Letters: A Family Record",
+      "author": "Austen-Leigh, William",
+      "language": "en",
+      "subjects": [
+        "Novelists, English -- 19th century -- Family relationships",
+        "Austen, Jane, 1775-1817",
+        "Austen, Jane, 1775-1817 -- Family",
+        "PR"
+      ],
+      "word_count": 139343,
+      "raw_path": "data/raw/22536.txt",
+      "ingested_at": "2026-04-12T06:10:36.343324+00:00",
+      "stripped_path": "data/raw/22536_stripped.txt"
+    },
+    "24950": {
+      "id": 24950,
+      "title": "Bradford's History of 'Plimoth Plantation'\nFrom the Original Manuscript. With a Report of the Proceedings Incident to the Return of the Manuscript to Massachusetts",
+      "author": "Bradford, William",
+      "language": "en",
+      "subjects": [
+        "Massachusetts -- History -- Colonial period, ca. 1600-1775",
+        "F001"
+      ],
+      "word_count": 171407,
+      "raw_path": "data/raw/24950.txt",
+      "ingested_at": "2026-04-12T06:10:49.423859+00:00",
+      "stripped_path": "data/raw/24950_stripped.txt"
+    },
+    "23475": {
+      "id": 23475,
+      "title": "The Works of Lord Byron. Vol. 5&#13;\nPoetry",
+      "author": "Byron, George Gordon Byron, Baron",
+      "language": "en",
+      "subjects": [
+        "English poetry",
+        "English drama",
+        "PR"
+      ],
+      "word_count": 186268,
+      "raw_path": "data/raw/23475.txt",
+      "ingested_at": "2026-04-12T06:11:03.454793+00:00",
+      "stripped_path": "data/raw/23475_stripped.txt"
+    },
+    "13789": {
+      "id": 13789,
+      "title": "Great Britain and the American Civil War",
+      "author": "Adams, Ephraim Douglass",
+      "language": "en",
+      "subjects": [
+        "United States -- History -- Civil War, 1861-1865 -- Foreign public opinion",
+        "United States -- Foreign relations -- Great Britain",
+        "Great Britain -- Foreign relations -- United States",
+        "United States -- Foreign relations -- 1861-1865",
+        "E456"
+      ],
+      "word_count": 232097,
+      "raw_path": "data/raw/13789.txt",
+      "ingested_at": "2026-04-12T06:11:18.737868+00:00",
+      "stripped_path": "data/raw/13789_stripped.txt"
     }
   }
 }
