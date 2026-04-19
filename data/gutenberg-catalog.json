@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-04-12T06:11:20.618008+00:00",
-    "total_titles": 1069
+    "last_updated": "2026-04-19T06:07:08.350088+00:00",
+    "total_titles": 1077
   },
   "books": {
     "84": {
@@ -17228,6 +17228,141 @@
       "raw_path": "data/raw/13789.txt",
       "ingested_at": "2026-04-12T06:11:18.737868+00:00",
       "stripped_path": "data/raw/13789_stripped.txt"
+    },
+    "31885": {
+      "id": 31885,
+      "title": "Bible Myths and their Parallels in other Religions&#13;\nBeing a Comparison of the Old and New Testament Myths and Miracles with those of the Heathen Nations of Antiquity Considering also their Origin and Meaning",
+      "author": "Doane, T. W. (Thomas William)",
+      "language": "en",
+      "subjects": [
+        "Mythology",
+        "Bible -- Criticism, interpretation, etc.",
+        "BL"
+      ],
+      "word_count": 284728,
+      "raw_path": "data/raw/31885.txt",
+      "ingested_at": "2026-04-19T06:05:13.622543+00:00",
+      "stripped_path": "data/raw/31885_stripped.txt"
+    },
+    "25851": {
+      "id": 25851,
+      "title": "The Life of Charles Dickens, Vol. I-III, Complete",
+      "author": "Forster, John",
+      "language": "en",
+      "subjects": [
+        "Dickens, Charles, 1812-1870",
+        "Novelists, English -- 19th century -- Biography",
+        "PR"
+      ],
+      "word_count": 441912,
+      "raw_path": "data/raw/25851.txt",
+      "ingested_at": "2026-04-19T06:05:36.313062+00:00",
+      "stripped_path": "data/raw/25851_stripped.txt"
+    },
+    "43578": {
+      "id": 43578,
+      "title": "An Introduction to Entomology: Vol. 3&#13;\nor Elements of the Natural History of the Insects",
+      "author": "Kirby, William",
+      "language": "en",
+      "subjects": [
+        "Insects",
+        "Insect pests",
+        "Insect societies",
+        "Insects -- History",
+        "Beneficial insects",
+        "Insects -- Host plants",
+        "Insects -- Life cycles",
+        "Insects -- Habitations",
+        "QL"
+      ],
+      "word_count": 214066,
+      "raw_path": "data/raw/43578.txt",
+      "ingested_at": "2026-04-19T06:05:47.825922+00:00",
+      "stripped_path": "data/raw/43578_stripped.txt"
+    },
+    "43671": {
+      "id": 43671,
+      "title": "A History of Epidemics in Britain, Volume 2 (of 2)&#13;\nFrom the Extinction of Plague to the Present Time",
+      "author": "Creighton, Charles",
+      "language": "en",
+      "subjects": [
+        "Epidemics -- Great Britain -- History",
+        "RA"
+      ],
+      "word_count": 403538,
+      "raw_path": "data/raw/43671.txt",
+      "ingested_at": "2026-04-19T06:06:11.370549+00:00",
+      "stripped_path": "data/raw/43671_stripped.txt"
+    },
+    "43255": {
+      "id": 43255,
+      "title": "Domesday Book and Beyond: Three Essays in the Early History of England",
+      "author": "Maitland, Frederic William",
+      "language": "en",
+      "subjects": [
+        "Manuscripts, Medieval -- England",
+        "Great Britain -- History -- Anglo-Saxon period, 449-1066",
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "England -- Economic conditions -- 1066-1485",
+        "Domesday book",
+        "Land tenure -- England -- History",
+        "Feudalism -- England -- History",
+        "DA"
+      ],
+      "word_count": 243628,
+      "raw_path": "data/raw/43255.txt",
+      "ingested_at": "2026-04-19T06:06:25.482167+00:00",
+      "stripped_path": "data/raw/43255_stripped.txt"
+    },
+    "29090": {
+      "id": 29090,
+      "title": "The Complete Poetical Works of Samuel Taylor Coleridge. Vol 1 and 2",
+      "author": "Coleridge, Samuel Taylor",
+      "language": "en",
+      "subjects": [
+        "English poetry -- 19th century",
+        "PR"
+      ],
+      "word_count": 405187,
+      "raw_path": "data/raw/29090.txt",
+      "ingested_at": "2026-04-19T06:06:47.977388+00:00",
+      "stripped_path": "data/raw/29090_stripped.txt"
+    },
+    "43579": {
+      "id": 43579,
+      "title": "An Introduction to Entomology: Vol. 4&#13;\nor Elements of the Natural History of the Insects",
+      "author": "Kirby, William",
+      "language": "en",
+      "subjects": [
+        "Insects",
+        "Insect pests",
+        "Insect societies",
+        "Insects -- History",
+        "Beneficial insects",
+        "Insects -- Host plants",
+        "Insects -- Life cycles",
+        "Insects -- Habitations",
+        "QL"
+      ],
+      "word_count": 193390,
+      "raw_path": "data/raw/43579.txt",
+      "ingested_at": "2026-04-19T06:07:04.381184+00:00",
+      "stripped_path": "data/raw/43579_stripped.txt"
+    },
+    "43840": {
+      "id": 43840,
+      "title": "Poison Romance and Poison Mysteries",
+      "author": "Thompson, C. J. S. (Charles John Samuel)",
+      "language": "en",
+      "subjects": [
+        "Poisoners",
+        "Poisoning",
+        "HV"
+      ],
+      "word_count": 43831,
+      "raw_path": "data/raw/43840.txt",
+      "ingested_at": "2026-04-19T06:07:07.534308+00:00",
+      "stripped_path": "data/raw/43840_stripped.txt"
     }
   }
 }
