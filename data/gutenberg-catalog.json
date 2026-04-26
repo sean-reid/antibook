@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-04-19T06:07:08.350088+00:00",
-    "total_titles": 1077
+    "last_updated": "2026-04-26T06:20:04.740211+00:00",
+    "total_titles": 1159
   },
   "books": {
     "84": {
@@ -17363,6 +17363,1255 @@
       "raw_path": "data/raw/43840.txt",
       "ingested_at": "2026-04-19T06:07:07.534308+00:00",
       "stripped_path": "data/raw/43840_stripped.txt"
+    },
+    "52106": {
+      "id": 52106,
+      "title": "The origin and development of the moral ideas",
+      "author": "Westermarck, Edward",
+      "language": "en",
+      "subjects": [
+        "Ethics",
+        "Prehistoric peoples",
+        "Ethics -- History",
+        "BJ"
+      ],
+      "word_count": 657811,
+      "raw_path": "data/raw/52106.txt",
+      "ingested_at": "2026-04-26T06:11:48.221755+00:00",
+      "stripped_path": "data/raw/52106_stripped.txt"
+    },
+    "47715": {
+      "id": 47715,
+      "title": "The Works of William Shakespeare [Cambridge Edition] [Vol. 7 of 9]",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "English drama",
+        "PR"
+      ],
+      "word_count": 169725,
+      "raw_path": "data/raw/47715.txt",
+      "ingested_at": "2026-04-26T06:11:59.949421+00:00",
+      "stripped_path": "data/raw/47715_stripped.txt"
+    },
+    "49008": {
+      "id": 49008,
+      "title": "The Works of William Shakespeare [Cambridge Edition] [Vol. 8 of 9]",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "English drama",
+        "PR"
+      ],
+      "word_count": 209552,
+      "raw_path": "data/raw/49008.txt",
+      "ingested_at": "2026-04-26T06:12:07.070352+00:00",
+      "stripped_path": "data/raw/49008_stripped.txt"
+    },
+    "51960": {
+      "id": 51960,
+      "title": "The Ancient Stone Implements, Weapons and Ornaments, of Great Britain\nSecond Edition, Revised",
+      "author": "Evans, John",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- Antiquities",
+        "Stone age -- Great Britain",
+        "GN"
+      ],
+      "word_count": 316166,
+      "raw_path": "data/raw/51960.txt",
+      "ingested_at": "2026-04-26T06:12:16.831750+00:00",
+      "stripped_path": "data/raw/51960_stripped.txt"
+    },
+    "50095": {
+      "id": 50095,
+      "title": "The Works of William Shakespeare [Cambridge Edition] [Vol. 4 of 9]",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "English drama",
+        "PR"
+      ],
+      "word_count": 214272,
+      "raw_path": "data/raw/50095.txt",
+      "ingested_at": "2026-04-26T06:12:30.000564+00:00",
+      "stripped_path": "data/raw/50095_stripped.txt"
+    },
+    "59131": {
+      "id": 59131,
+      "title": "The Natural History of Pliny, Volume 3 (of 6)",
+      "author": "Pliny, the Elder",
+      "language": "en",
+      "subjects": [
+        "Natural history -- Pre-Linnean works",
+        "QH"
+      ],
+      "word_count": 234390,
+      "raw_path": "data/raw/59131.txt",
+      "ingested_at": "2026-04-26T06:12:37.518836+00:00",
+      "stripped_path": "data/raw/59131_stripped.txt"
+    },
+    "52160": {
+      "id": 52160,
+      "title": "A Short History of Freethought Ancient and Modern, Volume 2 of 2\nThird edition, Revised and Expanded, in two volumes",
+      "author": "Robertson, J. M. (John Mackinnon)",
+      "language": "en",
+      "subjects": [
+        "Free thought -- History",
+        "BL"
+      ],
+      "word_count": 248134,
+      "raw_path": "data/raw/52160.txt",
+      "ingested_at": "2026-04-26T06:12:41.164848+00:00",
+      "stripped_path": "data/raw/52160_stripped.txt"
+    },
+    "50797": {
+      "id": 50797,
+      "title": "Tagalog Texts with Grammatical Analysis",
+      "author": "Bloomfield, Leonard",
+      "language": "en",
+      "subjects": [
+        "Tagalog language -- Texts",
+        "Tagalog language -- Grammar",
+        "PL"
+      ],
+      "word_count": 153886,
+      "raw_path": "data/raw/50797.txt",
+      "ingested_at": "2026-04-26T06:12:43.347085+00:00",
+      "stripped_path": "data/raw/50797_stripped.txt"
+    },
+    "49007": {
+      "id": 49007,
+      "title": "The Works of William Shakespeare [Cambridge Edition] [Vol. 6 of 9]",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "English drama",
+        "PR"
+      ],
+      "word_count": 169622,
+      "raw_path": "data/raw/49007.txt",
+      "ingested_at": "2026-04-26T06:12:47.151109+00:00",
+      "stripped_path": "data/raw/49007_stripped.txt"
+    },
+    "50685": {
+      "id": 50685,
+      "title": "The Story of Genesis and Exodus: An Early English Song, about 1250 A.D.",
+      "author": "Morris, Richard",
+      "language": "en",
+      "subjects": [
+        "Christian poetry, English (Middle)",
+        "Bible. Genesis -- History of Biblical events -- Poetry",
+        "Bible. Exodus -- History of Biblical events -- Poetry",
+        "PR"
+      ],
+      "word_count": 103052,
+      "raw_path": "data/raw/50685.txt",
+      "ingested_at": "2026-04-26T06:12:48.785870+00:00",
+      "stripped_path": "data/raw/50685_stripped.txt"
+    },
+    "50883": {
+      "id": 50883,
+      "title": "Narrative and Critical History of America, Vol. 2 (of 8)&#13;\nSpanish Explorations and Settlements in America from the Fifteenth to the Seventeenth Century",
+      "author": "Winsor, Justin",
+      "language": "en",
+      "subjects": [
+        "America -- Discovery and exploration",
+        "United States -- History",
+        "America -- History",
+        "E011"
+      ],
+      "word_count": 328235,
+      "raw_path": "data/raw/50883.txt",
+      "ingested_at": "2026-04-26T06:12:51.808825+00:00",
+      "stripped_path": "data/raw/50883_stripped.txt"
+    },
+    "58750": {
+      "id": 58750,
+      "title": "Superstition and Force&#13;\nEssays on the Wager of Law, the Wager of Battle, the Ordeal, Torture",
+      "author": "Lea, Henry Charles",
+      "language": "en",
+      "subjects": [
+        "Torture",
+        "Wager of law",
+        "Wager of battle",
+        "Ordeal",
+        "GT"
+      ],
+      "word_count": 228971,
+      "raw_path": "data/raw/58750.txt",
+      "ingested_at": "2026-04-26T06:12:59.189885+00:00",
+      "stripped_path": "data/raw/58750_stripped.txt"
+    },
+    "51789": {
+      "id": 51789,
+      "title": "Narrative and Critical History of America, Vol. 6 (of 8)&#13;\nThe United States of North America, Part I",
+      "author": "Winsor, Justin",
+      "language": "en",
+      "subjects": [
+        "America -- Discovery and exploration",
+        "United States -- History",
+        "America -- History",
+        "E011"
+      ],
+      "word_count": 451524,
+      "raw_path": "data/raw/51789.txt",
+      "ingested_at": "2026-04-26T06:13:10.076595+00:00",
+      "stripped_path": "data/raw/51789_stripped.txt"
+    },
+    "59386": {
+      "id": 59386,
+      "title": "The history of human marriage",
+      "author": "Westermarck, Edward",
+      "language": "en",
+      "subjects": [
+        "Marriage -- History",
+        "HQ"
+      ],
+      "word_count": 263429,
+      "raw_path": "data/raw/59386.txt",
+      "ingested_at": "2026-04-26T06:13:19.095887+00:00",
+      "stripped_path": "data/raw/59386_stripped.txt"
+    },
+    "45001": {
+      "id": 45001,
+      "title": "Institutes of the Christian Religion (Vol. 1 of 2)",
+      "author": "Calvin, Jean",
+      "language": "en",
+      "subjects": [
+        "Theology, Doctrinal -- Early works to 1800",
+        "Reformed Church -- Doctrines -- Early works to 1800",
+        "BX"
+      ],
+      "word_count": 325072,
+      "raw_path": "data/raw/45001.txt",
+      "ingested_at": "2026-04-26T06:13:29.335744+00:00",
+      "stripped_path": "data/raw/45001_stripped.txt"
+    },
+    "59231": {
+      "id": 59231,
+      "title": "Robert Curthose, Duke of Normandy",
+      "author": "David, Charles W. (Charles Wendell)",
+      "language": "en",
+      "subjects": [
+        "Crusades -- First, 1096-1099",
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "Robert II, Duke of Normandy, 1054?-1134",
+        "Nobility -- France -- Normandy -- Biography",
+        "Normandy (France) -- History -- To 1515",
+        "DC"
+      ],
+      "word_count": 112235,
+      "raw_path": "data/raw/59231.txt",
+      "ingested_at": "2026-04-26T06:13:34.029016+00:00",
+      "stripped_path": "data/raw/59231_stripped.txt"
+    },
+    "51764": {
+      "id": 51764,
+      "title": "Fiue hundred pointes of good husbandrie",
+      "author": "Tusser, Thomas",
+      "language": "en",
+      "subjects": [
+        "Home economics",
+        "Agriculture -- Early works to 1800",
+        "English language -- Terms and phrases -- Early works to 1800",
+        "English language -- Provincialisms -- Early works to 1800",
+        "PE"
+      ],
+      "word_count": 122684,
+      "raw_path": "data/raw/51764.txt",
+      "ingested_at": "2026-04-26T06:13:37.186173+00:00",
+      "stripped_path": "data/raw/51764_stripped.txt"
+    },
+    "53625": {
+      "id": 53625,
+      "title": "Shakspeare and His Times [Vol. 1 of 2]&#13;\nIncluding the Biography of the Poet; criticisms on his genius and writings; a new chronology of his plays; a disquisition on the on the object of his sonnets; and a history of the manners, customs, and amusements, superstitions, poetry, and elegant literature of his age",
+      "author": "Drake, Nathan",
+      "language": "en",
+      "subjects": [
+        "Shakespeare, William, 1564-1616",
+        "Dramatists, English -- Early modern, 1500-1700 -- Biography",
+        "English literature -- Early modern, 1500-1700 -- History and criticism",
+        "Shakespeare, William, 1564-1616 -- Homes and haunts -- England",
+        "England -- Civilization -- 16th century",
+        "PR"
+      ],
+      "word_count": 285402,
+      "raw_path": "data/raw/53625.txt",
+      "ingested_at": "2026-04-26T06:13:41.642040+00:00",
+      "stripped_path": "data/raw/53625_stripped.txt"
+    },
+    "61526": {
+      "id": 61526,
+      "title": "A Dictionary of Islam&#13;\nBeing a cyclopedia of the doctrines, rites, ceremonies, and customs, together with the technical and theological terms, of the Muhammadan religion.",
+      "author": "Hughes, Thomas Patrick",
+      "language": "en",
+      "subjects": [
+        "Islam -- Dictionaries",
+        "BP"
+      ],
+      "word_count": 1220,
+      "raw_path": "data/raw/61526.txt",
+      "ingested_at": "2026-04-26T06:13:43.065415+00:00",
+      "stripped_path": "data/raw/61526_stripped.txt"
+    },
+    "53793": {
+      "id": 53793,
+      "title": "A Literary History of Ireland, from Earliest Times to the Present Day",
+      "author": "Hyde, Douglas",
+      "language": "en",
+      "subjects": [
+        "Civilization, Celtic, in literature",
+        "Language and culture -- Ireland",
+        "Irish literature -- History and criticism",
+        "PB"
+      ],
+      "word_count": 230323,
+      "raw_path": "data/raw/53793.txt",
+      "ingested_at": "2026-04-26T06:13:46.004537+00:00",
+      "stripped_path": "data/raw/53793_stripped.txt"
+    },
+    "59997": {
+      "id": 59997,
+      "title": "The Poetical Works of John Skelton, Volume 1 (of 2)",
+      "author": "Skelton, John",
+      "language": "en",
+      "subjects": [
+        "English poetry -- Early modern, 1500-1700",
+        "PR"
+      ],
+      "word_count": 129914,
+      "raw_path": "data/raw/59997.txt",
+      "ingested_at": "2026-04-26T06:13:49.856953+00:00",
+      "stripped_path": "data/raw/59997_stripped.txt"
+    },
+    "54977": {
+      "id": 54977,
+      "title": "The Sovereignty of the Sea&#13;\nAn Historical Account of the Claims of England to the Dominion of the British Seas, and of the Evolution of the Territorial Waters",
+      "author": "Fulton, Thomas Wemyss",
+      "language": "en",
+      "subjects": [
+        "Sea-power",
+        "Great Britain. Royal Navy -- History",
+        "Fisheries -- Great Britain",
+        "Territorial waters -- Great Britain -- History",
+        "JX",
+        "KZ"
+      ],
+      "word_count": 337606,
+      "raw_path": "data/raw/54977.txt",
+      "ingested_at": "2026-04-26T06:13:56.234850+00:00",
+      "stripped_path": "data/raw/54977_stripped.txt"
+    },
+    "57500": {
+      "id": 57500,
+      "title": "A history of economic doctrines : $b from the time of the physiocrats to the present day",
+      "author": "Gide, Charles",
+      "language": "en",
+      "subjects": [
+        "Economics -- History",
+        "HB"
+      ],
+      "word_count": 326806,
+      "raw_path": "data/raw/57500.txt",
+      "ingested_at": "2026-04-26T06:14:00.329154+00:00",
+      "stripped_path": "data/raw/57500_stripped.txt"
+    },
+    "57375": {
+      "id": 57375,
+      "title": "Annals and Antiquities of Rajasthan, v. 2 of 3\nor the Central and Western Rajput States of India",
+      "author": "Tod, James",
+      "language": "en",
+      "subjects": [
+        "Rajput (Indic people) -- History",
+        "Rajasthan (India) -- History",
+        "DS"
+      ],
+      "word_count": 290981,
+      "raw_path": "data/raw/57375.txt",
+      "ingested_at": "2026-04-26T06:14:05.222017+00:00",
+      "stripped_path": "data/raw/57375_stripped.txt"
+    },
+    "55870": {
+      "id": 55870,
+      "title": "A History of Architecture in all Countries, Volumes 1 and 2, 3rd ed.\nFrom the Earliest Times to the Present Day",
+      "author": "Fergusson, James",
+      "language": "en",
+      "subjects": [
+        "Architecture -- History",
+        "NA"
+      ],
+      "word_count": 445961,
+      "raw_path": "data/raw/55870.txt",
+      "ingested_at": "2026-04-26T06:14:17.699687+00:00",
+      "stripped_path": "data/raw/55870_stripped.txt"
+    },
+    "49135": {
+      "id": 49135,
+      "title": "Luther, vol. 4 of 6",
+      "author": "Grisar, Hartmann",
+      "language": "en",
+      "subjects": [
+        "Luther, Martin, 1483-1546",
+        "BR"
+      ],
+      "word_count": 239160,
+      "raw_path": "data/raw/49135.txt",
+      "ingested_at": "2026-04-26T06:14:21.972434+00:00",
+      "stripped_path": "data/raw/49135_stripped.txt"
+    },
+    "44653": {
+      "id": 44653,
+      "title": "A Latin Grammar for Schools and Colleges",
+      "author": "Lane, George Martin",
+      "language": "en",
+      "subjects": [
+        "Latin language -- Grammar",
+        "PA"
+      ],
+      "word_count": 282253,
+      "raw_path": "data/raw/44653.txt",
+      "ingested_at": "2026-04-26T06:14:27.896293+00:00",
+      "stripped_path": "data/raw/44653_stripped.txt"
+    },
+    "61176": {
+      "id": 61176,
+      "title": "An Historical Sketch of Sacerdotal Celibacy in the Christian Church",
+      "author": "Lea, Henry Charles",
+      "language": "en",
+      "subjects": [
+        "Church history",
+        "Catholic Church -- Clergy",
+        "Celibacy -- Catholic Church",
+        "BV"
+      ],
+      "word_count": 302283,
+      "raw_path": "data/raw/61176.txt",
+      "ingested_at": "2026-04-26T06:14:36.366341+00:00",
+      "stripped_path": "data/raw/61176_stripped.txt"
+    },
+    "34122": {
+      "id": 34122,
+      "title": "Roman Society from Nero to Marcus Aurelius",
+      "author": "Dill, Samuel",
+      "language": "en",
+      "subjects": [
+        "Rome -- Religion",
+        "Rome -- Social life and customs",
+        "DG"
+      ],
+      "word_count": 278224,
+      "raw_path": "data/raw/34122.txt",
+      "ingested_at": "2026-04-26T06:14:43.506506+00:00",
+      "stripped_path": "data/raw/34122_stripped.txt"
+    },
+    "50747": {
+      "id": 50747,
+      "title": "The Expositor's Bible: The Book of the Twelve Prophets, Vol. 2&#13;\nCommonly Called the Minor",
+      "author": "Smith, George Adam",
+      "language": "en",
+      "subjects": [
+        "Bible. Minor Prophets -- Commentaries",
+        "BS"
+      ],
+      "word_count": 160979,
+      "raw_path": "data/raw/50747.txt",
+      "ingested_at": "2026-04-26T06:14:46.779148+00:00",
+      "stripped_path": "data/raw/50747_stripped.txt"
+    },
+    "51259": {
+      "id": 51259,
+      "title": "The Pantropheon; Or, History of Food, Its Preparation, from the Earliest Ages of the World",
+      "author": "Soyer, Alexis",
+      "language": "en",
+      "subjects": [
+        "Food",
+        "Cooking",
+        "Gastronomy",
+        "TX"
+      ],
+      "word_count": 178841,
+      "raw_path": "data/raw/51259.txt",
+      "ingested_at": "2026-04-26T06:14:49.936175+00:00",
+      "stripped_path": "data/raw/51259_stripped.txt"
+    },
+    "61475": {
+      "id": 61475,
+      "title": "Byzantine Constantinople, the walls of the city and adjoining historical sites",
+      "author": "Van Millingen, Alexander",
+      "language": "en",
+      "subjects": [
+        "Istanbul (Turkey)",
+        "Istanbul (Turkey) -- Antiquities",
+        "DR"
+      ],
+      "word_count": 118283,
+      "raw_path": "data/raw/61475.txt",
+      "ingested_at": "2026-04-26T06:14:52.607878+00:00",
+      "stripped_path": "data/raw/61475_stripped.txt"
+    },
+    "51291": {
+      "id": 51291,
+      "title": "Narrative and Critical History of America, Vol. 4 (of 8)&#13;\nFrench Explorations and Settlements in North America and Those of the Portuguese, Dutch, and Swedes 1500-1700",
+      "author": "Winsor, Justin",
+      "language": "en",
+      "subjects": [
+        "America -- Discovery and exploration",
+        "United States -- History",
+        "America -- History",
+        "E011"
+      ],
+      "word_count": 288546,
+      "raw_path": "data/raw/51291.txt",
+      "ingested_at": "2026-04-26T06:15:00.203119+00:00",
+      "stripped_path": "data/raw/51291_stripped.txt"
+    },
+    "57342": {
+      "id": 57342,
+      "title": "The Lives and Opinions of Eminent Philosophers",
+      "author": "Diogenes Laertius",
+      "language": "en",
+      "subjects": [
+        "Philosophy, Ancient",
+        "Philosophers, Ancient -- Biography",
+        "B"
+      ],
+      "word_count": 193004,
+      "raw_path": "data/raw/57342.txt",
+      "ingested_at": "2026-04-26T06:15:03.997269+00:00",
+      "stripped_path": "data/raw/57342_stripped.txt"
+    },
+    "44884": {
+      "id": 44884,
+      "title": "The Geography of Strabo, Volume 1 (of 3)&#13;\nLiterally Translated, with Notes",
+      "author": "Strabo",
+      "language": "en",
+      "subjects": [
+        "Geography -- Early works to 1800",
+        "G"
+      ],
+      "word_count": 215722,
+      "raw_path": "data/raw/44884.txt",
+      "ingested_at": "2026-04-26T06:15:08.539216+00:00",
+      "stripped_path": "data/raw/44884_stripped.txt"
+    },
+    "42686": {
+      "id": 42686,
+      "title": "A History of Epidemics in Britain, Volume 1 (of 2)&#13;\nFrom A.D. 664 to the Extinction of Plague",
+      "author": "Creighton, Charles",
+      "language": "en",
+      "subjects": [
+        "Epidemics -- Great Britain -- History",
+        "RA"
+      ],
+      "word_count": 289167,
+      "raw_path": "data/raw/42686.txt",
+      "ingested_at": "2026-04-26T06:15:14.110299+00:00",
+      "stripped_path": "data/raw/42686_stripped.txt"
+    },
+    "59468": {
+      "id": 59468,
+      "title": "The Scottish Highlands, Highland Clans and Highland Regiments, Volume 1 (of 2)",
+      "author": "Keltie, John Scott, Sir",
+      "language": "en",
+      "subjects": [
+        "Great Britain. Army",
+        "Highlands (Scotland) -- History",
+        "Clans -- Scotland -- Highlands -- History",
+        "Scottish Gaelic philology",
+        "DA"
+      ],
+      "word_count": 627267,
+      "raw_path": "data/raw/59468.txt",
+      "ingested_at": "2026-04-26T06:15:24.933741+00:00",
+      "stripped_path": "data/raw/59468_stripped.txt"
+    },
+    "44833": {
+      "id": 44833,
+      "title": "Chaucer's Works, Volume 2 — Boethius and Troilus",
+      "author": "Chaucer, Geoffrey",
+      "language": "en",
+      "subjects": [
+        "English poetry -- Middle English, 1100-1500",
+        "PR"
+      ],
+      "word_count": 219426,
+      "raw_path": "data/raw/44833.txt",
+      "ingested_at": "2026-04-26T06:15:31.302280+00:00",
+      "stripped_path": "data/raw/44833_stripped.txt"
+    },
+    "55264": {
+      "id": 55264,
+      "title": "On Growth and Form",
+      "author": "Thompson, D'Arcy Wentworth",
+      "language": "en",
+      "subjects": [
+        "Morphology (Animals)",
+        "Growth",
+        "QH",
+        "QP"
+      ],
+      "word_count": 277378,
+      "raw_path": "data/raw/55264.txt",
+      "ingested_at": "2026-04-26T06:15:39.104574+00:00",
+      "stripped_path": "data/raw/55264_stripped.txt"
+    },
+    "44021": {
+      "id": 44021,
+      "title": "Feudal England: Historical Studies on the Eleventh and Twelfth Centuries",
+      "author": "Round, John Horace",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "Domesday book",
+        "Normans -- Great Britain",
+        "Feudalism -- Great Britain",
+        "DA"
+      ],
+      "word_count": 194972,
+      "raw_path": "data/raw/44021.txt",
+      "ingested_at": "2026-04-26T06:15:43.262454+00:00",
+      "stripped_path": "data/raw/44021_stripped.txt"
+    },
+    "40438": {
+      "id": 40438,
+      "title": "Plato and the Other Companions of Sokrates, 3rd ed. Volume 4",
+      "author": "Grote, George",
+      "language": "en",
+      "subjects": [
+        "Plato",
+        "Socrates, 470 BC-399 BC",
+        "Philosophy, Ancient",
+        "B"
+      ],
+      "word_count": 242962,
+      "raw_path": "data/raw/40438.txt",
+      "ingested_at": "2026-04-26T06:15:46.169408+00:00",
+      "stripped_path": "data/raw/40438_stripped.txt"
+    },
+    "59455": {
+      "id": 59455,
+      "title": "A History of Roman Classical Literature.",
+      "author": "Browne, R. W. (Robert William)",
+      "language": "en",
+      "subjects": [
+        "Latin literature -- History and criticism",
+        "PA"
+      ],
+      "word_count": 169645,
+      "raw_path": "data/raw/59455.txt",
+      "ingested_at": "2026-04-26T06:15:50.459328+00:00",
+      "stripped_path": "data/raw/59455_stripped.txt"
+    },
+    "43868": {
+      "id": 43868,
+      "title": "Introduction to the Literature of Europe in the Fifteenth, Sixteenth, and Seventeenth Centuries, Vol. 1",
+      "author": "Hallam, Henry",
+      "language": "en",
+      "subjects": [
+        "Literature, Modern -- History and criticism",
+        "PN"
+      ],
+      "word_count": 363874,
+      "raw_path": "data/raw/43868.txt",
+      "ingested_at": "2026-04-26T06:15:59.654336+00:00",
+      "stripped_path": "data/raw/43868_stripped.txt"
+    },
+    "43271": {
+      "id": 43271,
+      "title": "The Works of Alexander Pope, Volume 2 (of 10)\nPoetry - Volume 2",
+      "author": "Pope, Alexander",
+      "language": "en",
+      "subjects": [
+        "English poetry -- 18th century",
+        "PR"
+      ],
+      "word_count": 227551,
+      "raw_path": "data/raw/43271.txt",
+      "ingested_at": "2026-04-26T06:16:06.876314+00:00",
+      "stripped_path": "data/raw/43271_stripped.txt"
+    },
+    "53626": {
+      "id": 53626,
+      "title": "Shakspeare and His Times [Vol. 2 of 2]&#13;\nIncluding the Biography of the Poet; criticisms on his genius and writings; a new chronology of his plays; a disquisition on the on the object of his sonnets; and a history of the manners, customs, and amusements, superstitions, poetry, and elegant literature of his age",
+      "author": "Drake, Nathan",
+      "language": "en",
+      "subjects": [
+        "Shakespeare, William, 1564-1616",
+        "Dramatists, English -- Early modern, 1500-1700 -- Biography",
+        "English literature -- Early modern, 1500-1700 -- History and criticism",
+        "Shakespeare, William, 1564-1616 -- Homes and haunts -- England",
+        "England -- Civilization -- 16th century",
+        "PR"
+      ],
+      "word_count": 244628,
+      "raw_path": "data/raw/53626.txt",
+      "ingested_at": "2026-04-26T06:16:12.765267+00:00",
+      "stripped_path": "data/raw/53626_stripped.txt"
+    },
+    "40588": {
+      "id": 40588,
+      "title": "The Kathá Sarit Ságara; or, Ocean of the Streams of Story",
+      "author": "Somadeva Bhatta, active 11th century",
+      "language": "en",
+      "subjects": [
+        "Tales -- India",
+        "India -- Social life and customs",
+        "Hindu mythology",
+        "Folk literature -- Themes, motives",
+        "PK"
+      ],
+      "word_count": 616798,
+      "raw_path": "data/raw/40588.txt",
+      "ingested_at": "2026-04-26T06:16:25.754594+00:00",
+      "stripped_path": "data/raw/40588_stripped.txt"
+    },
+    "44885": {
+      "id": 44885,
+      "title": "The Geography of Strabo, Volume 2 (of 3)&#13;\nLiterally Translated, with Notes",
+      "author": "Strabo",
+      "language": "en",
+      "subjects": [
+        "Geography -- Early works to 1800",
+        "G"
+      ],
+      "word_count": 159047,
+      "raw_path": "data/raw/44885.txt",
+      "ingested_at": "2026-04-26T06:16:32.438823+00:00",
+      "stripped_path": "data/raw/44885_stripped.txt"
+    },
+    "53275": {
+      "id": 53275,
+      "title": "The Every-day Book and Table Book, v. 1 (of 3)&#13;\nor Everlasting Calendar of Popular Amusements, Sports, Pastimes, Ceremonies, Manners, Customs and Events, Incident to Each of the Three Hundred and Sixty-five Days, in past and Present Times; Forming a Complete History of the Year, Month, and Seasons, and a Perpetual Key to the Almanac",
+      "author": "Hone, William",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- Social life and customs",
+        "Days",
+        "DA"
+      ],
+      "word_count": 568476,
+      "raw_path": "data/raw/53275.txt",
+      "ingested_at": "2026-04-26T06:16:46.967769+00:00",
+      "stripped_path": "data/raw/53275_stripped.txt"
+    },
+    "32722": {
+      "id": 32722,
+      "title": "Jewish Theology, Systematically and Historically Considered",
+      "author": "Kohler, Kaufmann",
+      "language": "en",
+      "subjects": [
+        "Judaism -- Doctrines",
+        "BM"
+      ],
+      "word_count": 163728,
+      "raw_path": "data/raw/32722.txt",
+      "ingested_at": "2026-04-26T06:16:51.565778+00:00",
+      "stripped_path": "data/raw/32722_stripped.txt"
+    },
+    "61178": {
+      "id": 61178,
+      "title": "History of Indian and Eastern Architecture",
+      "author": "Fergusson, James",
+      "language": "en",
+      "subjects": [
+        "Architecture -- India",
+        "Architecture, Asian",
+        "NA"
+      ],
+      "word_count": 280270,
+      "raw_path": "data/raw/61178.txt",
+      "ingested_at": "2026-04-26T06:16:57.445622+00:00",
+      "stripped_path": "data/raw/61178_stripped.txt"
+    },
+    "51793": {
+      "id": 51793,
+      "title": "A Short History of Freethought Ancient and Modern, Volume 1 of 2\nThird edition, Revised and Expanded, in two volumes",
+      "author": "Robertson, J. M. (John Mackinnon)",
+      "language": "en",
+      "subjects": [
+        "Free thought -- History",
+        "BL"
+      ],
+      "word_count": 236938,
+      "raw_path": "data/raw/51793.txt",
+      "ingested_at": "2026-04-26T06:17:03.334571+00:00",
+      "stripped_path": "data/raw/51793_stripped.txt"
+    },
+    "60662": {
+      "id": 60662,
+      "title": "The Beginnings of Poetry",
+      "author": "Gummere, Francis Barton",
+      "language": "en",
+      "subjects": [
+        "English poetry -- Old English, ca. 450-1100",
+        "Poetry, Medieval",
+        "PN"
+      ],
+      "word_count": 173130,
+      "raw_path": "data/raw/60662.txt",
+      "ingested_at": "2026-04-26T06:17:05.845962+00:00",
+      "stripped_path": "data/raw/60662_stripped.txt"
+    },
+    "54219": {
+      "id": 54219,
+      "title": "A Little English Gallery",
+      "author": "Guiney, Louise Imogen",
+      "language": "en",
+      "subjects": [
+        "Authors, English -- Biography",
+        "PS"
+      ],
+      "word_count": 51353,
+      "raw_path": "data/raw/54219.txt",
+      "ingested_at": "2026-04-26T06:17:09.132322+00:00",
+      "stripped_path": "data/raw/54219_stripped.txt"
+    },
+    "49106": {
+      "id": 49106,
+      "title": "Luther, vol. 3 of 6",
+      "author": "Grisar, Hartmann",
+      "language": "en",
+      "subjects": [
+        "Luther, Martin, 1483-1546",
+        "BR"
+      ],
+      "word_count": 201714,
+      "raw_path": "data/raw/49106.txt",
+      "ingested_at": "2026-04-26T06:17:10.809767+00:00",
+      "stripped_path": "data/raw/49106_stripped.txt"
+    },
+    "39537": {
+      "id": 39537,
+      "title": "Medieval English Nunneries c. 1275 to 1535",
+      "author": "Power, Eileen",
+      "language": "en",
+      "subjects": [
+        "Convents -- England",
+        "Monastic and religious life of women -- History",
+        "BX"
+      ],
+      "word_count": 333250,
+      "raw_path": "data/raw/39537.txt",
+      "ingested_at": "2026-04-26T06:17:16.465626+00:00",
+      "stripped_path": "data/raw/39537_stripped.txt"
+    },
+    "44209": {
+      "id": 44209,
+      "title": "A History of the Inquisition of Spain; vol. 4",
+      "author": "Lea, Henry Charles",
+      "language": "en",
+      "subjects": [
+        "Inquisition -- Spain",
+        "BX"
+      ],
+      "word_count": 272640,
+      "raw_path": "data/raw/44209.txt",
+      "ingested_at": "2026-04-26T06:17:25.216186+00:00",
+      "stripped_path": "data/raw/44209_stripped.txt"
+    },
+    "45027": {
+      "id": 45027,
+      "title": "Chaucer's Works, Volume 3 — The House of Fame; The Legend of Good Women; The Treatise on the Astrolabe; The Sources of the Canterbury Tales",
+      "author": "Chaucer, Geoffrey",
+      "language": "en",
+      "subjects": [
+        "English poetry -- Middle English, 1100-1500",
+        "PR"
+      ],
+      "word_count": 231188,
+      "raw_path": "data/raw/45027.txt",
+      "ingested_at": "2026-04-26T06:17:30.050882+00:00",
+      "stripped_path": "data/raw/45027_stripped.txt"
+    },
+    "41785": {
+      "id": 41785,
+      "title": "Archaic England : $b an essay in deciphering prehistory from megalithic monuments, earthworks, customs, coins, place-names, and faerie superstitions",
+      "author": "Bayley, Harold",
+      "language": "en",
+      "subjects": [
+        "Archaeology",
+        "England -- Antiquities",
+        "DA"
+      ],
+      "word_count": 232773,
+      "raw_path": "data/raw/41785.txt",
+      "ingested_at": "2026-04-26T06:17:37.401734+00:00",
+      "stripped_path": "data/raw/41785_stripped.txt"
+    },
+    "43296": {
+      "id": 43296,
+      "title": "A History of the Inquisition of Spain; vol. 1",
+      "author": "Lea, Henry Charles",
+      "language": "en",
+      "subjects": [
+        "Inquisition -- Spain",
+        "BX"
+      ],
+      "word_count": 261261,
+      "raw_path": "data/raw/43296.txt",
+      "ingested_at": "2026-04-26T06:17:42.824030+00:00",
+      "stripped_path": "data/raw/43296_stripped.txt"
+    },
+    "58529": {
+      "id": 58529,
+      "title": "Hobson-Jobson&#13;\nA Glossary of Colloquial Anglo-Indian Words and Phrases, and of Kindred Terms, Etymological, Historical, Geographical and Discursive",
+      "author": "Yule, Henry, Sir",
+      "language": "en",
+      "subjects": [
+        "English language -- India -- Dictionaries",
+        "English language -- India -- Etymology -- Dictionaries",
+        "English language -- Foreign words and phrases -- Indic -- Dictionaries",
+        "India -- Languages -- Influence on English -- Dictionaries",
+        "India -- Civilization -- Dictionaries",
+        "PE"
+      ],
+      "word_count": 817276,
+      "raw_path": "data/raw/58529.txt",
+      "ingested_at": "2026-04-26T06:17:59.394175+00:00",
+      "stripped_path": "data/raw/58529_stripped.txt"
+    },
+    "47790": {
+      "id": 47790,
+      "title": "The Works of William Cowper&#13;\nHis life, letters, and poems, now first completed by the introduction of Cowper's private correspondence",
+      "author": "Cowper, William",
+      "language": "en",
+      "subjects": [
+        "Poets, English -- 18th century -- Biography",
+        "English poetry -- 18th century",
+        "Cowper, William, 1731-1800",
+        "Cowper, William, 1731-1800 -- Correspondence",
+        "Poets, English -- 18th century -- Correspondence",
+        "PR"
+      ],
+      "word_count": 695063,
+      "raw_path": "data/raw/47790.txt",
+      "ingested_at": "2026-04-26T06:18:17.260721+00:00",
+      "stripped_path": "data/raw/47790_stripped.txt"
+    },
+    "55231": {
+      "id": 55231,
+      "title": "A history of the Peninsular War, Vol. 3, Sep. 1809-Dec. 1810 : $b Ocaña, Cadiz, Bussaco, Torres Vedras",
+      "author": "Oman, Charles",
+      "language": "en",
+      "subjects": [
+        "Peninsular War, 1807-1814",
+        "DC"
+      ],
+      "word_count": 229400,
+      "raw_path": "data/raw/55231.txt",
+      "ingested_at": "2026-04-26T06:18:25.333262+00:00",
+      "stripped_path": "data/raw/55231_stripped.txt"
+    },
+    "40436": {
+      "id": 40436,
+      "title": "Plato and the Other Companions of Sokrates, 3rd ed. Volume 2",
+      "author": "Grote, George",
+      "language": "en",
+      "subjects": [
+        "Plato",
+        "Socrates, 470 BC-399 BC",
+        "Philosophy, Ancient",
+        "B"
+      ],
+      "word_count": 198965,
+      "raw_path": "data/raw/40436.txt",
+      "ingested_at": "2026-04-26T06:18:29.452085+00:00",
+      "stripped_path": "data/raw/40436_stripped.txt"
+    },
+    "42770": {
+      "id": 42770,
+      "title": "The Story of My Life, volumes 4-6",
+      "author": "Hare, Augustus J. C. (Augustus John Cuthbert)",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Victoria, 1837-1901 -- Biography",
+        "Hare, Augustus J. C. (Augustus John Cuthbert), 1834-1903",
+        "DA"
+      ],
+      "word_count": 387304,
+      "raw_path": "data/raw/42770.txt",
+      "ingested_at": "2026-04-26T06:18:38.336155+00:00",
+      "stripped_path": "data/raw/42770_stripped.txt"
+    },
+    "54953": {
+      "id": 54953,
+      "title": "The Minority of Henry the Third",
+      "author": "Norgate, Kate",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Henry III, 1216-1272",
+        "Henry III, King of England, 1207-1272",
+        "DA"
+      ],
+      "word_count": 130719,
+      "raw_path": "data/raw/54953.txt",
+      "ingested_at": "2026-04-26T06:18:41.248963+00:00",
+      "stripped_path": "data/raw/54953_stripped.txt"
+    },
+    "57376": {
+      "id": 57376,
+      "title": "Annals and Antiquities of Rajasthan, v. 3 of 3\nor the Central and Western Rajput States of India",
+      "author": "Tod, James",
+      "language": "en",
+      "subjects": [
+        "Rajput (Indic people) -- History",
+        "Rajasthan (India) -- History",
+        "DS"
+      ],
+      "word_count": 260984,
+      "raw_path": "data/raw/57376.txt",
+      "ingested_at": "2026-04-26T06:18:46.856442+00:00",
+      "stripped_path": "data/raw/57376_stripped.txt"
+    },
+    "60152": {
+      "id": 60152,
+      "title": "History of the Reformation in Europe in the Time of Calvin. Vol. 2 (of 8)",
+      "author": "Merle d'Aubigné, J. H. (Jean Henri)",
+      "language": "en",
+      "subjects": [
+        "Reformation",
+        "BR"
+      ],
+      "word_count": 176799,
+      "raw_path": "data/raw/60152.txt",
+      "ingested_at": "2026-04-26T06:18:51.506848+00:00",
+      "stripped_path": "data/raw/60152_stripped.txt"
+    },
+    "43098": {
+      "id": 43098,
+      "title": "Selected Works of Voltairine de Cleyre",
+      "author": "De Cleyre, Voltairine",
+      "language": "en",
+      "subjects": [
+        "Feminism -- Literary collections",
+        "Anarchism -- Literary collections",
+        "PS"
+      ],
+      "word_count": 137417,
+      "raw_path": "data/raw/43098.txt",
+      "ingested_at": "2026-04-26T06:18:57.917780+00:00",
+      "stripped_path": "data/raw/43098_stripped.txt"
+    },
+    "49027": {
+      "id": 49027,
+      "title": "Medical Jurisprudence, Forensic medicine and Toxicology. Vol. 1",
+      "author": "Witthaus, R. A. (Rudolph August)",
+      "language": "en",
+      "subjects": [
+        "Medical jurisprudence",
+        "Poisons",
+        "Toxicology",
+        "KF",
+        "RA"
+      ],
+      "word_count": 317984,
+      "raw_path": "data/raw/49027.txt",
+      "ingested_at": "2026-04-26T06:19:04.921164+00:00",
+      "stripped_path": "data/raw/49027_stripped.txt"
+    },
+    "47960": {
+      "id": 47960,
+      "title": "Romeo and Juliet",
+      "author": "Shakespeare, William",
+      "language": "en",
+      "subjects": [
+        "Vendetta -- Drama",
+        "Youth -- Drama",
+        "Verona (Italy) -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Conflict of generations -- Drama",
+        "Tragedies (Drama)",
+        "PR"
+      ],
+      "word_count": 77805,
+      "raw_path": "data/raw/47960.txt",
+      "ingested_at": "2026-04-26T06:19:06.277856+00:00",
+      "stripped_path": "data/raw/47960_stripped.txt"
+    },
+    "29540": {
+      "id": 29540,
+      "title": "Grace, Actual and Habitual: A Dogmatic Treatise",
+      "author": "Pohle, Joseph",
+      "language": "en",
+      "subjects": [
+        "Grace (Theology)",
+        "BT"
+      ],
+      "word_count": 129189,
+      "raw_path": "data/raw/29540.txt",
+      "ingested_at": "2026-04-26T06:19:08.158897+00:00",
+      "stripped_path": "data/raw/29540_stripped.txt"
+    },
+    "56880": {
+      "id": 56880,
+      "title": "The Secret Doctrine, Vol. 3 of 4&#13;\nThe Synthesis of Science, Religion, and Philosophy",
+      "author": "Blavatsky, H. P. (Helena Petrovna)",
+      "language": "en",
+      "subjects": [
+        "Theosophy",
+        "BP"
+      ],
+      "word_count": 245859,
+      "raw_path": "data/raw/56880.txt",
+      "ingested_at": "2026-04-26T06:19:11.090679+00:00",
+      "stripped_path": "data/raw/56880_stripped.txt"
+    },
+    "43123": {
+      "id": 43123,
+      "title": "The Native Races [of the Pacific states], Volume 3, Myths and Languages&#13;\nThe Works of Hubert Howe Bancroft, Volume 3",
+      "author": "Bancroft, Hubert Howe",
+      "language": "en",
+      "subjects": [
+        "Indians of Mexico",
+        "Indians of Central America",
+        "Indians -- Bibliography",
+        "Indians of North America -- Pacific Coast of North America",
+        "E011"
+      ],
+      "word_count": 305504,
+      "raw_path": "data/raw/43123.txt",
+      "ingested_at": "2026-04-26T06:19:15.571717+00:00",
+      "stripped_path": "data/raw/43123_stripped.txt"
+    },
+    "44593": {
+      "id": 44593,
+      "title": "The Oxford Book of Ballads",
+      "author": "Quiller-Couch, Arthur",
+      "language": "en",
+      "subjects": [
+        "Ballads, English -- Great Britain -- Texts",
+        "PR"
+      ],
+      "word_count": 149678,
+      "raw_path": "data/raw/44593.txt",
+      "ingested_at": "2026-04-26T06:19:17.636782+00:00",
+      "stripped_path": "data/raw/44593_stripped.txt"
+    },
+    "35548": {
+      "id": 35548,
+      "title": "Doctor Cupid: A Novel",
+      "author": "Broughton, Rhoda",
+      "language": "en",
+      "subjects": [
+        "English fiction -- Welsh authors",
+        "PR"
+      ],
+      "word_count": 123376,
+      "raw_path": "data/raw/35548.txt",
+      "ingested_at": "2026-04-26T06:19:19.237887+00:00",
+      "stripped_path": "data/raw/35548_stripped.txt"
+    },
+    "51326": {
+      "id": 51326,
+      "title": "The Principles of Chemistry, Volume I",
+      "author": "Mendeleyev, Dmitry Ivanovich",
+      "language": "en",
+      "subjects": [
+        "Chemistry",
+        "Periodic law",
+        "Argon",
+        "QD"
+      ],
+      "word_count": 366997,
+      "raw_path": "data/raw/51326.txt",
+      "ingested_at": "2026-04-26T06:19:28.271348+00:00",
+      "stripped_path": "data/raw/51326_stripped.txt"
+    },
+    "57713": {
+      "id": 57713,
+      "title": "The Animal Parasites of Man",
+      "author": "Fantham, Harold Benjamin",
+      "language": "en",
+      "subjects": [
+        "Medical parasitology",
+        "QL",
+        "RC"
+      ],
+      "word_count": 378665,
+      "raw_path": "data/raw/57713.txt",
+      "ingested_at": "2026-04-26T06:19:34.060355+00:00",
+      "stripped_path": "data/raw/57713_stripped.txt"
+    },
+    "51470": {
+      "id": 51470,
+      "title": "Narrative and Critical History of America, Vol. 5 (of 8)&#13;\nThe English and French in North America 1689-1763",
+      "author": "Winsor, Justin",
+      "language": "en",
+      "subjects": [
+        "America -- Discovery and exploration",
+        "United States -- History",
+        "America -- History",
+        "E011"
+      ],
+      "word_count": 358437,
+      "raw_path": "data/raw/51470.txt",
+      "ingested_at": "2026-04-26T06:19:37.285000+00:00",
+      "stripped_path": "data/raw/51470_stripped.txt"
+    },
+    "48770": {
+      "id": 48770,
+      "title": "The travels of Pedro de Cieza de Léon, A.D. 1532-50,\ncontained in the first part of his Chronicle of Peru",
+      "author": "Cieza de León, Pedro de",
+      "language": "en",
+      "subjects": [
+        "America -- Early accounts to 1600",
+        "Peru -- Description and travel -- Early works to 1800",
+        "Peru -- History -- To 1548",
+        "Indians of South America",
+        "Colombia -- Description and travel -- Early works to 1800",
+        "G"
+      ],
+      "word_count": 188562,
+      "raw_path": "data/raw/48770.txt",
+      "ingested_at": "2026-04-26T06:19:41.313792+00:00",
+      "stripped_path": "data/raw/48770_stripped.txt"
+    },
+    "56812": {
+      "id": 56812,
+      "title": "A history of the Peninsular War, Vol. 4, Dec. 1810-Dec. 1811 : $b Massena's retreat, Fuentes de Oñoro, Albuera, Tarragona",
+      "author": "Oman, Charles",
+      "language": "en",
+      "subjects": [
+        "Peninsular War, 1807-1814",
+        "DC"
+      ],
+      "word_count": 265302,
+      "raw_path": "data/raw/56812.txt",
+      "ingested_at": "2026-04-26T06:19:55.030890+00:00",
+      "stripped_path": "data/raw/56812_stripped.txt"
+    },
+    "54618": {
+      "id": 54618,
+      "title": "Æsthetic as science of expression and general linguistic",
+      "author": "Croce, Benedetto",
+      "language": "en",
+      "subjects": [
+        "Philosophy",
+        "Aesthetics",
+        "Language and languages -- Philosophy",
+        "B",
+        "BH"
+      ],
+      "word_count": 170993,
+      "raw_path": "data/raw/54618.txt",
+      "ingested_at": "2026-04-26T06:20:00.313078+00:00",
+      "stripped_path": "data/raw/54618_stripped.txt"
+    },
+    "55070": {
+      "id": 55070,
+      "title": "The Memoirs of François René Vicomte de Chateaubriand sometime Ambassador to England. volume 5 (of 6)\nMémoires d'outre-tombe volume 5",
+      "author": "Chateaubriand, François-René, vicomte de",
+      "language": "en",
+      "subjects": [
+        "Chateaubriand, François-René, vicomte de, 1768-1848",
+        "DC"
+      ],
+      "word_count": 180717,
+      "raw_path": "data/raw/55070.txt",
+      "ingested_at": "2026-04-26T06:20:04.424248+00:00",
+      "stripped_path": "data/raw/55070_stripped.txt"
     }
   }
 }
