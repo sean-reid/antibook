@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-04-26T06:20:04.740211+00:00",
-    "total_titles": 1159
+    "last_updated": "2026-05-03T06:35:39.294566+00:00",
+    "total_titles": 1185
   },
   "books": {
     "84": {
@@ -18612,6 +18612,417 @@
       "raw_path": "data/raw/55070.txt",
       "ingested_at": "2026-04-26T06:20:04.424248+00:00",
       "stripped_path": "data/raw/55070_stripped.txt"
+    },
+    "68348": {
+      "id": 68348,
+      "title": "England under the Angevin Kings, Volumes I and II",
+      "author": "Norgate, Kate",
+      "language": "en",
+      "subjects": [
+        "England -- Civilization -- 1066-1485",
+        "Great Britain -- History -- Angevin period, 1154-1216",
+        "Anjou, House of",
+        "DA"
+      ],
+      "word_count": 430749,
+      "raw_path": "data/raw/68348.txt",
+      "ingested_at": "2026-05-03T06:33:28.195768+00:00",
+      "stripped_path": "data/raw/68348_stripped.txt"
+    },
+    "67691": {
+      "id": 67691,
+      "title": "Pharmacographia&#13;\nA history of the principal drugs of vegetable origin, met with in Great Britain and British India",
+      "author": "Flückiger, Friedrich A. (Friedrich August)",
+      "language": "en",
+      "subjects": [
+        "Botany, Medical",
+        "Materia medica, Vegetable",
+        "Materia medica, Vegetable -- India",
+        "Materia medica, Vegetable -- Great Britain",
+        "RS"
+      ],
+      "word_count": 422969,
+      "raw_path": "data/raw/67691.txt",
+      "ingested_at": "2026-05-03T06:33:45.405711+00:00",
+      "stripped_path": "data/raw/67691_stripped.txt"
+    },
+    "61792": {
+      "id": 61792,
+      "title": "Olympic Victor Monuments and Greek Athletic Art",
+      "author": "Hyde, Walter Woodburn",
+      "language": "en",
+      "subjects": [
+        "Sculpture, Greek",
+        "Sports -- Greece",
+        "Olympics",
+        "NB"
+      ],
+      "word_count": 237953,
+      "raw_path": "data/raw/61792.txt",
+      "ingested_at": "2026-05-03T06:33:53.128465+00:00",
+      "stripped_path": "data/raw/61792_stripped.txt"
+    },
+    "71162": {
+      "id": 71162,
+      "title": "The complete works of John Gower, volume 2 : $b The English works",
+      "author": "Gower, John",
+      "language": "en",
+      "subjects": [
+        "Poetry",
+        "PR"
+      ],
+      "word_count": 245356,
+      "raw_path": "data/raw/71162.txt",
+      "ingested_at": "2026-05-03T06:34:03.760529+00:00",
+      "stripped_path": "data/raw/71162_stripped.txt"
+    },
+    "68693": {
+      "id": 68693,
+      "title": "History of the inductive sciences, from the earliest to the present time",
+      "author": "Whewell, William",
+      "language": "en",
+      "subjects": [
+        "Science -- History",
+        "Q"
+      ],
+      "word_count": 468603,
+      "raw_path": "data/raw/68693.txt",
+      "ingested_at": "2026-05-03T06:34:09.146311+00:00",
+      "stripped_path": "data/raw/68693_stripped.txt"
+    },
+    "66116": {
+      "id": 66116,
+      "title": "Modern Greek Folklore and Ancient Greek Religion: A Study in Survivals",
+      "author": "Lawson, J. C. (John Cuthbert)",
+      "language": "en",
+      "subjects": [
+        "Mythology, Greek",
+        "Greece -- Religion",
+        "Folklore -- Greece",
+        "GR"
+      ],
+      "word_count": 260169,
+      "raw_path": "data/raw/66116.txt",
+      "ingested_at": "2026-05-03T06:34:12.578843+00:00",
+      "stripped_path": "data/raw/66116_stripped.txt"
+    },
+    "69026": {
+      "id": 69026,
+      "title": "Essays on the Latin Orient",
+      "author": "Miller, William",
+      "language": "en",
+      "subjects": [
+        "Greece -- History",
+        "Balkan Peninsula",
+        "Latin Orient",
+        "DF"
+      ],
+      "word_count": 271394,
+      "raw_path": "data/raw/69026.txt",
+      "ingested_at": "2026-05-03T06:34:14.754290+00:00",
+      "stripped_path": "data/raw/69026_stripped.txt"
+    },
+    "69344": {
+      "id": 69344,
+      "title": "Poine: a study in ancient Greek blood-vengeance",
+      "author": "Treston, Hubert Joseph",
+      "language": "en",
+      "subjects": [
+        "Greece -- Civilization",
+        "Vendetta",
+        "Criminal law (Greek law)",
+        "Homicide (Greek law)",
+        "Greek drama (Tragedy) -- History and criticism",
+        "DF",
+        "KL"
+      ],
+      "word_count": 162896,
+      "raw_path": "data/raw/69344.txt",
+      "ingested_at": "2026-05-03T06:34:23.834726+00:00",
+      "stripped_path": "data/raw/69344_stripped.txt"
+    },
+    "67459": {
+      "id": 67459,
+      "title": "The Reign of William Rufus and the Accession of Henry the First, Volume 2 (of 2)",
+      "author": "Freeman, Edward A. (Edward Augustus)",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Henry I, 1100-1135",
+        "Great Britain -- History -- William II, Rufus, 1087-1100",
+        "William II, King of England, 1056?-1100",
+        "Henry I, King of England, 1068-1135",
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "Normans -- Great Britain",
+        "DA"
+      ],
+      "word_count": 295939,
+      "raw_path": "data/raw/67459.txt",
+      "ingested_at": "2026-05-03T06:34:27.680827+00:00",
+      "stripped_path": "data/raw/67459_stripped.txt"
+    },
+    "76864": {
+      "id": 76864,
+      "title": "German composition : $b A theoretical and practical guide to the art of translating English prose into German",
+      "author": "Lange, Hermann",
+      "language": "en",
+      "subjects": [
+        "German language -- Composition and exercises",
+        "German language -- Grammar",
+        "English language -- Translating into German",
+        "PD"
+      ],
+      "word_count": 132393,
+      "raw_path": "data/raw/76864.txt",
+      "ingested_at": "2026-05-03T06:34:35.594819+00:00",
+      "stripped_path": "data/raw/76864_stripped.txt"
+    },
+    "68419": {
+      "id": 68419,
+      "title": "The Roman assemblies from their origin to the end of the Republic",
+      "author": "Botsford, George Willis",
+      "language": "en",
+      "subjects": [
+        "Rome -- Politics and government",
+        "Constitutional law -- Rome",
+        "JC"
+      ],
+      "word_count": 236769,
+      "raw_path": "data/raw/68419.txt",
+      "ingested_at": "2026-05-03T06:34:40.713166+00:00",
+      "stripped_path": "data/raw/68419_stripped.txt"
+    },
+    "67707": {
+      "id": 67707,
+      "title": "The History of the Manners and Customs of Ancient Greece, Volume 3 (of 3)",
+      "author": "St. John, James Augustus",
+      "language": "en",
+      "subjects": [
+        "Greece -- Social life and customs",
+        "DF"
+      ],
+      "word_count": 178220,
+      "raw_path": "data/raw/67707.txt",
+      "ingested_at": "2026-05-03T06:34:44.842574+00:00",
+      "stripped_path": "data/raw/67707_stripped.txt"
+    },
+    "62657": {
+      "id": 62657,
+      "title": "History of Central America, Volume 3, 1801-1887&#13;\nThe Works of Hubert Howe Bancroft, Volume 8",
+      "author": "Bancroft, Hubert Howe",
+      "language": "en",
+      "subjects": [
+        "Central America -- History",
+        "F1401"
+      ],
+      "word_count": 339250,
+      "raw_path": "data/raw/62657.txt",
+      "ingested_at": "2026-05-03T06:34:46.861395+00:00",
+      "stripped_path": "data/raw/62657_stripped.txt"
+    },
+    "65341": {
+      "id": 65341,
+      "title": "Treatise on Poisons\nIn relation to medical jurisprudence, physiology, and the practice of physic",
+      "author": "Christison, Robert, Sir",
+      "language": "en",
+      "subjects": [
+        "Medical jurisprudence",
+        "Toxicology",
+        "RA"
+      ],
+      "word_count": 391251,
+      "raw_path": "data/raw/65341.txt",
+      "ingested_at": "2026-05-03T06:34:53.774772+00:00",
+      "stripped_path": "data/raw/65341_stripped.txt"
+    },
+    "68347": {
+      "id": 68347,
+      "title": "England under the Angevin Kings, Volume II",
+      "author": "Norgate, Kate",
+      "language": "en",
+      "subjects": [
+        "England -- Civilization -- 1066-1485",
+        "Great Britain -- History -- Angevin period, 1154-1216",
+        "Anjou, House of",
+        "DA"
+      ],
+      "word_count": 224809,
+      "raw_path": "data/raw/68347.txt",
+      "ingested_at": "2026-05-03T06:34:57.407526+00:00",
+      "stripped_path": "data/raw/68347_stripped.txt"
+    },
+    "75871": {
+      "id": 75871,
+      "title": "Isis unveiled, Volume 2 (of 2), Theology : $b A master-key to the mysteries of ancient and modern science and theology",
+      "author": "Blavatsky, H. P. (Helena Petrovna)",
+      "language": "en",
+      "subjects": [
+        "Theosophy",
+        "BP"
+      ],
+      "word_count": 361303,
+      "raw_path": "data/raw/75871.txt",
+      "ingested_at": "2026-05-03T06:35:01.279399+00:00",
+      "stripped_path": "data/raw/75871_stripped.txt"
+    },
+    "65011": {
+      "id": 65011,
+      "title": "U.S. Marine Operations in Korea, 1950-1953, Volume 5 (of 5)&#13;\nOperations in West Korea",
+      "author": "United States. Marine Corps",
+      "language": "en",
+      "subjects": [
+        "United States. Marine Corps -- History -- Korean War, 1950-1953",
+        "Korean War, 1950-1953 -- Campaigns",
+        "DS"
+      ],
+      "word_count": 236981,
+      "raw_path": "data/raw/65011.txt",
+      "ingested_at": "2026-05-03T06:35:06.587404+00:00",
+      "stripped_path": "data/raw/65011_stripped.txt"
+    },
+    "732": {
+      "id": 732,
+      "title": "History of the Decline and Fall of the Roman Empire — Volume 2",
+      "author": "Gibbon, Edward",
+      "language": "en",
+      "subjects": [
+        "Rome -- History -- Empire, 30 B.C.-476 A.D.",
+        "Byzantine Empire -- History -- To 527",
+        "DG"
+      ],
+      "word_count": 294893,
+      "raw_path": "data/raw/732.txt",
+      "ingested_at": "2026-05-03T06:35:08.277863+00:00",
+      "stripped_path": "data/raw/732_stripped.txt"
+    },
+    "69371": {
+      "id": 69371,
+      "title": "The Elizabethan Stage, Vol. 4",
+      "author": "Chambers, E. K. (Edmund Kerchever)",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Elizabeth, 1558-1603",
+        "Shakespeare, William, 1564-1616 -- Stage history -- To 1625",
+        "English drama -- Early modern and Elizabethan, 1500-1600 -- History and criticism",
+        "Shakespeare, William, 1564-1616 -- Stage history -- England -- London",
+        "Theaters -- England -- London -- History -- 16th century",
+        "Shakespeare, William, 1564-1616 -- Relations with actors",
+        "Theater -- England -- London -- History -- 16th century",
+        "Acting -- History -- 16th century",
+        "PN",
+        "PR"
+      ],
+      "word_count": 208019,
+      "raw_path": "data/raw/69371.txt",
+      "ingested_at": "2026-05-03T06:35:11.943482+00:00",
+      "stripped_path": "data/raw/69371_stripped.txt"
+    },
+    "65247": {
+      "id": 65247,
+      "title": "A Class-Book of New Testament History",
+      "author": "Maclear, G. F. (George Frederick)",
+      "language": "en",
+      "subjects": [
+        "Bible. New Testament -- History of Biblical events",
+        "BS"
+      ],
+      "word_count": 183866,
+      "raw_path": "data/raw/65247.txt",
+      "ingested_at": "2026-05-03T06:35:16.198054+00:00",
+      "stripped_path": "data/raw/65247_stripped.txt"
+    },
+    "76954": {
+      "id": 76954,
+      "title": "The history of the Norman conquest of England, its causes and its results, Volume 2 (of 6)",
+      "author": "Freeman, Edward A. (Edward Augustus)",
+      "language": "en",
+      "subjects": [
+        "Normans -- England",
+        "Great Britain -- History -- Anglo-Saxon period, 449-1066",
+        "Hastings, Battle of, England, 1066",
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "DA"
+      ],
+      "word_count": 254552,
+      "raw_path": "data/raw/76954.txt",
+      "ingested_at": "2026-05-03T06:35:18.270443+00:00",
+      "stripped_path": "data/raw/76954_stripped.txt"
+    },
+    "71283": {
+      "id": 71283,
+      "title": "Richard the Lion Heart",
+      "author": "Norgate, Kate",
+      "language": "en",
+      "subjects": [
+        "Richard I, King of England, 1157-1199",
+        "Great Britain -- Kings and rulers -- Biography",
+        "Great Britain -- History -- Richard I, 1189-1199",
+        "DA"
+      ],
+      "word_count": 138352,
+      "raw_path": "data/raw/71283.txt",
+      "ingested_at": "2026-05-03T06:35:19.762954+00:00",
+      "stripped_path": "data/raw/71283_stripped.txt"
+    },
+    "76820": {
+      "id": 76820,
+      "title": "The history of the Norman conquest of England, its causes and its results, Volume 1 (of 6)",
+      "author": "Freeman, Edward A. (Edward Augustus)",
+      "language": "en",
+      "subjects": [
+        "Normans -- England",
+        "Great Britain -- History -- Anglo-Saxon period, 449-1066",
+        "Hastings, Battle of, England, 1066",
+        "Great Britain -- History -- Norman period, 1066-1154",
+        "DA"
+      ],
+      "word_count": 306491,
+      "raw_path": "data/raw/76820.txt",
+      "ingested_at": "2026-05-03T06:35:23.609073+00:00",
+      "stripped_path": "data/raw/76820_stripped.txt"
+    },
+    "72817": {
+      "id": 72817,
+      "title": "Warships and their story",
+      "author": "Fletcher, R. A.",
+      "language": "en",
+      "subjects": [
+        "Shipbuilding",
+        "Warships",
+        "V"
+      ],
+      "word_count": 116253,
+      "raw_path": "data/raw/72817.txt",
+      "ingested_at": "2026-05-03T06:35:28.939954+00:00",
+      "stripped_path": "data/raw/72817_stripped.txt"
+    },
+    "70593": {
+      "id": 70593,
+      "title": "Elizabeth Montagu, the queen of the bluestockings, Volumes 1 and 2 : $b Her correspondence from 1720 to 1761",
+      "author": "Montagu, Mrs. (Elizabeth)",
+      "language": "en",
+      "subjects": [
+        "Montagu, Mrs. (Elizabeth), 1718-1800 -- Correspondence",
+        "DA"
+      ],
+      "word_count": 207775,
+      "raw_path": "data/raw/70593.txt",
+      "ingested_at": "2026-05-03T06:35:30.174635+00:00",
+      "stripped_path": "data/raw/70593_stripped.txt"
+    },
+    "64176": {
+      "id": 64176,
+      "title": "Seneca Fiction, Legends, and Myths&#13;\nThirty-Second Annual Report of the Bureau of American Ethnology; 1910-1911",
+      "author": "Curtin, Jeremiah",
+      "language": "en",
+      "subjects": [
+        "Seneca Indians -- Folklore",
+        "Seneca mythology",
+        "E011"
+      ],
+      "word_count": 405798,
+      "raw_path": "data/raw/64176.txt",
+      "ingested_at": "2026-05-03T06:35:32.553158+00:00",
+      "stripped_path": "data/raw/64176_stripped.txt"
     }
   }
 }
