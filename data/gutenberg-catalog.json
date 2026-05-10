@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-05-03T06:35:39.294566+00:00",
-    "total_titles": 1185
+    "last_updated": "2026-05-10T06:42:17.158080+00:00",
+    "total_titles": 1217
   },
   "books": {
     "84": {
@@ -19023,6 +19023,500 @@
       "raw_path": "data/raw/64176.txt",
       "ingested_at": "2026-05-03T06:35:32.553158+00:00",
       "stripped_path": "data/raw/64176_stripped.txt"
+    },
+    "22094": {
+      "id": 22094,
+      "title": "Travels in the Great Desert of Sahara, in the Years of 1845 and 1846",
+      "author": "Richardson, James",
+      "language": "en",
+      "subjects": [
+        "Sahara -- Description and travel",
+        "DT"
+      ],
+      "word_count": 271318,
+      "raw_path": "data/raw/22094.txt",
+      "ingested_at": "2026-05-10T06:39:55.103924+00:00",
+      "stripped_path": "data/raw/22094_stripped.txt"
+    },
+    "21500": {
+      "id": 21500,
+      "title": "Memoirs of the Court of Queen Elizabeth",
+      "author": "Aikin, Lucy",
+      "language": "en",
+      "subjects": [
+        "Great Britain -- History -- Elizabeth, 1558-1603",
+        "Great Britain -- Court and courtiers -- History -- 16th century",
+        "Elizabeth I, Queen of England, 1533-1603 -- Relations with courts and courtiers",
+        "DA"
+      ],
+      "word_count": 267238,
+      "raw_path": "data/raw/21500.txt",
+      "ingested_at": "2026-05-10T06:40:07.106391+00:00",
+      "stripped_path": "data/raw/21500_stripped.txt"
+    },
+    "21682": {
+      "id": 21682,
+      "title": "The field and garden vegetables of America : $b containing full descriptions of nearly eleven hundred species and varieties; with directions for propagation, culture, and use.",
+      "author": "Burr, Fearing",
+      "language": "en",
+      "subjects": [
+        "Vegetable gardening -- United States",
+        "Vegetables -- Varieties",
+        "SB"
+      ],
+      "word_count": 186573,
+      "raw_path": "data/raw/21682.txt",
+      "ingested_at": "2026-05-10T06:40:09.933594+00:00",
+      "stripped_path": "data/raw/21682_stripped.txt"
+    },
+    "18575": {
+      "id": 18575,
+      "title": "One Hundred Merrie And Delightsome Stories&#13;\nRight Pleasaunte To Relate In All Goodly Companie By Way Of Joyance And Jollity",
+      "author": "Douglas, Robert B. (Robert Bruce)",
+      "language": "en",
+      "subjects": [
+        "Tales, Medieval",
+        "French fiction -- To 1500 -- Translations into English",
+        "Novelle",
+        "PQ"
+      ],
+      "word_count": 151773,
+      "raw_path": "data/raw/18575.txt",
+      "ingested_at": "2026-05-10T06:40:17.506667+00:00",
+      "stripped_path": "data/raw/18575_stripped.txt"
+    },
+    "22210": {
+      "id": 22210,
+      "title": "In the forbidden land : $b an account of a journey into Tibet, capture by the Tibetan lamas and soldiers, imprisonment, torture and ultimate release",
+      "author": "Landor, Arnold Henry Savage",
+      "language": "en",
+      "subjects": [
+        "Tibet Autonomous Region (China) -- Description and travel",
+        "DS"
+      ],
+      "word_count": 148831,
+      "raw_path": "data/raw/22210.txt",
+      "ingested_at": "2026-05-10T06:40:21.567471+00:00",
+      "stripped_path": "data/raw/22210_stripped.txt"
+    },
+    "9701": {
+      "id": 9701,
+      "title": "I. Beowulf: an Anglo-Saxon poem. II. The fight at Finnsburh: a fragment.",
+      "author": "Harrison, James A. (James Albert)",
+      "language": "en",
+      "subjects": [
+        "Epic poetry, English (Old)",
+        "Monsters -- Poetry",
+        "Dragons -- Poetry",
+        "PR"
+      ],
+      "word_count": 137578,
+      "raw_path": "data/raw/9701.txt",
+      "ingested_at": "2026-05-10T06:40:27.963257+00:00",
+      "stripped_path": "data/raw/9701_stripped.txt"
+    },
+    "22088": {
+      "id": 22088,
+      "title": "Apologia pro vita sua : $b being a history of his religious opinions",
+      "author": "Newman, John Henry",
+      "language": "en",
+      "subjects": [
+        "Catholic Church -- Doctrines",
+        "Newman, John Henry, Saint, 1801-1890",
+        "Catholic Church -- Apologetic works",
+        "Cardinals -- England -- Biography",
+        "BX"
+      ],
+      "word_count": 140368,
+      "raw_path": "data/raw/22088.txt",
+      "ingested_at": "2026-05-10T06:40:30.816504+00:00",
+      "stripped_path": "data/raw/22088_stripped.txt"
+    },
+    "21092": {
+      "id": 21092,
+      "title": "On the Trail of the Space Pirates",
+      "author": "Rockwell, Carey",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Astronauts -- Juvenile fiction",
+        "Interplanetary voyages -- Juvenile fiction",
+        "Corbett, Tom (Fictitious character) -- Juvenile fiction",
+        "Space pirates -- Juvenile fiction",
+        "PZ"
+      ],
+      "word_count": 52524,
+      "raw_path": "data/raw/21092.txt",
+      "ingested_at": "2026-05-10T06:40:34.044807+00:00",
+      "stripped_path": "data/raw/21092_stripped.txt"
+    },
+    "21990": {
+      "id": 21990,
+      "title": "The Campaign of 1776 around New York and Brooklyn&#13;\nIncluding a new and circumstantial account of the battle of Long island and the loss of New York, with a review of events to the close of the year",
+      "author": "Johnston, Henry Phelps",
+      "language": "en",
+      "subjects": [
+        "Long Island, Battle of, New York, N.Y., 1776",
+        "New York (N.Y.) -- History -- Revolution, 1775-1783",
+        "E201"
+      ],
+      "word_count": 171137,
+      "raw_path": "data/raw/21990.txt",
+      "ingested_at": "2026-05-10T06:40:39.130244+00:00",
+      "stripped_path": "data/raw/21990_stripped.txt"
+    },
+    "16921": {
+      "id": 16921,
+      "title": "Plague Ship",
+      "author": "Norton, Andre",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "Space ships -- Fiction",
+        "Life on other planets -- Fiction",
+        "Solar Queen (Imaginary space vehicle) -- Fiction",
+        "PS"
+      ],
+      "word_count": 60036,
+      "raw_path": "data/raw/16921.txt",
+      "ingested_at": "2026-05-10T06:40:44.645962+00:00",
+      "stripped_path": "data/raw/16921_stripped.txt"
+    },
+    "21638": {
+      "id": 21638,
+      "title": "Tarrano the Conqueror",
+      "author": "Cummings, Ray",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "PS"
+      ],
+      "word_count": 64777,
+      "raw_path": "data/raw/21638.txt",
+      "ingested_at": "2026-05-10T06:40:46.278336+00:00",
+      "stripped_path": "data/raw/21638_stripped.txt"
+    },
+    "21328": {
+      "id": 21328,
+      "title": "The Parables of Our Lord",
+      "author": "Arnot, William",
+      "language": "en",
+      "subjects": [
+        "Jesus Christ -- Parables",
+        "BT"
+      ],
+      "word_count": 166650,
+      "raw_path": "data/raw/21328.txt",
+      "ingested_at": "2026-05-10T06:40:52.736273+00:00",
+      "stripped_path": "data/raw/21328_stripped.txt"
+    },
+    "20872": {
+      "id": 20872,
+      "title": "The best short stories of 1917, and the yearbook of the American short story",
+      "author": "O'Brien, Edward J. (Edward Joseph)",
+      "language": "en",
+      "subjects": [
+        "Short stories, American",
+        "American fiction -- 20th century",
+        "Short stories -- 20th century -- Bibliography",
+        "Short stories -- 20th century -- Indexes",
+        "PS"
+      ],
+      "word_count": 193438,
+      "raw_path": "data/raw/20872.txt",
+      "ingested_at": "2026-05-10T06:40:55.588526+00:00",
+      "stripped_path": "data/raw/20872_stripped.txt"
+    },
+    "21531": {
+      "id": 21531,
+      "title": "Woodwork Joints: How They Are Set Out, How Made and Where Used.",
+      "author": "Fairham, William",
+      "language": "en",
+      "subjects": [
+        "Woodwork",
+        "Carpentry",
+        "TT"
+      ],
+      "word_count": 36931,
+      "raw_path": "data/raw/21531.txt",
+      "ingested_at": "2026-05-10T06:41:00.195323+00:00",
+      "stripped_path": "data/raw/21531_stripped.txt"
+    },
+    "18151": {
+      "id": 18151,
+      "title": "Time Crime",
+      "author": "Piper, H. Beam",
+      "language": "en",
+      "subjects": [
+        "Science fiction",
+        "PS"
+      ],
+      "word_count": 36714,
+      "raw_path": "data/raw/18151.txt",
+      "ingested_at": "2026-05-10T06:41:05.491693+00:00",
+      "stripped_path": "data/raw/18151_stripped.txt"
+    },
+    "22400": {
+      "id": 22400,
+      "title": "Fox's Book of Martyrs\nOr A History of the Lives, Sufferings, and Triumphant\nDeaths of the Primitive Protestant Martyrs",
+      "author": "Foxe, John",
+      "language": "en",
+      "subjects": [
+        "Church history",
+        "Persecution",
+        "Martyrs",
+        "BR"
+      ],
+      "word_count": 263898,
+      "raw_path": "data/raw/22400.txt",
+      "ingested_at": "2026-05-10T06:41:13.695459+00:00",
+      "stripped_path": "data/raw/22400_stripped.txt"
+    },
+    "20851": {
+      "id": 20851,
+      "title": "Character Sketches of Romance, Fiction and the Drama, Vol. 3&#13;\nA Revised American Edition of the Reader's Handbook",
+      "author": "Brewer, Ebenezer Cobham",
+      "language": "en",
+      "subjects": [
+        "Literature -- Dictionaries",
+        "Allusions",
+        "Fiction -- Dictionaries",
+        "PN"
+      ],
+      "word_count": 213431,
+      "raw_path": "data/raw/20851.txt",
+      "ingested_at": "2026-05-10T06:41:18.190174+00:00",
+      "stripped_path": "data/raw/20851_stripped.txt"
+    },
+    "22149": {
+      "id": 22149,
+      "title": "The Journal of Negro History, Volume 6, 1921",
+      "author": "Various",
+      "language": "en",
+      "subjects": [
+        "African Americans -- Periodicals",
+        "E151"
+      ],
+      "word_count": 180265,
+      "raw_path": "data/raw/22149.txt",
+      "ingested_at": "2026-05-10T06:41:24.673881+00:00",
+      "stripped_path": "data/raw/22149_stripped.txt"
+    },
+    "22066": {
+      "id": 22066,
+      "title": "The Long Roll",
+      "author": "Johnston, Mary",
+      "language": "en",
+      "subjects": [
+        "War stories",
+        "United States -- History -- Civil War, 1861-1865 -- Fiction",
+        "Jackson, Stonewall, 1824-1863 -- Fiction",
+        "PS"
+      ],
+      "word_count": 259804,
+      "raw_path": "data/raw/22066.txt",
+      "ingested_at": "2026-05-10T06:41:31.711299+00:00",
+      "stripped_path": "data/raw/22066_stripped.txt"
+    },
+    "19146": {
+      "id": 19146,
+      "title": "The Entailed Hat; Or, Patty Cannon's Times",
+      "author": "Townsend, George Alfred",
+      "language": "en",
+      "subjects": [
+        "Kidnapping -- Fiction",
+        "Eastern Shore (Md. and Va.) -- Social life and customs -- Fiction",
+        "African Americans -- Crimes against -- Fiction",
+        "PS"
+      ],
+      "word_count": 180036,
+      "raw_path": "data/raw/19146.txt",
+      "ingested_at": "2026-05-10T06:41:36.603586+00:00",
+      "stripped_path": "data/raw/19146_stripped.txt"
+    },
+    "20911": {
+      "id": 20911,
+      "title": "The rose of old St. Louis",
+      "author": "Dillon, Mary (Mary C. Johnson)",
+      "language": "en",
+      "subjects": [
+        "Historical fiction",
+        "Louisiana Purchase -- Fiction",
+        "Saint Louis (Mo.) -- Fiction",
+        "PS"
+      ],
+      "word_count": 125825,
+      "raw_path": "data/raw/20911.txt",
+      "ingested_at": "2026-05-10T06:41:40.668249+00:00",
+      "stripped_path": "data/raw/20911_stripped.txt"
+    },
+    "19412": {
+      "id": 19412,
+      "title": "Set in Silver",
+      "author": "Williamson, C. N. (Charles Norris)",
+      "language": "en",
+      "subjects": [
+        "England -- Fiction",
+        "Epistolary fiction",
+        "Man-woman relationships -- Fiction",
+        "Voyages and travels -- Fiction",
+        "Automobiles -- Fiction",
+        "PR"
+      ],
+      "word_count": 121653,
+      "raw_path": "data/raw/19412.txt",
+      "ingested_at": "2026-05-10T06:41:42.420243+00:00",
+      "stripped_path": "data/raw/19412_stripped.txt"
+    },
+    "22136": {
+      "id": 22136,
+      "title": "The Book-Hunter\nA New Edition, with a Memoir of the Author",
+      "author": "Burton, John Hill",
+      "language": "en",
+      "subjects": [
+        "Book collecting",
+        "Bibliomania",
+        "Z"
+      ],
+      "word_count": 132734,
+      "raw_path": "data/raw/22136.txt",
+      "ingested_at": "2026-05-10T06:41:46.658023+00:00",
+      "stripped_path": "data/raw/22136_stripped.txt"
+    },
+    "21091": {
+      "id": 21091,
+      "title": "The Life of William Ewart Gladstone, Vol. 1 (of 3)\n1809-1859",
+      "author": "Morley, John",
+      "language": "en",
+      "subjects": [
+        "Gladstone, W. E. (William Ewart), 1809-1898",
+        "Great Britain -- Politics and government -- 1837-1901",
+        "Liberal Party (Great Britain) -- Biography",
+        "Prime ministers -- Great Britain -- Biography",
+        "DA"
+      ],
+      "word_count": 253698,
+      "raw_path": "data/raw/21091.txt",
+      "ingested_at": "2026-05-10T06:41:51.202845+00:00",
+      "stripped_path": "data/raw/21091_stripped.txt"
+    },
+    "21811": {
+      "id": 21811,
+      "title": "The Works of Lord Byron. Vol. 3",
+      "author": "Byron, George Gordon Byron, Baron",
+      "language": "en",
+      "subjects": [
+        "English poetry",
+        "PR"
+      ],
+      "word_count": 132552,
+      "raw_path": "data/raw/21811.txt",
+      "ingested_at": "2026-05-10T06:41:55.180386+00:00",
+      "stripped_path": "data/raw/21811_stripped.txt"
+    },
+    "19742": {
+      "id": 19742,
+      "title": "The Heather-Moon",
+      "author": "Williamson, C. N. (Charles Norris)",
+      "language": "en",
+      "subjects": [
+        "Young women -- Fiction",
+        "Great Britain -- Fiction",
+        "Man-woman relationships -- Fiction",
+        "PR"
+      ],
+      "word_count": 123954,
+      "raw_path": "data/raw/19742.txt",
+      "ingested_at": "2026-05-10T06:41:58.933482+00:00",
+      "stripped_path": "data/raw/19742_stripped.txt"
+    },
+    "21353": {
+      "id": 21353,
+      "title": "Civics and Health",
+      "author": "Allen, William H. (WIlliam Harvey)",
+      "language": "en",
+      "subjects": [
+        "Hygiene",
+        "Public health",
+        "RA"
+      ],
+      "word_count": 114456,
+      "raw_path": "data/raw/21353.txt",
+      "ingested_at": "2026-05-10T06:42:01.886673+00:00",
+      "stripped_path": "data/raw/21353_stripped.txt"
+    },
+    "21339": {
+      "id": 21339,
+      "title": "The Works of Aphra Behn, Volume I",
+      "author": "Behn, Aphra",
+      "language": "en",
+      "subjects": [
+        "English drama -- 17th century",
+        "PR"
+      ],
+      "word_count": 156015,
+      "raw_path": "data/raw/21339.txt",
+      "ingested_at": "2026-05-10T06:42:06.758948+00:00",
+      "stripped_path": "data/raw/21339_stripped.txt"
+    },
+    "21190": {
+      "id": 21190,
+      "title": "Expositions of Holy Scripture\nSecond Corinthians, Galatians, and Philippians Chapters\nI to End. Colossians, Thessalonians, and First Timothy.",
+      "author": "Maclaren, Alexander",
+      "language": "en",
+      "subjects": [
+        "Bible. Epistles of Paul -- Commentaries",
+        "BS"
+      ],
+      "word_count": 247694,
+      "raw_path": "data/raw/21190.txt",
+      "ingested_at": "2026-05-10T06:42:10.320891+00:00",
+      "stripped_path": "data/raw/21190_stripped.txt"
+    },
+    "20848": {
+      "id": 20848,
+      "title": "An Elementary Study of Chemistry",
+      "author": "McPherson, William",
+      "language": "en",
+      "subjects": [
+        "Chemistry",
+        "QD"
+      ],
+      "word_count": 119674,
+      "raw_path": "data/raw/20848.txt",
+      "ingested_at": "2026-05-10T06:42:13.579281+00:00",
+      "stripped_path": "data/raw/20848_stripped.txt"
+    },
+    "11618": {
+      "id": 11618,
+      "title": "From Chaucer to Tennyson&#13;\nWith Twenty-Nine Portraits and Selections from Thirty Authors",
+      "author": "Beers, Henry A. (Henry Augustin)",
+      "language": "en",
+      "subjects": [
+        "English literature -- History and criticism",
+        "PR"
+      ],
+      "word_count": 94145,
+      "raw_path": "data/raw/11618.txt",
+      "ingested_at": "2026-05-10T06:42:15.389235+00:00",
+      "stripped_path": "data/raw/11618_stripped.txt"
+    },
+    "15877": {
+      "id": 15877,
+      "title": "Thoughts of Marcus Aurelius Antoninus",
+      "author": "Marcus Aurelius, Emperor of Rome",
+      "language": "en",
+      "subjects": [
+        "Stoics",
+        "Ethics",
+        "Marcus Aurelius, Emperor of Rome, 121-180",
+        "Life",
+        "B"
+      ],
+      "word_count": 75941,
+      "raw_path": "data/raw/15877.txt",
+      "ingested_at": "2026-05-10T06:42:17.043837+00:00",
+      "stripped_path": "data/raw/15877_stripped.txt"
     }
   }
 }
