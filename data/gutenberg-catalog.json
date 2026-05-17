@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-05-10T06:42:17.158080+00:00",
-    "total_titles": 1217
+    "last_updated": "2026-05-17T06:49:18.253966+00:00",
+    "total_titles": 1233
   },
   "books": {
     "84": {
@@ -19517,6 +19517,274 @@
       "raw_path": "data/raw/15877.txt",
       "ingested_at": "2026-05-10T06:42:17.043837+00:00",
       "stripped_path": "data/raw/15877_stripped.txt"
+    },
+    "17192": {
+      "id": 17192,
+      "title": "The Raven",
+      "author": "Poe, Edgar Allan",
+      "language": "en",
+      "subjects": [
+        "Ravens -- Poetry",
+        "Fantasy poetry, American",
+        "PS"
+      ],
+      "word_count": 7183,
+      "raw_path": "data/raw/17192.txt",
+      "ingested_at": "2026-05-17T06:48:52.580795+00:00",
+      "stripped_path": "data/raw/17192_stripped.txt"
+    },
+    "516": {
+      "id": 516,
+      "title": "The Silverado Squatters",
+      "author": "Stevenson, Robert Louis",
+      "language": "en",
+      "subjects": [
+        "California -- Description and travel",
+        "Stevenson, Robert Louis, 1850-1894 -- Travel -- California",
+        "Calistoga (Calif.) -- Description and travel",
+        "Napa Valley (Calif.) -- Description and travel",
+        "F850.5"
+      ],
+      "word_count": 31341,
+      "raw_path": "data/raw/516.txt",
+      "ingested_at": "2026-05-17T06:48:53.955953+00:00",
+      "stripped_path": "data/raw/516_stripped.txt"
+    },
+    "2800": {
+      "id": 2800,
+      "title": "The Koran (Al-Qur'an)",
+      "author": "Rodwell, J. M. (John Medows)",
+      "language": "en",
+      "subjects": [
+        "Qur'an",
+        "BP"
+      ],
+      "word_count": 203205,
+      "raw_path": "data/raw/2800.txt",
+      "ingested_at": "2026-05-17T06:48:56.417740+00:00",
+      "stripped_path": "data/raw/2800_stripped.txt"
+    },
+    "37": {
+      "id": 37,
+      "title": "The 1990 United States Census [2nd]",
+      "author": "United States. Bureau of the Census",
+      "language": "en",
+      "subjects": [
+        "United States -- Population -- Statistics",
+        "United States -- Census",
+        "Housing -- United States -- Statistics",
+        "HA"
+      ],
+      "word_count": 22390,
+      "raw_path": "data/raw/37.txt",
+      "ingested_at": "2026-05-17T06:48:58.209988+00:00",
+      "stripped_path": "data/raw/37_stripped.txt"
+    },
+    "38": {
+      "id": 38,
+      "title": "The Jargon File, Version 2.9.10, 01 Jul 1992",
+      "author": "Raymond, Eric S.",
+      "language": "en",
+      "subjects": [
+        "Electronic data processing -- Terminology -- Humor",
+        "Computers -- Humor",
+        "Computers -- Slang -- Dictionaries",
+        "TK"
+      ],
+      "word_count": 168318,
+      "raw_path": "data/raw/38.txt",
+      "ingested_at": "2026-05-17T06:49:00.972610+00:00",
+      "stripped_path": "data/raw/38_stripped.txt"
+    },
+    "39": {
+      "id": 39,
+      "title": "Hitchhiker's Guide to the Internet",
+      "author": "Krol, Ed",
+      "language": "en",
+      "subjects": [
+        "Internet",
+        "Computer networks",
+        "TK"
+      ],
+      "word_count": 7479,
+      "raw_path": "data/raw/39.txt",
+      "ingested_at": "2026-05-17T06:49:01.607515+00:00",
+      "stripped_path": "data/raw/39_stripped.txt"
+    },
+    "44": {
+      "id": 44,
+      "title": "The Song of the Lark",
+      "author": "Cather, Willa",
+      "language": "en",
+      "subjects": [
+        "Musical fiction",
+        "Young women -- Fiction",
+        "Bildungsromans",
+        "Chicago (Ill.) -- Fiction",
+        "Swedish Americans -- Fiction",
+        "Colorado -- Fiction",
+        "Opera -- Fiction",
+        "Children of clergy -- Fiction",
+        "Women singers -- Fiction",
+        "PS"
+      ],
+      "word_count": 151113,
+      "raw_path": "data/raw/44.txt",
+      "ingested_at": "2026-05-17T06:49:04.487340+00:00",
+      "stripped_path": "data/raw/44_stripped.txt"
+    },
+    "48": {
+      "id": 48,
+      "title": "The 1992 CIA World Factbook",
+      "author": "United States. Central Intelligence Agency",
+      "language": "en",
+      "subjects": [
+        "World politics -- Handbooks, manuals, etc.",
+        "Geography -- Handbooks, manuals, etc.",
+        "Political science -- Handbooks, manuals, etc.",
+        "Political statistics -- Handbooks, manuals, etc.",
+        "G"
+      ],
+      "word_count": 324598,
+      "raw_path": "data/raw/48.txt",
+      "ingested_at": "2026-05-17T06:49:09.597481+00:00",
+      "stripped_path": "data/raw/48_stripped.txt"
+    },
+    "49": {
+      "id": 49,
+      "title": "Surfing the Internet: An Introduction&#13;\nVersion 2.0.2",
+      "author": "Polly, Jean Armour",
+      "language": "en",
+      "subjects": [
+        "Internet addresses -- Directories",
+        "Computer network resources -- Directories",
+        "Electronic mail systems -- Directories",
+        "TK"
+      ],
+      "word_count": 9012,
+      "raw_path": "data/raw/49.txt",
+      "ingested_at": "2026-05-17T06:49:10.537785+00:00",
+      "stripped_path": "data/raw/49_stripped.txt"
+    },
+    "50": {
+      "id": 50,
+      "title": "Pi",
+      "author": "Hemphill, Scott",
+      "language": "en",
+      "subjects": [
+        "Mathematics",
+        "Pi",
+        "QA"
+      ],
+      "word_count": 125751,
+      "raw_path": "data/raw/50.txt",
+      "ingested_at": "2026-05-17T06:49:11.830076+00:00",
+      "stripped_path": "data/raw/50_stripped.txt"
+    },
+    "52": {
+      "id": 52,
+      "title": "The Square Root of 2",
+      "author": "Kerr, Stan",
+      "language": "en",
+      "subjects": [
+        "Mathematics",
+        "Square root",
+        "QA"
+      ],
+      "word_count": 27719,
+      "raw_path": "data/raw/52.txt",
+      "ingested_at": "2026-05-17T06:49:13.130405+00:00",
+      "stripped_path": "data/raw/52_stripped.txt"
+    },
+    "53": {
+      "id": 53,
+      "title": "Workshop on Electronic Texts: Proceedings, 9-10 June 1992",
+      "author": "Library of Congress",
+      "language": "en",
+      "subjects": [
+        "Text processing (Computer science) -- Congresses",
+        "Electronic books",
+        "Electronic publishing -- Congresses",
+        "Z"
+      ],
+      "word_count": 62649,
+      "raw_path": "data/raw/53.txt",
+      "ingested_at": "2026-05-17T06:49:14.288865+00:00",
+      "stripped_path": "data/raw/53_stripped.txt"
+    },
+    "54": {
+      "id": 54,
+      "title": "The Marvelous Land of Oz",
+      "author": "Baum, L. Frank (Lyman Frank)",
+      "language": "en",
+      "subjects": [
+        "Oz (Imaginary place) -- Juvenile fiction",
+        "Fantasy literature",
+        "Conduct of life -- Juvenile fiction",
+        "Friendship -- Juvenile fiction",
+        "Voyages and travels -- Juvenile fiction",
+        "Magic -- Juvenile fiction",
+        "Practical jokes -- Juvenile fiction",
+        "Youth -- Conduct of life -- Juvenile fiction",
+        "Queens -- Juvenile fiction",
+        "Kings and rulers -- Juvenile fiction",
+        "Witches -- Juvenile fiction",
+        "Women soldiers -- Juvenile fiction",
+        "PZ"
+      ],
+      "word_count": 41878,
+      "raw_path": "data/raw/54.txt",
+      "ingested_at": "2026-05-17T06:49:15.338324+00:00",
+      "stripped_path": "data/raw/54_stripped.txt"
+    },
+    "56": {
+      "id": 56,
+      "title": "NREN for All: Insurmountable Opportunity",
+      "author": "Polly, Jean Armour",
+      "language": "en",
+      "subjects": [
+        "Internet",
+        "National Research and Education Network (Computer network)",
+        "TK"
+      ],
+      "word_count": 4113,
+      "raw_path": "data/raw/56.txt",
+      "ingested_at": "2026-05-17T06:49:15.993176+00:00",
+      "stripped_path": "data/raw/56_stripped.txt"
+    },
+    "57": {
+      "id": 57,
+      "title": "Aladdin and the Magic Lamp",
+      "author": "Unknown",
+      "language": "en",
+      "subjects": [
+        "Fairy tales",
+        "Children's stories",
+        "Arabs -- Folklore",
+        "Folklore -- Arab countries",
+        "PZ"
+      ],
+      "word_count": 5266,
+      "raw_path": "data/raw/57.txt",
+      "ingested_at": "2026-05-17T06:49:16.779742+00:00",
+      "stripped_path": "data/raw/57_stripped.txt"
+    },
+    "58": {
+      "id": 58,
+      "title": "Paradise Regained",
+      "author": "Milton, John",
+      "language": "en",
+      "subjects": [
+        "English poetry",
+        "Epic poetry",
+        "Bible. Gospels -- History of Biblical events -- Poetry",
+        "Jesus Christ -- Temptation -- Poetry",
+        "PR"
+      ],
+      "word_count": 15874,
+      "raw_path": "data/raw/58.txt",
+      "ingested_at": "2026-05-17T06:49:17.837919+00:00",
+      "stripped_path": "data/raw/58_stripped.txt"
     }
   }
 }
