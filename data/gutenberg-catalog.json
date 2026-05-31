@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "2026-05-24T07:25:45.716068+00:00",
-    "total_titles": 1233
+    "last_updated": "2026-05-31T07:51:11.297332+00:00",
+    "total_titles": 1238
   },
   "books": {
     "84": {
@@ -19785,6 +19785,85 @@
       "raw_path": "data/raw/58.txt",
       "ingested_at": "2026-05-17T06:49:17.837919+00:00",
       "stripped_path": "data/raw/58_stripped.txt"
+    },
+    "58169": {
+      "id": 58169,
+      "title": "Hegel's Lectures on the History of Philosophy: Volume 3 (of 3)",
+      "author": "Hegel, Georg Wilhelm Friedrich",
+      "language": "en",
+      "subjects": [
+        "Philosophy -- History",
+        "B"
+      ],
+      "word_count": 192207,
+      "raw_path": "data/raw/58169.txt",
+      "ingested_at": "2026-05-31T07:50:10.016511+00:00",
+      "stripped_path": "data/raw/58169_stripped.txt"
+    },
+    "45130": {
+      "id": 45130,
+      "title": "Charles Bradlaugh: a Record of His Life and Work, Volume 1 (of 2)&#13;\nWith an Account of his Parliamentary Struggle, Politics and Teachings. Seventh Edition",
+      "author": "Bonner, Hypatia Bradlaugh",
+      "language": "en",
+      "subjects": [
+        "Bradlaugh, Charles, 1833-1891",
+        "DA"
+      ],
+      "word_count": 167138,
+      "raw_path": "data/raw/45130.txt",
+      "ingested_at": "2026-05-31T07:50:13.239639+00:00",
+      "stripped_path": "data/raw/45130_stripped.txt"
+    },
+    "42486": {
+      "id": 42486,
+      "title": "The Two Magics: The Turn of the Screw, Covering End",
+      "author": "James, Henry",
+      "language": "en",
+      "subjects": [
+        "England -- Fiction",
+        "Governesses -- Fiction",
+        "Country homes -- Fiction",
+        "Courtship -- Fiction",
+        "Children -- Fiction",
+        "Mortgages -- Fiction",
+        "PS"
+      ],
+      "word_count": 77059,
+      "raw_path": "data/raw/42486.txt",
+      "ingested_at": "2026-05-31T07:50:18.137654+00:00",
+      "stripped_path": "data/raw/42486_stripped.txt"
+    },
+    "27558": {
+      "id": 27558,
+      "title": "The 2003 CIA World Factbook",
+      "author": "United States. Central Intelligence Agency",
+      "language": "en",
+      "subjects": [
+        "World politics -- Handbooks, manuals, etc.",
+        "Geography -- Handbooks, manuals, etc.",
+        "Political science -- Handbooks, manuals, etc.",
+        "Political statistics -- Handbooks, manuals, etc.",
+        "G"
+      ],
+      "word_count": 1069086,
+      "raw_path": "data/raw/27558.txt",
+      "ingested_at": "2026-05-31T07:50:57.340335+00:00",
+      "stripped_path": "data/raw/27558_stripped.txt"
+    },
+    "26849": {
+      "id": 26849,
+      "title": "The Works of Mr. George Gillespie (Vol. 1 of 2)",
+      "author": "Gillespie, George",
+      "language": "en",
+      "subjects": [
+        "Gillespie, George, 1613-1648",
+        "Church of Scotland -- History",
+        "BX"
+      ],
+      "word_count": 290581,
+      "raw_path": "data/raw/26849.txt",
+      "ingested_at": "2026-05-31T07:51:10.979758+00:00",
+      "stripped_path": "data/raw/26849_stripped.txt"
     }
   }
 }
