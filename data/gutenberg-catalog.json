@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-08-23T04:41:36.802146+00:00",
+    "last_updated": "2026-08-30T09:52:43.175033+00:00",
     "total_titles": 1238
   },
   "books": {
@@ -21,7 +21,7 @@
       ],
       "word_count": 75042,
       "raw_path": "data/raw/84.txt",
-      "ingested_at": "2026-03-07T06:05:50.761777+00:00",
+      "ingested_at": "2026-08-30T09:50:24.718913+00:00",
       "stripped_path": "data/raw/84_stripped.txt"
     },
     "33170": {
@@ -68,9 +68,9 @@
         "Social classes -- Fiction",
         "PR"
       ],
-      "word_count": 127359,
+      "word_count": 127360,
       "raw_path": "data/raw/1342.txt",
-      "ingested_at": "2026-03-07T06:06:07.761206+00:00",
+      "ingested_at": "2026-08-30T09:50:22.642054+00:00",
       "stripped_path": "data/raw/1342_stripped.txt"
     },
     "2701": {
@@ -92,7 +92,7 @@
       ],
       "word_count": 212796,
       "raw_path": "data/raw/2701.txt",
-      "ingested_at": "2026-03-07T06:06:09.439965+00:00",
+      "ingested_at": "2026-08-30T09:50:32.676035+00:00",
       "stripped_path": "data/raw/2701_stripped.txt"
     },
     "768": {
@@ -115,7 +115,7 @@
       ],
       "word_count": 115945,
       "raw_path": "data/raw/768.txt",
-      "ingested_at": "2026-03-07T06:06:12.244487+00:00",
+      "ingested_at": "2026-08-30T09:51:17.429951+00:00",
       "stripped_path": "data/raw/768_stripped.txt"
     },
     "1513": {
@@ -153,7 +153,7 @@
       ],
       "word_count": 26525,
       "raw_path": "data/raw/11.txt",
-      "ingested_at": "2026-03-07T06:06:16.012805+00:00",
+      "ingested_at": "2026-08-30T09:50:23.715724+00:00",
       "stripped_path": "data/raw/11_stripped.txt"
     },
     "64317": {
@@ -189,9 +189,9 @@
         "Multiple personality -- Fiction",
         "PR"
       ],
-      "word_count": 25629,
+      "word_count": 25631,
       "raw_path": "data/raw/43.txt",
-      "ingested_at": "2026-03-07T06:06:17.647143+00:00",
+      "ingested_at": "2026-08-30T09:50:37.730415+00:00",
       "stripped_path": "data/raw/43_stripped.txt"
     },
     "174": {
@@ -212,7 +212,7 @@
       ],
       "word_count": 78979,
       "raw_path": "data/raw/174.txt",
-      "ingested_at": "2026-03-07T06:06:18.466975+00:00",
+      "ingested_at": "2026-08-30T09:51:07.118305+00:00",
       "stripped_path": "data/raw/174_stripped.txt"
     },
     "2641": {
@@ -247,7 +247,7 @@
       ],
       "word_count": 26479,
       "raw_path": "data/raw/2542.txt",
-      "ingested_at": "2026-03-07T06:06:19.989549+00:00",
+      "ingested_at": "2026-08-30T09:50:38.624978+00:00",
       "stripped_path": "data/raw/2542_stripped.txt"
     },
     "100": {
@@ -261,7 +261,7 @@
       ],
       "word_count": 963460,
       "raw_path": "data/raw/100.txt",
-      "ingested_at": "2026-03-07T06:06:21.523162+00:00",
+      "ingested_at": "2026-08-30T09:51:02.447410+00:00",
       "stripped_path": "data/raw/100_stripped.txt"
     },
     "1260": {
@@ -285,7 +285,7 @@
       ],
       "word_count": 185390,
       "raw_path": "data/raw/1260.txt",
-      "ingested_at": "2026-03-07T06:06:22.860641+00:00",
+      "ingested_at": "2026-08-30T09:51:22.015286+00:00",
       "stripped_path": "data/raw/1260_stripped.txt"
     },
     "145": {
@@ -370,7 +370,7 @@
       ],
       "word_count": 161321,
       "raw_path": "data/raw/345.txt",
-      "ingested_at": "2026-03-07T06:06:26.306887+00:00",
+      "ingested_at": "2026-08-30T09:50:43.728272+00:00",
       "stripped_path": "data/raw/345_stripped.txt"
     },
     "2554": {
@@ -388,7 +388,7 @@
       ],
       "word_count": 203505,
       "raw_path": "data/raw/2554.txt",
-      "ingested_at": "2026-03-07T06:06:27.189207+00:00",
+      "ingested_at": "2026-08-30T09:51:05.987157+00:00",
       "stripped_path": "data/raw/2554_stripped.txt"
     },
     "844": {
@@ -405,7 +405,7 @@
       ],
       "word_count": 20714,
       "raw_path": "data/raw/844.txt",
-      "ingested_at": "2026-03-07T06:06:28.208477+00:00",
+      "ingested_at": "2026-08-30T09:51:25.466824+00:00",
       "stripped_path": "data/raw/844_stripped.txt"
     },
     "1080": {
@@ -421,7 +421,7 @@
       ],
       "word_count": 3420,
       "raw_path": "data/raw/1080.txt",
-      "ingested_at": "2026-03-07T06:06:28.860820+00:00",
+      "ingested_at": "2026-08-30T09:50:42.106873+00:00",
       "stripped_path": "data/raw/1080_stripped.txt"
     },
     "1661": {
@@ -435,9 +435,9 @@
         "Detective and mystery stories, English",
         "PR"
       ],
-      "word_count": 104508,
+      "word_count": 104506,
       "raw_path": "data/raw/1661.txt",
-      "ingested_at": "2026-03-07T06:06:29.689592+00:00",
+      "ingested_at": "2026-08-30T09:50:25.926244+00:00",
       "stripped_path": "data/raw/1661_stripped.txt"
     },
     "5197": {
@@ -474,7 +474,7 @@
       ],
       "word_count": 135886,
       "raw_path": "data/raw/98.txt",
-      "ingested_at": "2026-03-07T06:06:31.402184+00:00",
+      "ingested_at": "2026-08-30T09:50:27.992698+00:00",
       "stripped_path": "data/raw/98_stripped.txt"
     },
     "1259": {
@@ -512,7 +512,7 @@
       ],
       "word_count": 111085,
       "raw_path": "data/raw/76.txt",
-      "ingested_at": "2026-03-07T06:06:33.116971+00:00",
+      "ingested_at": "2026-08-30T09:50:34.808373+00:00",
       "stripped_path": "data/raw/76_stripped.txt"
     },
     "16389": {
@@ -640,7 +640,7 @@
       ],
       "word_count": 460971,
       "raw_path": "data/raw/1184.txt",
-      "ingested_at": "2026-03-07T06:06:39.539878+00:00",
+      "ingested_at": "2026-08-30T09:51:12.420343+00:00",
       "stripped_path": "data/raw/1184_stripped.txt"
     },
     "8492": {
@@ -674,7 +674,7 @@
       ],
       "word_count": 6085,
       "raw_path": "data/raw/1952.txt",
-      "ingested_at": "2026-03-07T06:06:40.973499+00:00",
+      "ingested_at": "2026-08-30T09:50:33.580662+00:00",
       "stripped_path": "data/raw/1952_stripped.txt"
     },
     "16328": {
@@ -690,7 +690,7 @@
       ],
       "word_count": 39170,
       "raw_path": "data/raw/16328.txt",
-      "ingested_at": "2026-03-07T06:06:41.761155+00:00",
+      "ingested_at": "2026-08-30T09:51:19.633100+00:00",
       "stripped_path": "data/raw/16328_stripped.txt"
     },
     "3296": {
@@ -729,7 +729,7 @@
       ],
       "word_count": 102501,
       "raw_path": "data/raw/45.txt",
-      "ingested_at": "2026-03-07T06:06:43.416230+00:00",
+      "ingested_at": "2026-08-30T09:51:48.907373+00:00",
       "stripped_path": "data/raw/45_stripped.txt"
     },
     "3207": {
@@ -744,7 +744,7 @@
       ],
       "word_count": 213346,
       "raw_path": "data/raw/3207.txt",
-      "ingested_at": "2026-03-07T06:06:44.296421+00:00",
+      "ingested_at": "2026-08-30T09:52:05.197943+00:00",
       "stripped_path": "data/raw/3207_stripped.txt"
     },
     "5200": {
@@ -757,9 +757,9 @@
         "Metamorphosis -- Fiction",
         "PT"
       ],
-      "word_count": 21943,
+      "word_count": 21935,
       "raw_path": "data/raw/5200.txt",
-      "ingested_at": "2026-03-07T06:06:45.035412+00:00",
+      "ingested_at": "2026-08-30T09:50:45.904526+00:00",
       "stripped_path": "data/raw/5200_stripped.txt"
     },
     "2591": {
@@ -773,7 +773,7 @@
       ],
       "word_count": 101111,
       "raw_path": "data/raw/2591.txt",
-      "ingested_at": "2026-03-07T06:06:46.064546+00:00",
+      "ingested_at": "2026-08-30T09:51:45.267776+00:00",
       "stripped_path": "data/raw/2591_stripped.txt"
     },
     "28054": {
@@ -814,7 +814,7 @@
       ],
       "word_count": 83826,
       "raw_path": "data/raw/25344.txt",
-      "ingested_at": "2026-03-07T06:06:48.263661+00:00",
+      "ingested_at": "2026-08-30T09:51:14.499131+00:00",
       "stripped_path": "data/raw/25344_stripped.txt"
     },
     "23": {
@@ -862,7 +862,7 @@
       ],
       "word_count": 184478,
       "raw_path": "data/raw/1400.txt",
-      "ingested_at": "2026-03-07T06:06:50.959938+00:00",
+      "ingested_at": "2026-08-30T09:51:04.293349+00:00",
       "stripped_path": "data/raw/1400_stripped.txt"
     },
     "1232": {
@@ -878,7 +878,7 @@
       ],
       "word_count": 49943,
       "raw_path": "data/raw/1232.txt",
-      "ingested_at": "2026-03-07T06:06:51.739717+00:00",
+      "ingested_at": "2026-08-30T09:51:29.075458+00:00",
       "stripped_path": "data/raw/1232_stripped.txt"
     },
     "74": {
@@ -901,7 +901,7 @@
       ],
       "word_count": 70800,
       "raw_path": "data/raw/74.txt",
-      "ingested_at": "2026-03-07T06:06:52.557950+00:00",
+      "ingested_at": "2026-08-30T09:50:35.824808+00:00",
       "stripped_path": "data/raw/74_stripped.txt"
     },
     "27673": {
@@ -947,7 +947,7 @@
       ],
       "word_count": 43427,
       "raw_path": "data/raw/244.txt",
-      "ingested_at": "2026-03-07T06:06:55.485340+00:00",
+      "ingested_at": "2026-08-30T09:51:49.944286+00:00",
       "stripped_path": "data/raw/244_stripped.txt"
     },
     "2852": {
@@ -966,7 +966,7 @@
       ],
       "word_count": 59258,
       "raw_path": "data/raw/2852.txt",
-      "ingested_at": "2026-03-07T06:06:56.268772+00:00",
+      "ingested_at": "2026-08-30T09:50:44.803556+00:00",
       "stripped_path": "data/raw/2852_stripped.txt"
     },
     "219": {
@@ -985,7 +985,7 @@
       ],
       "word_count": 37917,
       "raw_path": "data/raw/219.txt",
-      "ingested_at": "2026-03-07T06:06:57.041766+00:00",
+      "ingested_at": "2026-08-30T09:51:24.268602+00:00",
       "stripped_path": "data/raw/219_stripped.txt"
     },
     "2680": {
@@ -1017,7 +1017,7 @@
       ],
       "word_count": 129571,
       "raw_path": "data/raw/1727.txt",
-      "ingested_at": "2026-03-07T06:06:59.158885+00:00",
+      "ingested_at": "2026-08-30T09:51:39.877042+00:00",
       "stripped_path": "data/raw/1727_stripped.txt"
     },
     "829": {
@@ -1079,7 +1079,7 @@
       ],
       "word_count": 265059,
       "raw_path": "data/raw/4300.txt",
-      "ingested_at": "2026-03-07T06:07:01.687259+00:00",
+      "ingested_at": "2026-08-30T09:50:48.599235+00:00",
       "stripped_path": "data/raw/4300_stripped.txt"
     },
     "2600": {
@@ -1097,7 +1097,7 @@
       ],
       "word_count": 563286,
       "raw_path": "data/raw/2600.txt",
-      "ingested_at": "2026-03-07T06:07:02.648763+00:00",
+      "ingested_at": "2026-08-30T09:50:54.135483+00:00",
       "stripped_path": "data/raw/2600_stripped.txt"
     },
     "7370": {
@@ -1113,7 +1113,7 @@
       ],
       "word_count": 56517,
       "raw_path": "data/raw/7370.txt",
-      "ingested_at": "2026-03-07T06:07:03.440354+00:00",
+      "ingested_at": "2026-08-30T09:52:01.336235+00:00",
       "stripped_path": "data/raw/7370_stripped.txt"
     },
     "8800": {
@@ -1184,7 +1184,7 @@
       ],
       "word_count": 39649,
       "raw_path": "data/raw/55.txt",
-      "ingested_at": "2026-03-07T06:07:07.546642+00:00",
+      "ingested_at": "2026-08-30T09:52:11.127377+00:00",
       "stripped_path": "data/raw/55_stripped.txt"
     },
     "1998": {
@@ -1199,7 +1199,7 @@
       ],
       "word_count": 110900,
       "raw_path": "data/raw/1998.txt",
-      "ingested_at": "2026-03-07T06:07:08.381514+00:00",
+      "ingested_at": "2026-08-30T09:51:55.438938+00:00",
       "stripped_path": "data/raw/1998_stripped.txt"
     },
     "120": {
@@ -1264,7 +1264,7 @@
       ],
       "word_count": 349763,
       "raw_path": "data/raw/1399.txt",
-      "ingested_at": "2026-03-07T06:07:11.695140+00:00",
+      "ingested_at": "2026-08-30T09:51:52.643449+00:00",
       "stripped_path": "data/raw/1399_stripped.txt"
     },
     "78112": {
@@ -1383,7 +1383,7 @@
       ],
       "word_count": 118860,
       "raw_path": "data/raw/161.txt",
-      "ingested_at": "2026-03-07T06:07:19.104921+00:00",
+      "ingested_at": "2026-08-30T09:51:08.247063+00:00",
       "stripped_path": "data/raw/161_stripped.txt"
     },
     "45368": {
@@ -1510,7 +1510,7 @@
       ],
       "word_count": 62678,
       "raw_path": "data/raw/4363.txt",
-      "ingested_at": "2026-03-07T06:07:25.291056+00:00",
+      "ingested_at": "2026-08-30T09:52:09.394237+00:00",
       "stripped_path": "data/raw/4363_stripped.txt"
     },
     "28189": {
@@ -1559,7 +1559,7 @@
       ],
       "word_count": 28541,
       "raw_path": "data/raw/46.txt",
-      "ingested_at": "2026-03-07T06:07:29.508390+00:00",
+      "ingested_at": "2026-08-30T09:51:13.308027+00:00",
       "stripped_path": "data/raw/46_stripped.txt"
     },
     "730": {
@@ -1578,7 +1578,7 @@
       ],
       "word_count": 157969,
       "raw_path": "data/raw/730.txt",
-      "ingested_at": "2026-03-07T06:07:30.375960+00:00",
+      "ingested_at": "2026-08-30T09:51:09.568550+00:00",
       "stripped_path": "data/raw/730_stripped.txt"
     },
     "3206": {
@@ -1609,7 +1609,7 @@
       ],
       "word_count": 95043,
       "raw_path": "data/raw/2148.txt",
-      "ingested_at": "2026-03-07T06:07:31.800961+00:00",
+      "ingested_at": "2026-08-30T09:51:23.461073+00:00",
       "stripped_path": "data/raw/2148_stripped.txt"
     },
     "1946": {
@@ -1692,7 +1692,7 @@
       ],
       "word_count": 427246,
       "raw_path": "data/raw/996.txt",
-      "ingested_at": "2026-03-07T06:07:36.683650+00:00",
+      "ingested_at": "2026-08-30T09:51:37.637702+00:00",
       "stripped_path": "data/raw/996_stripped.txt"
     },
     "6271": {
@@ -1794,7 +1794,7 @@
       ],
       "word_count": 67559,
       "raw_path": "data/raw/2814.txt",
-      "ingested_at": "2026-03-07T06:08:01.643788+00:00",
+      "ingested_at": "2026-08-30T09:51:42.181364+00:00",
       "stripped_path": "data/raw/2814_stripped.txt"
     },
     "10": {
@@ -2096,7 +2096,7 @@
       ],
       "word_count": 565612,
       "raw_path": "data/raw/135.txt",
-      "ingested_at": "2026-03-07T20:11:46.938914+00:00",
+      "ingested_at": "2026-08-30T09:51:33.664390+00:00",
       "stripped_path": "data/raw/135_stripped.txt"
     },
     "521": {
@@ -2115,7 +2115,7 @@
       ],
       "word_count": 120920,
       "raw_path": "data/raw/521.txt",
-      "ingested_at": "2026-03-07T20:11:47.943811+00:00",
+      "ingested_at": "2026-08-30T09:51:59.747501+00:00",
       "stripped_path": "data/raw/521_stripped.txt"
     },
     "30254": {
@@ -2134,7 +2134,7 @@
       ],
       "word_count": 188899,
       "raw_path": "data/raw/30254.txt",
-      "ingested_at": "2026-03-07T20:11:48.487510+00:00",
+      "ingested_at": "2026-08-30T09:51:46.782237+00:00",
       "stripped_path": "data/raw/30254_stripped.txt"
     },
     "45109": {
@@ -2248,7 +2248,7 @@
       ],
       "word_count": 12214,
       "raw_path": "data/raw/41.txt",
-      "ingested_at": "2026-03-07T21:08:52.956669+00:00",
+      "ingested_at": "2026-08-30T09:52:19.995117+00:00",
       "stripped_path": "data/raw/41_stripped.txt"
     },
     "26": {
@@ -2303,7 +2303,7 @@
       ],
       "word_count": 157558,
       "raw_path": "data/raw/158.txt",
-      "ingested_at": "2026-03-07T21:08:55.791548+00:00",
+      "ingested_at": "2026-08-30T09:51:28.206516+00:00",
       "stripped_path": "data/raw/158_stripped.txt"
     },
     "514": {
@@ -2325,7 +2325,7 @@
       ],
       "word_count": 186112,
       "raw_path": "data/raw/514.txt",
-      "ingested_at": "2026-03-07T21:08:56.442741+00:00",
+      "ingested_at": "2026-08-30T09:50:41.140101+00:00",
       "stripped_path": "data/raw/514_stripped.txt"
     },
     "3300": {
@@ -2464,7 +2464,7 @@
       ],
       "word_count": 43095,
       "raw_path": "data/raw/2097.txt",
-      "ingested_at": "2026-03-07T21:09:02.249360+00:00",
+      "ingested_at": "2026-08-30T09:51:38.567740+00:00",
       "stripped_path": "data/raw/2097_stripped.txt"
     },
     "110": {
@@ -2539,9 +2539,9 @@
         "Dystopias -- Fiction",
         "PR"
       ],
-      "word_count": 32453,
+      "word_count": 32454,
       "raw_path": "data/raw/35.txt",
-      "ingested_at": "2026-03-07T21:09:05.837921+00:00",
+      "ingested_at": "2026-08-30T09:52:12.232490+00:00",
       "stripped_path": "data/raw/35_stripped.txt"
     },
     "1322": {
@@ -2746,9 +2746,9 @@
         "Life on other planets -- Fiction",
         "PR"
       ],
-      "word_count": 60076,
+      "word_count": 60075,
       "raw_path": "data/raw/36.txt",
-      "ingested_at": "2026-03-07T21:09:13.924694+00:00",
+      "ingested_at": "2026-08-30T09:52:13.123284+00:00",
       "stripped_path": "data/raw/36_stripped.txt"
     },
     "2527": {
@@ -2835,7 +2835,7 @@
       ],
       "word_count": 50839,
       "raw_path": "data/raw/236.txt",
-      "ingested_at": "2026-03-07T21:09:16.926428+00:00",
+      "ingested_at": "2026-08-30T09:51:26.599434+00:00",
       "stripped_path": "data/raw/236_stripped.txt"
     },
     "6133": {
@@ -2946,9 +2946,9 @@
         "Arthur, King -- Legends",
         "PR"
       ],
-      "word_count": 168785,
+      "word_count": 168768,
       "raw_path": "data/raw/1251.txt",
-      "ingested_at": "2026-03-07T21:09:22.413440+00:00",
+      "ingested_at": "2026-08-30T09:52:06.992932+00:00",
       "stripped_path": "data/raw/1251_stripped.txt"
     },
     "6818": {
@@ -3071,7 +3071,7 @@
       ],
       "word_count": 56535,
       "raw_path": "data/raw/863.txt",
-      "ingested_at": "2026-03-07T21:09:27.594431+00:00",
+      "ingested_at": "2026-08-30T09:51:53.912502+00:00",
       "stripped_path": "data/raw/863_stripped.txt"
     },
     "52190": {
@@ -3143,7 +3143,7 @@
       ],
       "word_count": 83335,
       "raw_path": "data/raw/105.txt",
-      "ingested_at": "2026-03-07T21:09:31.128737+00:00",
+      "ingested_at": "2026-08-30T09:51:47.853000+00:00",
       "stripped_path": "data/raw/105_stripped.txt"
     },
     "108": {
@@ -3813,7 +3813,7 @@
       ],
       "word_count": 180924,
       "raw_path": "data/raw/203.txt",
-      "ingested_at": "2026-03-07T21:10:12.466907+00:00",
+      "ingested_at": "2026-08-30T09:51:43.420727+00:00",
       "stripped_path": "data/raw/203_stripped.txt"
     },
     "13240": {
@@ -3939,7 +3939,7 @@
       ],
       "word_count": 11467,
       "raw_path": "data/raw/61.txt",
-      "ingested_at": "2026-03-07T21:10:18.832584+00:00",
+      "ingested_at": "2026-08-30T09:52:43.061042+00:00",
       "stripped_path": "data/raw/61_stripped.txt"
     },
     "52263": {
@@ -4702,7 +4702,7 @@
       ],
       "word_count": 25685,
       "raw_path": "data/raw/42.txt",
-      "ingested_at": "2026-03-07T21:10:54.949996+00:00",
+      "ingested_at": "2026-08-30T09:52:20.870102+00:00",
       "stripped_path": "data/raw/42_stripped.txt"
     },
     "45315": {
@@ -4990,7 +4990,7 @@
       ],
       "word_count": 34717,
       "raw_path": "data/raw/4517.txt",
-      "ingested_at": "2026-03-07T21:11:06.323671+00:00",
+      "ingested_at": "2026-08-30T09:51:15.475671+00:00",
       "stripped_path": "data/raw/4517_stripped.txt"
     },
     "389": {
@@ -5784,7 +5784,7 @@
       ],
       "word_count": 80632,
       "raw_path": "data/raw/113.txt",
-      "ingested_at": "2026-03-07T21:11:49.820345+00:00",
+      "ingested_at": "2026-08-30T09:51:18.489533+00:00",
       "stripped_path": "data/raw/113_stripped.txt"
     },
     "70114": {
@@ -5970,7 +5970,7 @@
       ],
       "word_count": 23039,
       "raw_path": "data/raw/59.txt",
-      "ingested_at": "2026-03-07T21:12:03.665886+00:00",
+      "ingested_at": "2026-08-30T09:52:41.099920+00:00",
       "stripped_path": "data/raw/59_stripped.txt"
     },
     "14328": {
@@ -6686,7 +6686,7 @@
       ],
       "word_count": 39157,
       "raw_path": "data/raw/2500.txt",
-      "ingested_at": "2026-03-07T21:13:20.161465+00:00",
+      "ingested_at": "2026-08-30T09:51:57.554746+00:00",
       "stripped_path": "data/raw/2500_stripped.txt"
     },
     "6737": {
@@ -13501,7 +13501,7 @@
       ],
       "word_count": 91089,
       "raw_path": "data/raw/47.txt",
-      "ingested_at": "2026-03-08T16:18:15.173586+00:00",
+      "ingested_at": "2026-08-30T09:52:23.987321+00:00",
       "stripped_path": "data/raw/47_stripped.txt"
     },
     "1064": {
@@ -13585,7 +13585,7 @@
       ],
       "word_count": 76559,
       "raw_path": "data/raw/51.txt",
-      "ingested_at": "2026-03-08T16:21:10.983468+00:00",
+      "ingested_at": "2026-08-30T09:52:30.807406+00:00",
       "stripped_path": "data/raw/51_stripped.txt"
     },
     "60479": {
@@ -13887,7 +13887,7 @@
       ],
       "word_count": 85718,
       "raw_path": "data/raw/60.txt",
-      "ingested_at": "2026-03-08T16:23:19.456826+00:00",
+      "ingested_at": "2026-08-30T09:52:42.338943+00:00",
       "stripped_path": "data/raw/60_stripped.txt"
     },
     "31698": {
@@ -15921,7 +15921,7 @@
       ],
       "word_count": 1741,
       "raw_path": "data/raw/1.txt",
-      "ingested_at": "2026-03-08T16:38:25.036020+00:00",
+      "ingested_at": "2026-08-30T09:52:10.137950+00:00",
       "stripped_path": "data/raw/1_stripped.txt"
     },
     "661": {
@@ -19530,7 +19530,7 @@
       ],
       "word_count": 7183,
       "raw_path": "data/raw/17192.txt",
-      "ingested_at": "2026-05-17T06:48:52.580795+00:00",
+      "ingested_at": "2026-08-30T09:51:56.372759+00:00",
       "stripped_path": "data/raw/17192_stripped.txt"
     },
     "516": {
@@ -19547,7 +19547,7 @@
       ],
       "word_count": 31341,
       "raw_path": "data/raw/516.txt",
-      "ingested_at": "2026-05-17T06:48:53.955953+00:00",
+      "ingested_at": "2026-08-30T09:51:58.562684+00:00",
       "stripped_path": "data/raw/516_stripped.txt"
     },
     "2800": {
@@ -19561,12 +19561,12 @@
       ],
       "word_count": 203205,
       "raw_path": "data/raw/2800.txt",
-      "ingested_at": "2026-05-17T06:48:56.417740+00:00",
+      "ingested_at": "2026-08-30T09:52:03.499691+00:00",
       "stripped_path": "data/raw/2800_stripped.txt"
     },
     "37": {
       "id": 37,
-      "title": "The 1990 United States Census [2nd]",
+      "title": "The 1990 United States Census",
       "author": "United States. Bureau of the Census",
       "language": "en",
       "subjects": [
@@ -19575,9 +19575,9 @@
         "Housing -- United States -- Statistics",
         "HA"
       ],
-      "word_count": 22390,
+      "word_count": 22406,
       "raw_path": "data/raw/37.txt",
-      "ingested_at": "2026-05-17T06:48:58.209988+00:00",
+      "ingested_at": "2026-08-30T09:52:14.121634+00:00",
       "stripped_path": "data/raw/37_stripped.txt"
     },
     "38": {
@@ -19593,7 +19593,7 @@
       ],
       "word_count": 168318,
       "raw_path": "data/raw/38.txt",
-      "ingested_at": "2026-05-17T06:49:00.972610+00:00",
+      "ingested_at": "2026-08-30T09:52:17.108086+00:00",
       "stripped_path": "data/raw/38_stripped.txt"
     },
     "39": {
@@ -19608,7 +19608,7 @@
       ],
       "word_count": 7479,
       "raw_path": "data/raw/39.txt",
-      "ingested_at": "2026-05-17T06:49:01.607515+00:00",
+      "ingested_at": "2026-08-30T09:52:17.852940+00:00",
       "stripped_path": "data/raw/39_stripped.txt"
     },
     "44": {
@@ -19630,7 +19630,7 @@
       ],
       "word_count": 151113,
       "raw_path": "data/raw/44.txt",
-      "ingested_at": "2026-05-17T06:49:04.487340+00:00",
+      "ingested_at": "2026-08-30T09:52:22.442141+00:00",
       "stripped_path": "data/raw/44_stripped.txt"
     },
     "48": {
@@ -19647,7 +19647,7 @@
       ],
       "word_count": 324598,
       "raw_path": "data/raw/48.txt",
-      "ingested_at": "2026-05-17T06:49:09.597481+00:00",
+      "ingested_at": "2026-08-30T09:52:27.155881+00:00",
       "stripped_path": "data/raw/48_stripped.txt"
     },
     "49": {
@@ -19663,7 +19663,7 @@
       ],
       "word_count": 9012,
       "raw_path": "data/raw/49.txt",
-      "ingested_at": "2026-05-17T06:49:10.537785+00:00",
+      "ingested_at": "2026-08-30T09:52:27.937896+00:00",
       "stripped_path": "data/raw/49_stripped.txt"
     },
     "50": {
@@ -19678,7 +19678,7 @@
       ],
       "word_count": 125751,
       "raw_path": "data/raw/50.txt",
-      "ingested_at": "2026-05-17T06:49:11.830076+00:00",
+      "ingested_at": "2026-08-30T09:52:29.760492+00:00",
       "stripped_path": "data/raw/50_stripped.txt"
     },
     "52": {
@@ -19693,7 +19693,7 @@
       ],
       "word_count": 27719,
       "raw_path": "data/raw/52.txt",
-      "ingested_at": "2026-05-17T06:49:13.130405+00:00",
+      "ingested_at": "2026-08-30T09:52:32.322699+00:00",
       "stripped_path": "data/raw/52_stripped.txt"
     },
     "53": {
@@ -19709,7 +19709,7 @@
       ],
       "word_count": 62649,
       "raw_path": "data/raw/53.txt",
-      "ingested_at": "2026-05-17T06:49:14.288865+00:00",
+      "ingested_at": "2026-08-30T09:52:33.823175+00:00",
       "stripped_path": "data/raw/53_stripped.txt"
     },
     "54": {
@@ -19734,7 +19734,7 @@
       ],
       "word_count": 41878,
       "raw_path": "data/raw/54.txt",
-      "ingested_at": "2026-05-17T06:49:15.338324+00:00",
+      "ingested_at": "2026-08-30T09:52:34.835426+00:00",
       "stripped_path": "data/raw/54_stripped.txt"
     },
     "56": {
@@ -19749,7 +19749,7 @@
       ],
       "word_count": 4113,
       "raw_path": "data/raw/56.txt",
-      "ingested_at": "2026-05-17T06:49:15.993176+00:00",
+      "ingested_at": "2026-08-30T09:52:35.838552+00:00",
       "stripped_path": "data/raw/56_stripped.txt"
     },
     "57": {
@@ -19766,7 +19766,7 @@
       ],
       "word_count": 5266,
       "raw_path": "data/raw/57.txt",
-      "ingested_at": "2026-05-17T06:49:16.779742+00:00",
+      "ingested_at": "2026-08-30T09:52:37.655373+00:00",
       "stripped_path": "data/raw/57_stripped.txt"
     },
     "58": {
@@ -19783,7 +19783,7 @@
       ],
       "word_count": 15874,
       "raw_path": "data/raw/58.txt",
-      "ingested_at": "2026-05-17T06:49:17.837919+00:00",
+      "ingested_at": "2026-08-30T09:52:39.996438+00:00",
       "stripped_path": "data/raw/58_stripped.txt"
     },
     "58169": {
